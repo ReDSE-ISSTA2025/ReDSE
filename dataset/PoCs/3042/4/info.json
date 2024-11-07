@@ -1,0 +1,12 @@
+{
+    "regex": "\\n{2,}",
+    "line": "        .replace(/\\n{2,}/g,\"\\n\\n\")",
+    "repository": "github.com/adam-p/markdown-here",
+    "commitid": "1df5aee09cae90e2991db4e9cfb8c1b65a3c1898",
+    "path": "src/common/jsHtmlToText.js",
+    "lineNumber": 76,
+    "repoStars": 59596,
+    "output": "Vulnerable\nAttack String :\"\"+\"\\n\\n\"*100000+\"\"\n",
+    "GitHub URL": "https://github.com/adam-p/markdown-here/blob/1df5aee09cae90e2991db4e9cfb8c1b65a3c1898/src/common/jsHtmlToText.js#L77",
+    "file_addr": "https://raw.githubusercontent.com/adam-p/markdown-here/1df5aee09cae90e2991db4e9cfb8c1b65a3c1898/src/common/jsHtmlToText.js"
+}

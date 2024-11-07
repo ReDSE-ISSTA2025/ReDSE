@@ -1,0 +1,17 @@
+target
+data/large/regexlib_results.txt
+data/large/snort_results.txt
+data/large/npm_results.txt
+data/small/prism_results.txt
+data/small/corpus_results.txt
+regexploit/
+rxxr2/
+CVE攻击串生成
+output_old
+*.zip
+output
+out/artifacts/ReDoSHunter_jar/ReDoSHunter.jar
+cve414_short_output_old/
+data/
+*.jar
+cve414_short.txt

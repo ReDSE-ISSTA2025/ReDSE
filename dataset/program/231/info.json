@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/denoland/deno",
+    "commitid": "004b74c8c65a492a15a7538f71d44a92a86675fa",
+    "path": "cli/bench/testdata/npm/hono/dist/utils/encode.js",
+    "lineNumber": 43,
+    "repoStars": 93639
+}

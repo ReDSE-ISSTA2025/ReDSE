@@ -1,0 +1,12 @@
+{
+    "regex": "\\s+at .*aggregate-error\\/index.js:\\d+:\\d+\\)?",
+    "line": "const cleanInternalStack = stack => stack.replace(/\\s+at .*aggregate-error\\/index.js:\\d+:\\d+\\)?/g, '');",
+    "repository": "github.com/nodejs/node",
+    "commitid": "559985cb7aec4e3cd387eb0f8442eea989cfedf3",
+    "path": "deps/npm/node_modules/aggregate-error/index.js",
+    "lineNumber": 4,
+    "repoStars": 105952,
+    "output": "Vulnerable\nAttack String :\" at \"+\"aggregate-error/index\\u0000js:0:0\"*100000+\"!\"\nAttack String :\"\"+\" \"*100000+\"\\u0000\"\nAttack String :\"\"+\"\\tat \"*100000+\"\\u0000\"\nAttack String :\"\"+\" \"*100000+\"@\"\nAttack String :\"\"+\" \"*100000+\"!\"\nAttack String :\"\"+\" at \"*100000+\"\\n@@\"\nAttack String :\"\"+\" at 1aggregate-error/index1js:\"*100000+\"a@\"\nAttack String :\"\"+\" at 1aggregate-error/index1js:1:\"*100000+\"a@\"\n",
+    "GitHub URL": "https://github.com/nodejs/node/blob/559985cb7aec4e3cd387eb0f8442eea989cfedf3/deps/npm/node_modules/aggregate-error/index.js#L5",
+    "file_addr": "https://raw.githubusercontent.com/nodejs/node/559985cb7aec4e3cd387eb0f8442eea989cfedf3/deps/npm/node_modules/aggregate-error/index.js"
+}

@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/gatsbyjs/gatsby",
+    "commitid": "33f18ba7a98780a887d33e72936da57a6c58932a",
+    "path": "packages/babel-preset-gatsby/src/__tests__/optimize-hook-destructuring.js",
+    "lineNumber": 4,
+    "repoStars": 55168
+}

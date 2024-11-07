@@ -1,0 +1,12 @@
+{
+    "regex": "\\s*(@(\\S+))(\\s*)",
+    "line": "        const match = tokens.description.match(/\\s*(@(\\S+))(\\s*)/);",
+    "repository": "github.com/nodejs/node",
+    "commitid": "559985cb7aec4e3cd387eb0f8442eea989cfedf3",
+    "path": "tools/eslint/node_modules/comment-parser/es6/parser/tokenizers/tag.js",
+    "lineNumber": 7,
+    "repoStars": 105952,
+    "output": "Vulnerable\nAttack String :\"\"+\" \"*100000+\"@\"\nAttack String :\"\"+\" \"*100000+\"!\"\n",
+    "GitHub URL": "https://github.com/nodejs/node/blob/559985cb7aec4e3cd387eb0f8442eea989cfedf3/tools/eslint/node_modules/comment-parser/es6/parser/tokenizers/tag.js#L8",
+    "file_addr": "https://raw.githubusercontent.com/nodejs/node/559985cb7aec4e3cd387eb0f8442eea989cfedf3/tools/eslint/node_modules/comment-parser/es6/parser/tokenizers/tag.js"
+}

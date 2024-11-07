@@ -1,0 +1,12 @@
+{
+    "regex": "[0-9]+x[0-9]+",
+    "line": "  let sizeString = (paramContent.match(/[0-9]+x[0-9]+/g) || []).toString();",
+    "repository": "github.com/opencv/opencv",
+    "commitid": "da3debda6d233af90e421e95700c63fc08b83b75",
+    "path": "modules/js/perf/perf_helpfunc.js",
+    "lineNumber": 239,
+    "repoStars": 77393,
+    "output": "Vulnerable\nAttack String :\"\"+\"0\"*100000+\"\\u0000\"\nAttack String :\"\"+\"0\"*100000+\"@\"\nAttack String :\"\"+\"0\"*100000+\"A\"\nAttack String :\"\"+\"0x\"*100000+\"A@\"\n",
+    "GitHub URL": "https://github.com/opencv/opencv/blob/da3debda6d233af90e421e95700c63fc08b83b75/modules/js/perf/perf_helpfunc.js#L240",
+    "file_addr": "https://raw.githubusercontent.com/opencv/opencv/da3debda6d233af90e421e95700c63fc08b83b75/modules/js/perf/perf_helpfunc.js"
+}

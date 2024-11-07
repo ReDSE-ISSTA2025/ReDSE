@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/nodejs/node",
+    "commitid": "559985cb7aec4e3cd387eb0f8442eea989cfedf3",
+    "path": "tools/eslint/node_modules/eslint/lib/cli-engine/file-enumerator.js",
+    "lineNumber": 110,
+    "repoStars": 105952
+}

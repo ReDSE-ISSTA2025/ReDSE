@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/angular/angular",
+    "commitid": "37bf7dee9917498f47bfd93d5d0bf9ce37f1877c",
+    "path": "packages/bazel/src/ng_package/rollup.config.js",
+    "lineNumber": 67,
+    "repoStars": 95444
+}

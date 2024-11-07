@@ -1,0 +1,11507 @@
+\d+-
+^\d+-
+(^\
+(^\d+?-)
+:\d+-
+^\w
+(.+?)([^\/]+)?$
+^\d+
+ 
+"
+'
+`
+\?r=
+\?.+?$
+#r#
+\/$
+ 
+(\.[^.]*)$
+(\.[^.]*)$
+&amp;
+&lt;
+&gt;
+&quot;
+&#039;
+\?.+?$
+\/\d+-
+\/index\.md$
+\.md$
+^\d+-
+:
+^\/
+-
+-
+^\d+-
+^#.+
+\d+-
+(^\
+:\d+-
+^\w
+\d+
+@(\w+)@
+\((https?:\/\/[^)]+)\)
+\((\/[^)]+)\)
+\[([^\]]+)\]
+-
+\/\d+-
+\/index\.md$
+\.md$
+^#.+
+^\/
+\/$
+\s+
+y$
+\s+
+\.$
+[`*]
+\n
+\[(.*)\]\(.*\)
+_(.*?)_
+<\/?p>
+<[^>]*>
+<.*?>
+&nbsp;
+&amp;
+&gt;
+&lt;
+[^a-z0-9\-']+
+&
+>
+<
+"
+'
+^.
+\W+
+\(([^#?]+?)\.md\)
+^<!--.*?-->
+(?<=<\/?h)[1-5](?=[^<>]*>)
+(?<!<section [^>]+>)<h3
+\W+
+__FILENAME__
+__VERSION__
+__TOC__
+__TOC_PICKER__
+__GTOC_PICKER__
+__GTOC__
+(?<=<!-- source_link=).*(?= -->)
+\n
+^.*:\s+
+ 
+^<!-- YAML
+-->$
+\r?\n
+\r\n|\r|\n
+[\r\n]+
+^v
+<a href=\\"#
+<a.*?>
+\.html$
+[\s\S]*?id="toc"[^>]*>\s*<\w+>.*?<\/\w+>\s*(<ul>\s*)?
+<a href="#(?!DEP[0-9]{4})([^"]+)"
+<!-- API END -->[\s\S]*
+<a class="mark" href="#([^"]+)" id="([^"]+)"
+<a href="#(?!DEP[0-9]{4})([^"]+)"
+<a href="([^"]+)" id="(user-content-fn[^"]+)"
+<(\S+) id="(user-content-fn[^"]+)"
+<a href="((\w[^#"]*)\.html)#
+index\.html
+<li class="edit_on_github">.*?<\/li>
+<title>.*?\| 
+<a.*?>
+[^a-z0-9\-']+
+['-]$
+\r\n|\n\r|\n|\r
+^(\s*?)(?:\s?\*\/|\/\*\s|\s\*\s?)
+^\s{2}
+^(\s*)(?:\/\/\s?|#\s?)
+\s.*$
+\s+
+[\\{}]
+\t
+[\x00-\x1f\x7f-\xff]
+\ufeff
+[\u0100-\uffff]
+^--node-version=
+^--output-directory=
+^--apilinks=
+^--versions-file=
+(\w+\/\w+)\.git\r?\n?$
+\\
+\s
+^\* \[([^\]]+)
+^\* \[([^\]]+)]
+^\*|\s+|\s+$
+<[^>]*>
+\\
+<.*?>
+\/main
+^version = .*
+^wgpu-core = .*
+^wgpu-types = .*
+&
+<
+>
+"
+'
+^-+
+\["url", "a", "area"\]
+&
+<
+>
+"
+#
+'
+\(
+\)
+\/
+'
+"
+\)
+\(
+_
+_
+_
+.*[\._\/-:]qemu[\._\/-:]*
+CHART_DURATION
+CHART_DURATION
+|
+ 
+_
+(\r\n|\n|\r| |\t)
+(\r\n|\n|\r| |\t)
+#.*$
+.*-ifb$
+^Cookie: .+$
+^Cookie: .+$
+^Cookie: .+$
+abc
+\\
+\\
+\x1b\[31m\s(\d+) fail
+\:\:(?:end)?group\:\:.*(?:\r\n|\r|\n)
+(?:---|\+\+\+|~~~|\^\^\^) 
+\:\:.*(?:\r\n|\r|\n)
+\\
+\\
+\\
+\u001b\[\d+m
+%
+%25
+&
+<
+>
+"
+'
+`
+`
+\\
+\\
+\+
+\s
+\.
+%3A
+[?#]
+^\/\/[^@\/]+@[^@\/]+
+[,\s]+
+\.m?js$
+\.tsx?$
+^v
+-\d+$
+\.(sa|sc|c)ss$
+\.(woff|woff2|eot|ttf|otf)$
+locales\/[^/]+\.json$
+<.*?>
+WARNING: Exited the environment with code 0
+\(node:\d+, thread:\d+\)
+Setting the NODE_DEBUG environment variable to 'http' can expose sensitive data \(such as passwords, tokens and authentication headers\) in the resulting log\.
+o
+\[
+\n
+\n
+.*\n.*
+\.(sa|sc|c)ss$
+\.(woff|woff2|eot|ttf|otf)$
+locales\/[^/]+\.json$
+^Error: 
+[\u0000-\u002F\u003A-\u0040\u005B-\u0060\u007B-\u00FF]
+^\d+\.\d+\.\d+$
+Setting the NODE_DEBUG environment variable to 'http2' can expose sensitive data \(such as passwords, tokens and authentication headers\) in the resulting log\.\r?\n
+Http2Session client \(\d+\) handling data frame for stream \d+\r?\n
+HttpStream \d+ \(\d+\) \[Http2Session client \(\d+\)\] reading starting\r?\n
+HttpStream \d+ \(\d+\) \[Http2Session client \(\d+\)\] closed with code 0\r?\n
+HttpStream \d+ \(\d+\) \[Http2Session server \(\d+\)\] closed with code 0\r?\n
+HttpStream \d+ \(\d+\) \[Http2Session server \(\d+\)\] tearing down stream\r?\n
+{version}
+\\u
+\n
+next
+node_modules\/([^/]+)
+^> 
+Error: .+?\x1B
+ 
+:
+\(
+\)
+\.
+\/
+\/dashboard.js(\?.*)?$
+<
+>
+"
+'
+[^0-9a-f]
+_
+\s+$
+name:\s*.*\n
+slug:\s*.*\n
+title:\s*.*\n
+dateModified:\s*.*\n
+jpe?g
+\n
+\n
+\(#([0-9]*)\)
+^#!.*?\n
+\/\/.*?: (?<presetOptionName>[A-Z]+)
+\/\/.*?: (?<pluginName>[A-Z@/-]+)
+^.*?= 
+;$
+\r?\n
+\n$
+"
+'
+WARNING: Detected use of sync API[\s\S]*statSync
+\n
+-
+(".*"):
+\n
+(\d)(?=(\d\d\d)+(?!\d))
+\r
+\r
+\r
+\n
+\n## .*
+## Committers: \d.*
+- .*
+ \(.*\)
+ \(.*\)
+####
+(?=\n## )
+\n## .*
+ \((?<date>.*)\)
+CERTIFICATE
+CERTIFICATE
+CERTIFICATE
+CERTIFICATE
+(.{2})
+\\
+\\
+^[/\\]
+[^(]*
+\api\/v1\/badge\.svg
+\?
+&cacheBuster=\d*
+\?cacheBuster=\d*
+\/
+^\s*(-?[\d.]+)([^\s]*)\s*$
+'|\n
+[\r\n]+
+[\r\n]+
+Warning: test warning
+Warning: test warning
+Use `node --trace-warnings
+Warning: test warning
+Use `node --trace-warnings
+Warning: test warning
+Use `node --trace-warnings
+Warning: test warning
+Use `node --trace-warnings
+^\t
+\/\/\/ type: (.+)
+^(  )+
+https:\/\/svelte\.dev
+(\s*\*\s*)```js([\s\S]+?)```
+\s*(\/\*…\*\
+ 
+:
+\(
+\)
+\.
+\/
+<
+>
+"
+'
+\/v1\/?$
+\/v1\/?$
+\r?\n
+\r?\n
+\r?\n
+\r?\n
+\r?\n
+(?:\s?\*\s){0,1}(.*)
+(?:.*\
+^[Bb]ump v\d+\.\d+\.\d+
+-[a-zA-Z]
+^(.*)\s\(#(\d+)\)$
+^(\w+):\s(.*)$
+^Merge pull request #(\d+) from (.*)$
+\b(?:close|closes|closed|fix|fixes|fixed|resolve|resolves|resolved|for)\s#(\d+)\b
+This reverts commit ([a-f0-9]{40})\.
+merged\/([0-9]+-[x0-9]-[xy0-9])
+[^a-zA-Z0-9_$]
+[^a-zA-Z0-9_$]
+(\d)(?=(\d\d\d)+(?!\d))
+UInt
+^origin\/
+^\/(.+)
+<\/?code>
+&#39;
+&quot;
+&lt;
+&gt;
+&amp;
+<(\
+^(#{2,4})\s(.*)
+^\t{3}
+^\d+\.\d+\.\d+$
+^\n
+^\s*(?:[^\w\s]+|\w+)?
+^(?:\s+|[^\w\s]+|\w+)\s*
+^\s*(?:[^\w\s]+|\w+)?
+^(?:\s+|\W+|\w+)\s*
+\r\n|\n|\r
+\n
+\r?\n
+\\
+[^\/\\]+$
+<\/?code>
+&#39;
+&quot;
+&lt;
+&gt;
+&amp;
+<(\
+^(#{2,4})\s(.*)
+\n
+.*uglify-throw-original\.js:5:9
+.*uglify-throw-original\.js:9:3
+.*babel-throw-original\.js:18:31
+.*istanbul-throw-original\.js:5:9
+.*istanbul-throw-original\.js:9:3
+.*babel-esm-original\.mjs:9:29
+.*typescript-throw\.ts:18:11
+.*typescript-throw\.ts:24:1
+[/\\]
+[/\\]
+[/\\]
+\r\n
+^> 
+\r\n
+(%\w+%)
+(`|\${)
+(`|\${)
+[^\/\\]+$
+[^\/\\]+$
+["'&<>]
+>[^\S]+
+[^\S]+<
+In$|InOut$|Out$
+In$|InOut$|Out$
+\d+
+<
+>
+"
+'
+\+
+[/\\]
+\/
+# duration_ms\s\d+
+[^a-z]
+\n
+^(\d+)\.(\d+)\.(\d+)
+\/package\.json$
+\t
+(    )+
+\S
+[/\\]
+[\\/]
+^## 
+&lt;
+&gt;
+&#(\d+);
+-
+-
+-
+\w+-\w+(-\w+)*
+-
+[^\n]
+\?\s*:
+ 
+:
+\(
+\)
+\.
+\/
+\\
+# duration_ms\s\d+
+\[
+[^(]*
+\s
+(`|\${|\\)
+_
+[^0-9a-f]
+\S+
+\S+
+ws:\/\/.+:(\d+)\/.+
+-
+[-[\]/{}()*+?.\\^$|]
+^> 
+\\
+^> 
+^(.+?) (.+?) (.+?)$
+\r?\n
+{(\s*):then\s+$
+{(\s*):catch\s+$
+[^\/\\]+$
+^\(\)\s*=>\s*(?:{(.*)}\s*|(.*))$
+^([^;]*)(;\s*)+$
+\\
+"
+\n
+\s
+\&
+<
+"
+'
+@?\w+:\/\/[^ "\/]+(?::\d+)?
+[-\/\\^$*+?.()|[\]{}]
+^(.*\/|)testharness\.js$
+\x1b\[31m\s(\d+) fail
+\x1b\[[0-9;]*m
+^::(group|endgroup|error|warning|set-output|add-matcher|remove-matcher).*$
+thread \d+ panic: (.*)\n
+[Ran:'\.]?
+(New|Reused), 
+"(.*?)"
+.+\.so(\.?)
+\/proc\/.+
+^> 
+(.{4}(?!$))
+^:|:$
+^(.+?) (.+?) (.+?)$
+[a-zA-Z-]*:
+(?=-----BEGIN CERTIFICATE-----)
+Debugger listening on ws:\/\/
+pid is (\d+)
+Debugger listening on ws:\/\/
+^ws:\/\/(.*):\d+\/(.*)
+.*ws=(.*):\d+
+\r\n
+\r\n
+\\
+\.client\.svelte$
+[ \t\n\r\f]+
+[ \t\n\r\f]+
+^[ \t\n\r\f]+
+[ \t\n\r\f]+$
+(<!(--)?.*?\2>)
+(data-svelte-h="[^"]+")
+>[ \t\n\r\f]+<
+\s?onerror="this.__e=event"|\s?onload="this.__e=event"
+\r\n
+(\sdata-svelte-h="[^"]+")
+(<!(--)?.*?\2>)
+(\sdata-svelte-h="[^"]+")
+(<!(--)?.*?\2>)
+\u001b\[[0-9]+m
+[\d.]+|[^\d.]+
+[\d.]+|[^\d.]+
+<!--.*?-->
+>[\s\r\n]+<
+<\/?noscript\/?>
+ACCEPT .*?:(\d+)
+\\
+^h[123456]$
+^h[123456]$
+^https?:\/\/
+([a-z])([A-Z])
+[\r\n]+
+one
+one
+(\r\n|\r|\n)
+#define BUILDFLAG_INTERNAL_(.+?)\(\) \(([01])\)
+--shadow:\s.*;
+--[\w-]+:\s*#[0-9a-fA-F]{6}
+-
+-
+_
+_
+testFirefoxBuildId = '([^']+)';
+\r\n?|\n
+^ +at .*\n
+^> 
+\n
+('|")
+@import '(.+)';
+"
+[^0-9a-f]
+[\D]
+[\D]
+\{(\w+)\}
+^#
+\\r
+\/.\:\/
+\/.\:\/
+\/.\:\/
+\/.\:\/
+\)
+_
+%s
+[\u00A0-\u9999<>&](?!#)
+\u0008
+:\w+:
+[^\/\\]+$
+[(]([^\s(]+)\s+instanceof\s+([^)]+)[)]
+\r\n|\r|\n
+\/\/
+&
+Keep-Alive: timeout=5\r\n
+\r\n|\r|\n
+\n
+^\s+
+"
+^> 
+Error: .+?\x1B
+<
+<
+\(
+\)
+\s+
+\/
+^\:([^\{\}]+)(?:\{(.+)\})?$
+^max-width: [\d.]+px;$
+[\d.]+
+\/
+^[A-Z]:\\$
+\n
+ {3,}
+ {3,}
+\s
+\s
+\s
+\s
+\s
+\s
+\s
+\s
+\\
+abc
+.*[/\\]
+one
+two
+three
+two
+three
+three
+\r\n
+\n
+\(
+\)
+[\r\n]+
+[\r\n]+
+\/dashboard.js(\?.*)?$
+(__using|__callDispose)_([a-z0-9]+)
+ECONNREFUSED|ENETUNREACH|EHOSTUNREACH|ETIMEDOUT
+ECONNREFUSED|ENETUNREACH|EHOSTUNREACH|ETIMEDOUT
+\n
+\{\{([a-zA-Z0-9_-]+)\}\}
+[=]
+^max-width: [\d.]+px;$
+[\d.]+
+[\r\n]+
+[\s,]+
+[\s,]+
+,(?=(?:(?:[^"]*"){2})*[^"]*$)
+Keep-Alive: timeout=5, max=3\r\n
+Keep-Alive: timeout=5\r\n
+Hello World!
+\n
+([^;]*);
+\s
+\(
+\)
+([^=]+)=?(.*)
+^[\s\0]*(blob:|data:|javascript:|vbscript:)(.*)
+\\
+([^#/?]*)(.*)?
+\/(?=[A-Za-z]:)
+([^#?]*)(\?[^#]*)?(#.*)?
+\/$
+\/\*|\/:\w+
+"
+\W+
+[/\\]
+[/\\]
+:
+:\/$
+\W
+\\
+\\
+\/$
+\/+
+:\w+|\*\*
+\(
+\)
+^www\.
+\/[^/]+
+[\s,]+
+^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$
+[\d.]+|\D+
+\\
+o
+(,\s*})
+\/\/[A-z\s]*\s
+([\s\r\s]*}[\s\r\s]*,[\s\r\s]*)(?=[\w"-]+:)
+\s+
+\[
+=
+-
+=
+;\s*
+\s*=\s*([^\s]+)
+\r?\n
+\((.+):(\d+):(\d+)\)
+^Error
+^Error: 
+\{\s*originalLine: .+\s*originalColumn: .+\s*\}
+\{\s*originalLine: .+\s*originalColumn: .+\s*\}
+\n\s*originalLine: .+\s*originalColumn: .+
+\\u
+\n
+next
+\/
+ \{$
+node_modules\/([^/]+)
+\/
+\\
+%1B%28%42$
+%
+[\s]+
+[=:]
+%1B%28%42$
+%
+[\s]+
+^max-width: [\d.]+px;$
+[\d.]+
+^max-width: [\d.]+px;$
+[\d.]+
+%1B%28%42$
+%
+[\s]+
+^\.?\/
+\/$
+^\.?\/
+\.[a-zA-Z0-9]+$
+%1B%28%42$
+%
+[\s]+
+o
+<br\s*\/?>
+<br\s*\/?>
+(\s+|<br>)
+<img[^>]*>
+\\n|\n
+\\n|\n|<br\s*\/?>
+\n
+next
+node_modules\/([a-z]+)
+\$\{
+<\/(script|style)
+<!--
+\r?\n
+[{}\\]
+\/
+\\\*
+\\
+^[=v]+
+\s+
+\s+
+\s+
+\s+
+\s+
+\s+
+\s+
+\\\*
+\\
+Async$
+Sync$
+\\([^u]|u[0-9a-fA-F]{4})
+^'([\s\S]*)'$
+^"([\s\S]*)"$
+\/$
+^--ecma(\d+)$
+\(\d+:\d+\)$
+_([a-z])
+\\
+"
+\0
+\t
+\n
+\r
+[\x00-\x0F]
+[\x10-\x1F\x7F-\x9F]
+\\
+\]
+\^
+-
+\0
+\t
+\n
+\r
+[\x00-\x0F]
+[\x10-\x1F\x7F-\x9F]
+\\(.)
+\s*,\s*
+(.)([A-Z][a-z]+)
+^"|"$
+\s+$
+^["']|["']$
+^["']|["']$
+.
+%([a-zA-Z%])
+[\s,]+
+\*
+\.\*\?$
+^max-width: [\d.]+px;$
+[\d.]+
+[\/\\]
+ 
+_
+\r\n?
+\r\n?
+_
+_
+^[0-7]+
+\r\n|[\n\r\v\f\x1c\x1d\x1e\x85\u2028\u2029]
+(\r\n|[\n\r\v\f\x1c\x1d\x1e\x85\u2028\u2029])
+\w_[a-z]
+\w_[a-z]
+[A-Z]
+^\n+|\n+$
+([\[(]) 
+ ([\])])
+[\[(] *[\])]
+\(([^|]*)\)
+-
+-\*
+-
+^    at (.*) \(.*\)$
+[^ .]*$
+\s+
+\\
+^max-width: [\d.]+px;$
+[\d.]+
+^@[^/]+\/
+^\uFEFF
+[^\w-]
+[^\w-]
+#[^\n]*
+\n|,
+validate\.schema
+^max-width: [\d.]+px;$
+[\d.]+
+%[a-zA-Z%]
+(edge|trident)\/(\d+)
+firefox\/(\d+)
+applewebkit\/(\d+)
+ 
+_
+\r\n?
+\r\n?
+_
+_
+^[0-7]+
+ \S+$
+\.0$
+^my\s+stats$
+hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])
+'
+!
+[ ]+
+[-_]+(.)?
+([^-A-Z])([A-Z]+)
+^([A-Z]+)
+\s+
+\\
+((?:\\{2}){0,64})(\\?)\|
+\)[+*?]?
+\\(.)
+[-[\]{}()*+?.,\\^$|#\s]
+\t
+\n$
+^\s+
+^\s+
+{{([a-zA-Z$_][a-zA-Z$_0-9]*)}}
+\n
+\r
+\f
+\t
+\$
+~
+([^\\])' \+ '
+~
+~1
+validate\.schema
+validate\.schema
+~
+^0*(.*)
+\/\/(?:.|\n)*\:(?:\/|\?|\#|$)
+^\/\/
+(){0}
+\n
+\r
+\f
+\t
+\$
+~
+([^\\])' \+ '
+~
+~1
+validate\.schema
+_
+\s|\/
+\t
+\n$
+_
+_
+[\r\n=]
+'
+!
+\\
+[\x10-\x1F\x7F-\x9F]
+\\
+[\x10-\x1F\x7F-\x9F]
+\\(.)
+\.\.
+,.*\}
+\t
+[\t\n\x0b\x0c\r]
+#! ?
+[\W_]
+\t
+\n$
+_
+_
+[\r\n=]
+'
+!
+^0*(.*)
+\/\/(?:.|\n)*\:(?:\/|\?|\#|$)
+^\/\/
+(){0}
+_
+(?:(?:^|.*;\s*)firstVisit\s*\=\s*([^;]*).*$)|^.*$
+\/\?.*
+[ ,]+
+\\
+\\
+(?:^|\s)\S
+.+: 
+-
+\n
+^max-width: [\d.]+px;$
+[\d.]+
+[_n]
+[_mn]
+\r\n?
+\\(\$\{|\r\n?|\n|.)|["'`]|\$\{|(\r\n?|\n)
+[\r\n=]
+\r+$
+^\s+
+\n
+(\d)(?=(\d\d\d)+(?!\d))
+,
+^0*(.*)
+\/\/(?:.|\n)*\:(?:\/|\?|\#|$)
+^\/\/
+(){0}
+^line \d+:
+^line \d+:
+\t
+\s+$
+\\
+\\
+[\x10-\x1F\x7F-\x9F]
+\\
+[\x10-\x1F\x7F-\x9F]
+\\(.)
+^\/\*
+\*\/$
+\$
+^_
+\r+$
+^\s+
+\n
+[a-f0-9]{6}|[a-f0-9]{3}
+\S
+\\
+[\x10-\x1F\x7F-\x9F]
+\\
+[\x10-\x1F\x7F-\x9F]
+\\(.)
+^_+|_+$
+~
+["&<>]
+\s+
+(\d)(?=(\d\d\d)+(?!\d))
+UInt
+'
+"
+["&<>]
+[^\t]
+\d
+(\\*)"
+(\\*)$
+\\n|\n|<br\s*\/?>
+["&<>]
+\n(?!$)
+\n(?!$)
+(\n{2,})
+<br\s*\/?>
+"nodedir": "([^"]+)"
+\s*,\s*
+^max-width: [\d.]+px;$
+[\d.]+
+^display: block;$
+^display: none;$
+^max-width: [\d.]+px;$
+[\d.]+
+\(
+\)
+\r+$
+^\s+
+\n
+\s*(@(\S+))(\s*)
+^line \d+:
+(\d)(?=(\d\d\d)+(?!\d))
+\W+
+^_+
+^_
+\\
+\\
+\\
+\W+
+'
+\\
+^@([^/]+)\/(.*)$
+^\ufeff
+\r?\n
+\s+
+\\
+^\.
+[/\\]$
+\\
+\\
+\\*(\$\{|`)
+^tag 
+^\[(?<name>.*?)=.*\]$
+^\/(.*)\/([gimyus]*)$
+^\n*([ \t]+)
+\/\*.*?\*\/
+^[0-7]+
+^\:([^\{\}]+)(?:\{(.+)\})?$
+\\
+^@([^/]+)\/(.*)$
+(?::[^\/]+)|(?:\/\*$)|.
+#(\d+)|@(\d+)|\.\*\$
+\\
+[/ ]
+[/\\]
+\\$<([^>]+)>
+"
+\n[ \t]*$
+\n
+\\
+^\{
+\}$
+^\{
+^@
+(?<![\s,])\s
+(?<![\s,])\s
+(\s*)([^\r]*)(\r)?
+^tag 
+^\[(?<name>.*?)=.*\]$
+^\/(.*)\/([gimyus]*)$
+^\n*([ \t]+)
+\*
+\\
+_
+^ +at .*\n
+\/(?::\w+{[^}]+}|[^\/]*)
+^\/:(\w+)({[^}]+})?
+^\/:(\w+)({[^}]+})?
+"
+(?<![\s,])\s
+(?<![\s,])\s
+(\s*)([^\r]*)(\r)?
+\$<([^>]+)>
+[{}\\]
+:exit$
+\n[ \t]*$
+\\(\$\{|\r\n?|\n|.)|["'`]|\$\{|(\r\n?|\n)
+\s*([:,])\s*
+\s|,+
+([-a-zA-Z0-9/]+):
+^(?<quote>['"]?)(?<ruleId>.*)\k<quote>$
+[|\\{}()[\]^$+*?.]
+\.ts$
+^\.\/
+[\t\n\r ]+
+^ | $
+^ 
+^\s*$
+\s*\*
+^\s*$
+^(\s*\*?\s*)
+^(\s*\*?\s*)(.*)
+^(\s*\*)
+^(\s*)
+^(\s*(?:\/?\*)?(\s*))
+\t
+\s+$
+([^ ])\.$
+(\d+)\s+(\d+)
+\.(?:<>)?$
+(?:\.|<>|\.<>|\[\])$
+^[-0-9]+
+[-\s]+(.)?
+[\t\n\r ]+
+^ | $
+\s*(@(\S+))(\s*)
+[\t\n\r ]+
+^ | $
+([^=]*)(=.+)?
+([^=]*)(=.+)?
+^\ufeff
+\r?\n
+\s+
+\s*(@(\S+))(\s*)
+'
+\\
+^@([^/]+)\/(.*)$
+#(.*?)$
+\s
+\*
+[.*+?^${}()|[\]\\]
+--STAR--
+\s*,\s*
+([^=]*)(=.+)?
+([^=]*)(=.+)?
+\.(?:<>)?$
+(?:\.|<>|\.<>|\[\])$
+temp\d+
+\.[^.]*$
+'
+"
+'
+^\s+
+[a-f0-9]{6}|[a-f0-9]{3}
+\\
+,\s*
+,\s*
+\.[^.]*$
+\}$
+\}$
+^@
+(?:\.|<>|\.<>|\[\])$
+\n
+\n
+\n
+^[- ]*
+[|\\{}()[\]^$+*?.]
+-
+^\s+
+[|\\{}()[\]^$+*?.]
+-
+,\s*
+,\s*
+\n
+\n
+\n
+,\s*
+,\s*
+^[- ]*
+(?:\.|<>|\.<>|\[\])$
+,\s*
+,\s*
+\.(\w*?)$
+\\
+\s+
+\s+
+\s+
+\s+
+^(@[^/]+\/[^/]+|[^/]+).*$
+\/\*.*?\*\/
+^[=v]+
+\r\n|\n|\r
+\t
+^[ ]+
+[ ]+$
+^ 
+^\s*$
+\s*\*
+^\s*$
+^(\s*\*?\s*)
+^(\s*\*?\s*)(.*)
+^(\s*\*)
+^(\s*)
+^(\s*(?:\/?\*)?(\s*))
+\s+
+[|\\{}()[\]^$+*?.]
+-
+(?<![;:])\n\n+
+[.?!](?:\s+|$)
+^- 
+(?<![;:])\n\n+
+[.?!](?:\s+|$)
+^- 
+^\s*-\s*
+MMMM|MM|DD|dddd
+%d
+%s
+\[[\s\S]
+^\[|\]$
+\\
+\\(\[)|\\(\])|\[([^\]\[]*)\]|\\(.)
+[-\/\\^$*+?.()|[\]{}]
+\([^)]*\)|[\n\t]
+\.?0+$
+\$
+\\
+\\
+\\
+.*(?=#[^\s]*$)
+.*(?=#[^\s]*$)
+.*(?=#[^\s]+$)
+.*(?=#[^\s]*$)
+.*(?=#[^\s]+$)
+"
+<
+^\s+|\s+$
+^\s+|\s+$
+translate-value-+
+^\s*([\s\S]+?)\s+in\s+([\s\S]+?)(?:\s+as\s+([\s\S]+?))?(?:\s+track\s+by\s+([\s\S]+?))?\s*$
+(\|\s*itemsPerPage\s*:[^|]*:[^|]*)
+(\|\s*itemsPerPage\s*:\s*[^|\s]*)
+\W
+^\s+|\s+$
+<ul
+([.?*+^$[\]\\(){}|-])
+itest\!
+'
+'
+"
+.*
+[ /-]
+server port (\d+)
+(nodejs|node|bun)\-?([0-9]*)*$
+\r?\n
+^(\d\d?)(;(\d))?([~^$])$
+^((\d;)?(\d))?([A-Za-z])$
+#define\s+V8_MINIMUM_ICU_VERSION\s+(\d+)
+For help, see: (.+)
+-echo\b
+<!-- node-options-node start -->(.*)<!-- node-options-others end -->
+<!-- v8-options start -->(.*)<!-- v8-options end -->
+^ENOENT: no such file or directory, open '
+\S+
+\r?\n
+-echo\b
+GET (.*) HTTP\/1\.1
+-echo\b
+Error: Cannot find module
+^(--?)([a-zA-Z][-a-zA-Z0-9]*)(=)?(.*)?$
+^no-(.+)$
+^-([0-9]+(?:\.[0-9]+)?)$
+^[0-7]+
+\s*$
+^calle[er]$
+^[0-7]+
+\+
+\s+
+\n+$
+^\s*$
+\s*$
+\n+$
+\n
+\s-{2,}\s
+\n
+\t
+^0*(.*)
+.*(?=#[^\s]*$)
+\n( *(at )?)
+[^0-9a-f]
+[\t\n\r ]+
+^(\r?\n|\r)|(\r?\n|\r)$
+(\r?\n|\r)$
+\r?\n|\r
+ 
+_
+\r\n?
+_
+_
+[\uD800-\uDBFF][\uDC00-\uDFFF]
+[|\\{}()[\]^$+*?.]
+ 
+_
+\r\n?
+_
+_
+ \(\d+:\d+\)$
+\/\*[\s\S]*?\*\/
+^[0-7]+
+^[0-7]+
+[|\\{}()[\]^$+*?.]
+[\t\n\r ]+
+ +$
+\\([\\|])
+\|
+^(?:[*+-]|\d+\.)([\r\n]| {1,3})
+\r?\n|\r
+[\uD800-\uDBFF][\uDC00-\uDFFF]
+[|\\{}()[\]^$+*?.]
+[\t\n\r ]+
+[\uD800-\uDBFF][\uDC00-\uDFFF]
+[|\\{}()[\]^$+*?.]
+^>|^->|<!--|-->|--!>|<!-$
+\D
+\D
+\r\n|\r|\n
+([.*+?^=!:${}()|\[\]\/\\])
+\n
+\u00AD
+(\d{3})(?=\d)
+([a-z])([A-Z])
+\d+
+Trident.*rv\:11\.
+\x0d\x0a
+[^0-9\.]
+%s
+_
+^-ms-
+Edge\/(\d+)
+.*-ifb$
+^y
+^\s*\n\s*|\s*\n\s*$
+ 
+ 
+Capture$
+ 
+\/[^/]+
+<\/?[^>]+(>|$)
+\/+$
+\s+
+#.*
+[._]
+-\d+?
+ 
+.*(?=#[^\s]*$)
+.*(?=#[^\s]*$)
+&
+&
+(^\s*<!--)|(-->\s*$)|\s+
+(scroll|auto)
+ 
+(\{\{[^}]+}\})
+\x1b\[[0-9;]*m
+(.+\
+(["\\])
+[\f]
+[\b]
+[\n]
+[\t]
+[\r]
+[\u2028]
+[\u2029]
+.*(?=#[^\s]*$)
+.*(?=#[^\s]+$)
+.*(?=#[^\s]*$)
+[\-\[\]{}()*+?.,\\\^$|#\s]
+^\s*$
+#([^\s"#']+)
+\s([a-z]+)
+#([^\s"#']+)
+[A-Z]
+^bs
+\s([a-z]+)
+"..\/dist\/
+(<link href="\.\.\/.*) integrity=".*>
+(<script src="\.\.\/.*) integrity=".*>
+( +)<!-- favicons(.|\n)+<style>
+#([^\s"#']+)
+\s([a-z]+)
+\\
+(?:^|-|\/|\\)[a-z]
+#([^\s"#']+)
+[A-Z]
+^bs
+\s([a-z]+)
+#content$
+[$()*+-.?[\\\]^{|}]
+\$
+-
+-
+[A-Z]
+^bs
+[A-Z]
+^bs
+#([^\s"#']+)
+[A-Z]
+^bs
+left|right|bottom|top
+start|end
+\s([a-z]+)
+^
+\\
+\\
+#([^\s"#']+)
+#([^\s"#']+)
+#([^\s"#']+)
+.+&absolutePagePath=
+.+!(?!$)
+^npm:react@
+ -- .*
+^\.\/
+\/[^/]+$
+\n
+\n
+\n
+\n
+require\(file\)
+process\.cwd\(\)
+require.resolve
+__turbopack_load__
+__turbopack_require__
+\\
+.+[\\/]node_modules[\\/]
+.+&absolutePagePath=
+.+!(?!$)
+\n
+\\
+\.md$
+^src[/\\]
+\.mdx?
+\r\n
+.+&absolutePagePath=
+.+!(?!$)
+\\
+\\
+\s{2,}
+\.mdx?$
+,.*\}
+\r?\n
+v1[1-9]+\.
+[ ,]+
+Error$
+[^ _0-9a-z]
+\n
+~
+^0*(.*)
+[&<>]
+(edge|trident)\/(\d+)
+\\n
+\s*\|\|\s*
+%
+:.*$
+\\
+([^ ]+) *(.*)
+\.mdx?$
+%3A
+[\r\n]+
+^\^|~
+(.)
+^not 
+-.*$
+\n
+\\
+[-^$*+?.()|[\]{}]
+[ \t]
+ \S+$
+=
+hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])
+%(\d)
+\.md$
+e
+\n
+e
+~1
+^0*(.*)
+~1
+^0*(.*)
+(\.|-)[0-9a-f]{16}(\.|-)
+([.+*?=^!:${}()[\]|/\\])
+(?:\r\n?|\n)
+^-\w+-
+#\d+
+hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])
+^file:\/\/
+(length|duration)
+req\/sec
+req\/sec
+[^\d\.]
+(\n)
+\x1B\[\d+m
+^\)]}'[^\n]*\n
+\/?$
+^\/
+\bfilename=("(.*?)"|([^()<>@,;:\\"/[\]?={}\s\t]+))($|;\s)
+%22
+&#(\d{4});
+boundary=(?:"([^"]+)"|([^;]+))
+\bname=("([^"]*)"|([^()<>@,;:\\"/[\]?={}\s\t]+))
+^(\s*)([^]*\S)(\s*)$
+`[^`]+`
+\d+|.
+[0-9A-f]
+\\([\s\S])|(')
+[=:]
+\n( *(at )?)
+[=:]
+\s+
+\s
+\W
+^\.\/
+^(.*?)(\?.*)
+^(.*?)(\?.*)
+^(\s*)([^]*\S)(\s*)$
+\$<([^>]+)>
+^file:\/\/
+\s+
+([.+*?^${}()[\\]|/\\\\])
+\$<([^>]+)>
+\W
+\\/
+[=:]
+[=:]
+\n( *(at )?)
+:(\d+)$
+%[sjdOoif%]
+\n( *(at )?)
+[=:]
+[=:]
+\n( *(at )?)
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+\n( *(at )?)
+\n( *(at )?)
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+([^\\/]+)\.js$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+[=:]
+\n( *(at )?)
+\n( *(at )?)
+[=:]
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+\n( *(at )?)
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+\n( *(at )?)
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+\n( *(at )?)
+\[index\]
+\[request\]
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+\[index\]
+\[request\]
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+^\[object (.*)\]$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+[.*+?^${}()|[\]\\]
+\.test\.(js|ts|tsx)
+\\
+\/
+\\
+^test\/.*?\.test\.(js|ts|tsx)$
+\.
+\.
+<!-- -->
+\\
+"static\\(.*?":?)
+\\
+^\/_next\/data\/[^/]+
+^\/_next\/data\/[^/]+
+\\\\
+\\\\
+^\/_next\/data\/[^/]+
+^\/_next\/data\/[^/]+
+^<test-log>(?<value>.+?)<\/test-log>$
+Generating static pages
+\(\/vercel\.svg
+\(vercel\.svg
+\(\/_next\/static\/media
+\(https:\/\/
+\/\*.*?\*\/
+async \(
+^<test-log>(?<value>.+?)<\/test-log>$
+<!-- -->
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+css-in-js-class
+__EXTERNAL_PORT__
+__EXTERNAL_PORT__
+^\/_next\/data\/[^/]+
+○ \/root-page 
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+__EXTERNAL_PORT__
+(async (?:redirects|rewrites))
+(async (?:redirects|headers))
+(async (?:rewrites|headers))
+[\n\r]
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+iframe
+hello with error
+\/_next\/data\/(.*?)\/
+comments
+\/\*.*?\*\/
+(=(?!Lax)\w{3}),
+(=(?!Lax)\w{3}),
+(=(?!Lax)\w{3}),
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+__EXTERNAL_PORT__
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+\/\*.*?\*\/
+_
+^\/en
+\/\*.*?\*\/
+\/\*.*?\*\/
+_
+\n
+^\/_next\/data\/[^/]+
+color:(\s)*(?:blue|#00f)
+__EXTERNAL_PORT__
+__EXTERNAL_PORT__
+\.js$
+\.js$
+(=(?!Lax)\w{3}),
+(=(?!Lax)\w{3}),
+\.js$
+_
+_
+_
+^\/_next\/data\/[^/]+
+\\
+"
+\0
+\t
+\n
+\r
+[\x00-\x0F]
+[\x10-\x1F\x7F-\x9F]
+\\
+\]
+\^
+-
+\0
+\t
+\n
+\r
+[\x00-\x0F]
+[\x10-\x1F\x7F-\x9F]
+[A-Za-z0-9-_:/]+
+^export \*
+^.+\n.+\n
+^\/+
+^.+\n.+\n
+[A-Z]
+\n( *(at )?)
+\n( *(at )?)
+\n( *(at )?)
+^\[object (.*)\]$
+[?#].*
+(^|\
+[?#].*
+(^|\
+\\
+[|\\{}()[\]^$+?.]
+"([^"]+)":
+ 
+(.{2})
+^not 
+[|\\{}()[\]^$+?.]
+^Error: 
+\s+$
+'|"
+:(\d+)
+(\\*)"
+ ce$
+hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])
+^(-)?0\.
+\/$
+_
+^Z
+^not 
+\r?\n
+\0(.)
+; *
+\b
+\b
+\s
+(\\)
+^#
+random-server=([^;]+)
+\?
+\?
+\/_next\/data
+\/_next\/data
+returned an empty object from \`getInitialProps\`
+cannot find module(?! for page)
+^@strapi\/plugin-
+^@strapi\/plugin-
+\r?\n
+\r?\n
+^strapi-plugin-
+^@strapi\/plugin-
+\s+
+^strapi-plugin-
+\s+
+^(@[^-,.][\w,-]+\/|strapi-)plugin-
+\r\n
+^bytes (\d+)-(\d+)\/(\d+)?$
+\n
+\r?\n|\r
+(\u0020)+$
+(\\|")
+%0A
+%0D
+%22
+:\d*$
+^\*
+[,\s]
+^(.+):(\d+)$
+<self>
+<self>
+\s+
+&
+\s+
+&
+\s+
+&
+<self>
+['"]use strict["']
+external module "([^"]+)"
+\?.*
+\/
+0\.0\.0\-([a-z]+\-){0,1}([^-]+).+
+\n +
+export default '[^']+';
+modern|experimental
+\r\n
+(\/.*)?$
+\.js$
+\.js$
+\.ts$
+\/__tests__\/
+\.css$
+\.coffee$
+\.json$
+\/third_party\/
+\/\*\*[^\/]+\/\s+
+at .+?:\d+
+%s
+Check your code at .+?:\d+
+\n +(?:at|in) ([\S]+)[^\n]*
+%s
+^\[devtools\] *
+(.+) \(#([0-9]+)\)
+%[so]
+translate\((-?\d+)px,(-?\d+)px\)
+Stable|Next
+\\
+\s*,\s*
+(\r\n|\n|\r)
+[^()]+
+\n( *(at )?)
+^\[object (.*)\]$
+%commit%
+%date%
+%installation%
+\n +
+%{2,2}
+^\(+
+ (\(.+\)$)
+([^%]|^)(%c)
+\n+
+[\r\n]+
+^\[object (.*)\]$
+\n +
+{ *([a-z\-]+):
+\n +
+\[index\]
+\[request\]
+export default '[^']+';
+\n +
+"[0-9]+"
+^.*[\\\/]
+^.*[\\\/]
+^.*[\\\/]
+\n( *(at )?)
+^.*[\\\/]
+"[0-9]+"
+^(\d+)\.(\d+)\.(\d+).*
+^.*[\\\/]
+^.*[\\\/]
+^.*[\\\/]
+\n( *(at )?)
+^.*[\\\/]
+\n( *(at )?)
+^[\^\~]
+\/
+:
+%s
+Check your code at .+?:\d+
+\n +(?:at|in) ([\S]+)[^\n]*
+%s
+Check your code at .+?:\d+
+\n +(?:at|in) ([\S]+)[^\n]*
+%s|%c
+Check your code at .+?:\d+
+\n +(?:at|in) ([\S]+)[^\n]*
+:(R|r)([a-z0-9]*)(H([0-9]*))?:
+^ +(?:at|in) ([\S]+)[^\n]*
+\/
+\n +(?:at|in) ([\S]+)[^\n]*
+\n +(?:at|in) ([\S]+)[^\n]*
+^\n
+([.?*+\^$\[\]\\(){}|-])
+([.?*+\^$\[\]\\(){}|-])
+\n +(?:at|in) ([\S]+)[^\n]*
+[\u2028\u2029]
+\d+
+\d+
+\d+
+\d+
+\n +(?:at|in) ([\S]+)[^\n]*
+\n +(?:at|in) ([\S]+)[^\n]*
+\n +(?:at|in) ([\S]+)[^\n]*
+\n +(?:at|in) ([\S]+)[^\n]*
+%c
+%c
+%c
+\..*Z
+T.*
+^ +(?:at|in) ([\S]+)[^\n]*
+\n +(?:at|in) ([\S]+)[^\n]*
+\n +(?:at|in) ([\S]+)[^\n]*
+\s+
+.+canary-(.+)
+([^%]|^)(%c)
+\s+
+\s+
+\s+
+"
+(\d)(?=(?:\d\d\d)+(?!\d))
+[.:]
+ 
+_
+\r\n?
+\r\n?
+_
+_
+^[0-7]+
+\s+
+(\d)(?=(?:\d\d\d)+(?!\d))
+"
+"
+\.\.
+[[\]\\-]
+[-[\]{}()*+?.,\\^$|#\s]
+\[([^\/\\])\]
+[-[\]{}()*+?.,\\^$|#\s]
+[?*()[\]]
+[-[\]{}()*+?.,\\^$|#\s]
+\\
+\/+
+\/+
+,.*\}
+^-+
+^package\/
+^package\/node_modules\/((?:@[^/]+\
+@VERSION@
+npm\s
+^--ecma(\d+)$
+\(\d+:\d+\)$
+\r?\n
+^[~@]?
+^[~@]?
+#
+#
+#
+#
+#
+#
+#
+\.[0-9]+$
+^npm-
+^@
+[^:]+:.+
+#
+#
+(\/node_modules)+
+\s+
+^@
+\.git$
+[A-Z]
+([A-Z])
+[-[\]{}()*+?.,\\^$|#\s]
+\\(.)
+\d
+\d
+,\s*
+ 
+_
+\r\n?
+\r\n?
+_
+_
+^[0-7]+
+^@
+\/
+(.+)\[([^\]]+)\]\.?(.*)$
+^(.*)\[\]\.?(.*)$
+\r\n
+\r\n
+\n$
+^
+\n
+\s+
+\s+
+^git\+
+[-[\]{}()*+?.,\\^$|#\s]
+\\
+\/+
+\/+
+,
+\\
+\\
+[LB]E$
+[?*()[\]]
+[?*()[\]\\]
+^#!.*?\n
+^'|'$
+\\ 
+^(-+)((?:no-)*)(.*)$
+^(-*)((?:no-)+)?(.*)$
+[-[\]{}()*+?.,\\^$|#\s]
+\\(.)
+\r\n
+^404\s+
+(?!^)@.*$
+[,\s]+
+^(?:Error: )?(E[A-Z]+)
+\[([^\/\\])\]
+((?!\\).|^)\[([^\/\\])\]
+\s+
+^---\n(.*\n)*?---\n
+\n+
+^npm-
+[-[\]{}()*+?.,\\^$|#\s]
+\\
+\/+
+\/+
+[?*()[\]]
+[?*()[\]\\]
+\/$
+\\
+\[([^\/\\])\]
+((?!\\).|^)\[([^\/\\])\]
+.
+[,\s]+
+\t
+[[\]\\-]
+[-[\]{}()*+?.,\\^$|#\s]
+.
+[[\]\\-]
+[-[\]{}()*+?.,\\^$|#\s]
+.
+^\{BIN\}
+^\{LIB\}
+^\{ROOT\}
+ in [0-9ms]+
+(published ).*?( ago)
+\t
+\t
+\t
+\t
+\t
+^npm-
+\r\n
+\s+
+\n+
+\n$
+[.:]
+^(\s+at\s).*
+package(s)? in [0-9]+[a-z]+
+Finished in [0-9.s]+
+Cache verified and compressed (.*)
+content-v2\/sha512\/[^"]+
+^\s+(doctor\s+at\s).*$\n
+.*timing config:load:.*\n
+.*silly logfile.*cleaning.*\n
+(Completed in )\d+(ms)
+(removing )\d+( files)
+in [0-9]+m?s
+\r\n
+[A-z]:\\
+\\+
+tap-testdir-[\w-.]+
+\{CWD\}\/\{TESTDIR\}\/\{TAPDIR\}
+lib\/node_modules
+global\/lib
+\d{4}-\d{2}-\d{2}T\d{2}[_:]\d{2}[_:]\d{2}[_:.]\d{3}Z
+in [0-9]+m?s\s*$
+shasum:( *)[0-9a-f]{40}
+integrity:( *).*
+package size:( *)[0-9 A-Z]*
+"shasum": "[0-9a-f]{40}",
+"integrity": ".*",
+"size": [0-9]*,
+^#!.*?\n
+\\+
+\r\n
+[\r\n]+
+^\s*[;#]
+\\\.
+[=\r\n]
+^\[
+\n$
+^SCHILY\.(dev|ino|nlink)
+\/*$
+\/*$
+E.*$
+E
+, ([^,]+)$
+\0.*
+\0.*
+v1[1-9]+\.
+v10\.[6-9]
+\S+
+\s+
+\0.*
+\0.*$
+^(git\+)+
+^Http
+_([a-z])
+\s*\/\/.*$
+^(-m|--mode=)
+([^\S\r\n]+|[()[\]{}'"\r\n]|\b)
+\r\n
+(\n|\r\n)
+(\S.+?[.!?])(?=\s+|$)
+([{}:;,]|\s+)
+,([\r\n])
+\r\n|[\n\v\f\r\x85]
+\r\n|[\n\v\f\r\x85]
+\\\\
+@@ -(\d+)(?:,(\d+))? \+(\d+)(?:,(\d+))? @@
+\r\n|[\n\v\f\r\x85]
+\r\n|[\n\v\f\r\x85]
+\n$
+&
+<
+>
+"
+\r\n
+(\\)
+([^\S\r\n]+|[()[\]{}'"\r\n]|\b)
+\r\n
+(\n|\r\n)
+(\S.+?[.!?])(?=\s+|$)
+([{}:;,]|\s+)
+,([\r\n])
+\r\n|[\n\v\f\r\x85]
+\r\n|[\n\v\f\r\x85]
+\\\\
+@@ -(\d+)(?:,(\d+))? \+(\d+)(?:,(\d+))? @@
+\r\n|[\n\v\f\r\x85]
+\r\n|[\n\v\f\r\x85]
+\n$
+&
+<
+>
+"
+\r?\n
+^tag$
+-([a-z])
+^~
+\s+$
+%([a-zA-Z%])
+[\s,]+
+\*
+\.\*\?$
+^-+
+^-{2,}[^-]
+^-[^-]
+^-+
+\s+
+\s+
+^-{2,}$
+^-{1,2}[^-]+
+^-{2,}$
+\W
+firefox\/(\d+)
+applewebkit\/(\d+)
+%[a-zA-Z%]
+(edge|trident)\/(\d+)
+\\
+([{}:;,]|\s+)
+([^\S\r\n]+|[()[\]{}'"\r\n]|\b)
+\r\n
+(\n|\r\n)
+(\S.+?[.!?])(?=\s+|$)
+([{}:;,]|\s+)
+,([\r\n])
+\r\n|[\n\v\f\r\x85]
+\r\n|[\n\v\f\r\x85]
+\\\\
+@@ -(\d+)(?:,(\d+))? \+(\d+)(?:,(\d+))? @@
+\r\n|[\n\v\f\r\x85]
+\r\n|[\n\v\f\r\x85]
+\n$
+&
+<
+>
+"
+\.gitignore$
+\.
+\s+
+\s+
+,?\s*(\d)
+,?\s*(\d)
+,?\s*(V\.|v\.|V|v|Version|version)\s*(\d)
+,?\s*(V\.|v\.|V|v|Version|version)\s*(\d)
+\s*V\s*(\d)
+(\d)$
+(\d)$
+(-| )?(\d)$
+(-| )clause(-| )(\d)
+\b(Modified|New|Revised)(-| )?BSD((-| )License)?
+\bSimplified(-| )?BSD((-| )License)?
+\b(Free|Net)(-| )?BSD((-| )License)?
+\bClear(-| )?BSD((-| )License)?
+\b(Old|Original)(-| )?BSD((-| )License)?
+ (\d)
+ ?International
+ (\d)
+ ?International
+\+$
+\+$
+[/\\]
+(^")|("$)
+(^")|("$)
+\r*\n
+,([\r\n])
+\\
+([^\S\r\n]+|[()[\]{}'"\r\n]|\b)
+\r\n
+(\n|\r\n)
+#.+\n
+\r?\n?$
+[0-9]+
+^\.(\/|$)
+\\
+\\
+\r\n
+^@?
+^@?
+^@?
+^@?
+^@?
+^(0{1,})([1-9]+)$
+^(0{1,})(0)$
+^[a-z0-9]+:\/\/
+(\.ip6\.arpa)?\.$
+:
+:
+^compact$
+^compact|compact$
+compact
+:
+(\.in-addr\.arpa)?\.$
+\s+
+\s+
+\s+
+\s+
+\s+
+@$
+:\d{4}$|[^0-9a-z]
+\s+
+^\.\/
+\\+
+^\.\/|^\.
+^[^/]+\/?
+^@
+^@?([^:]+):(.*)$
+\r\n|[\n\v\f\r\x85]
+\r\n|[\n\v\f\r\x85]
+&
+<
+>
+"
+\r\n|[\n\v\f\r\x85]
+\r\n|[\n\v\f\r\x85]
+\\\\
+@@ -(\d+)(?:,(\d+))? \+(\d+)(?:,(\d+))? @@
+_
+\r?\n
+[/\\]?\.git$
+.
+.
+.
+^\u001b
+\.\.
+,.*\}
+^~
+\n$
+^(#![^\n]+)\r\n
+^v
+\s+at .*aggregate-error\/index.js:\d+:\d+\)?
+^latin[\-_]?(\d+)$
+^win(?:dows)?[\-_]?(\d+)$
+^utf[\-_]?(\d+)$
+^ks_c_5601\-1987$
+^us[\-_]?ascii$
+#! ?
+%s
+[-[\]{}()*+?.,\\^$|#\s]
+\\(.)
+\\
+\\
+\\
+\\
+^!+
+\\
+^~
+\\
+(\S.+?[.!?])(?=\s+|$)
+^[=v]+
+^@
+^file:
+^file:\/\/
+^file:
+^file:\/{1,3}
+^file:
+^git\+ssh:\/\/([^:#]+:[^#]+(?:\.git)?)(?:#(.*))?$
+:[0-9]+\/?.*$
+\\
+^\/+([a-z]:\
+^\/+([a-z]:\
+\/
+\\\/
+"[$]basedir[/]([^"]+?)"\s+[$]args
+"%(?:~dp0|dp0%)\\([^"]+?)"\s+%[*]
+"[$]basedir[/]([^"]+?)"\s+"[$]@"
+\\
+\n
+\\
+\\|:
+\.([0-9]+)(\.gz)?$
+.{1,64}
+\r?\n?$
+[-[\]{}()*+?.,\\^$|#\s]
+\\
+\/+
+\/+
+\n +
+(?!^)_
+[^a-zA-Z0-9]+
+ 
+^\s*```\s*$
+([^\n])\n[ \t]*([^\n])
+([^\n])[ \t]+([^\n])
+\n{3,}
+\n[ \t]+
+\\
+\u200b
+\n +
+[\s\u200b]+
+^\s*
+[-[\]{}()*+?.,\\^$|#\s]
+%s
+^0o?
+\r?\n+
+[a-f0-9]{6}|[a-f0-9]{3}
+#
+\\
+^\W+|\/|\W+$
+^https:\/\/
+=+$
+\/
+\/
+\/
+,
+,
+#
+\/$
+\s+
+[?*()[\]]
+[?*()[\]\\]
+\/
+\\
+\/
+,
+=
+^"|"$
+\s*,\s*
+\s*,\s*
+,
+,
+^\s*W\/
+^\s*W\/
+^\s*W\/
+[^\n\r]+
+\t\n
+^
+^-.*
+^\+.*
+^@@.+@@
+(0+)
+^(0+)
+ +$
+^ *
+\s*$
+[-[\]{}()*+?.,\\^$|#\s]
+\\(.)
+^\[|\]$
+-
+(\\*)"
+(\\*)$
+#.*$
+\[([^\/\\])\]
+((?!\\).|^)\[([^\/\\])\]
+^\[|\]$
+\/?$
+^\/
+^@?
+^@?
+io\.js
+\/+$
+\\
+\\
+[-[\]{}()*+?.,\\^$|#\s]
+\\
+\/+
+\/+
+[^a-zA-Z0-9]+
+ 
+^\s*```\s*$
+([^\n])\n[ \t]*([^\n])
+([^\n])[ \t]+([^\n])
+\n{3,}
+\n[ \t]+
+\\
+\u200b
+\n +
+[\s\u200b]+
+^\s*
+ +$
+^ *
+\s*$
+[\n\r]+
+\^\{\}$
+\s+
+\/head$
+v?(\d+\.\d+\.\d+(?:[-+].+)?)$
+[\uD800-\uDBFF][\uDC00-\uDFFF]|[^\uD800-\uDFFF]
+^v
+#.*
+"
+^\/\*\*package(?:\s|$)
+\*\*\/$
+^\s*\*
+\n
+\\
+^application\/vnd\.dev\.sigstore\.bundle\+json;version=\d\.\d
+^application\/vnd\.dev\.sigstore\.bundle\.v\d\.\d\+json
+^[^\\/]*\/
+\\
+[?*()[\]]
+[?*()[\]\\]
+\/
+\\
+\/
+^_
+^_
+(?:^|\
+(?:^|\
+#
+#
+#
+\n
+(^|\
+\\
+#.*
+'$\s+'
+'
+-
+,\s+
+[/@\s+%:]
+^([^(<]+)
+\(([^()]+)\)
+<([^<>]+)>
+[\n\r\s\t ,]+
+(:?[@\s><=])
+^@
+github.com\/[^/]+\/[^/]+\.git\.git$
+^@[^/]+[/](.*)$
+[.:]
+-.
+^!+
+^\.?\/+
+\\
+[^a-zA-Z0-9]+
+[ !%^&()<>|"]
+[ !%^&()<>|"]
+'
+^(?:'')+(?!$)
+\\'''
+\[([^\/\\])\]
+((?!\\).|^)\[([^\/\\])\]
+\s*,\s*
+[/@\s+%:]
+\\|:
+\r?\n
+^\s*#.*$
+^ref: 
+^ref: 
+^([0-9a-f]{40}) (.+)$
+[\n\r\s\t ,]+
+(:?[@\s><=])
+^@
+^v
+^file:
+#
+^(expresso|mocha|tap|coffee-script|coco|streamline)$
+^\.
+\.
+^node-|[.-]js$
+\s+
+ 
+\r?\n
+^\s*url = 
+^git@github.com:
+^git@github.com:
+[\s,]+
+\.js$
+\.js$
+^\s*url =
+^\s*url =
+\\|:
+\\
+\\
+^.*[\\\/]
+\/
+[[\]\\-]
+[-[\]{}()*+?.,\\^$|#\s]
+^@[^/]+\/
+\/|%2f
+\/|%2f
+\n
+,\s*
+\\+
+\\+
+\w+
+ position\s+(\d+)
+^Unexpected end of JSON.*
+#
+#
+\\
+\\
+\n +
+[ \n]+
+\n
+[[\]\\-]
+[-[\]{}()*+?.,\\^$|#\s]
+-([a-z])
+\r\n
+\{node-version\}
+\{npm-version\}
+\{platform\}
+\{arch\}
+\{workspaces\}
+\{ci\}
+#
+\/+$
+\\
+#
+#
+#
+\+
+\/
+=+$
+[^']
+[^"]
+\n$
+([^\S\r\n]+|[()[\]{}'"\r\n]|\b)
+^(@[^/]+\
+\t
+\t
+\t
+^npm@
+^@[^/]+$
+^v0\.6\.[0-2]|^v0\.5\.
+^[0-9a-fA-F]+$
+([^/]+|\
+^[^@]+@.+\..+$
+^-
+^\d{4}$
+^\.
+^_
+^(?:--depth=|-d)([0-9]+|Infinity)
+^(#|$)
+\\
+\.js$
+\\
+\r\n|\r|\n
+\r\n|\r|\n
+\r\n
+\r\n
+\r?\n
+\s+(\*)
+^lib\..*\.d\.ts$
+\.d\.ts$
+%23
+^#!.*
+^([a-z])\:(.*)
+\\
+\.js$
+^\.\/
+^(([^\/])|([^\/][^\/\.])|([^\/\.][^\/])|([^\/][^\/][^\/]+))\/\.\.\/
+\\
+\n
+(.*):(\d+):(\d+)\)?$
+\r\n|\n
+\r\n|\r|\n
+\/
+\\
+\n
+&lt;
+^([a-z])\:(.*)$
+\\
+\r?\n
+\\
+\/\/# sourceMappingURL=(.*)$
+\n\/\/# sourceMappingURL=(.*)$
+\\
+\n\/\/# sourceMappingURL=(.*)$
+[\/\\]
+\.js$
+^(\d+)-(\d+)$
+^\d+$
+^\/|\/$
+\r\n|\r|\n
+^"|"$
+^"|"$
+^'|'$
+\\
+define\(("[^"]+"),\s*\[(((, )?("|')[^"']+("|'))+)\]
+define\(("[^"]+"),\s*\[(((, )?("|')[^"']+("|'))+)\]
+\r\n|\n|\r
+^define\(
+^define\(
+\.
+\.
+\.
+\{([^}]+)\}
+\.ts$
+\r?\n
+\r?\n
+\s+
+<%=\s*([^\s]+)\s*%>
+^define\(
+\\
+\\
+[^\x00-\xFF]+
+\\
+#
+Web UI available at (.*)
+({\d+})
+export default 
+export declare 
+declare 
+\r\n|\r|\n
+"
+const enum
+\s$
+[\-\\\{\}\*\+\?\|\^\$\.\,\[\]\(\)\#\s]
+\.d\.ts$
+^\/\/dtsv=(\d+)$
+^\s*#include\(([^;)]*)(;[^)]*)?\)\:(.*)$
+,
+^\s*#includeAll\(([^;)]*)(;[^)]*)?\)\:(.*)$
+,
+\bURI\b
+\bEvent<
+\r\n|\n|\r
+\r\n|\n|\r
+\r\n|\n|\r
+\r\n|\n|\r
+\r\n
+\r\n
+\n\/\/# sourceMappingURL=(.*)$
+^extension\/?
+^extension\/?
+\\
+[^\/]+(\/server|\/client)?
+\> (.+): error: (.+)?
+\n
+\r\n?
+\s*disturl\s*\"(.*)\"\s*$
+\s*target\s*\"(.*)\"\s*$
+\\
+\\
+\\
+\\
+\\
+\\
+import ([a-zA-Z0-9]+) = require\(('[^']+')\);
+\r\n|\r|\n
+^(\s*)\/\/ ?
+^(.*).ttf\?(.*)$
+"
+<
+>
+&
+#
+\s+
+url\(\s*([^\)]+)\s*\)?
+\\
+#
+=+$
+-.*$
+\r\n|\r|\n
+\r\n|\r|\n
+\r\n|\r|\n
+^import(.*)\'([^']+)\'
+^export \* from \'([^']+)\'
+\r\n|\r|\n
+\n\n\n+
+monaco\.d\.ts
+README-npm\.md
+\\
+\/\/# sourceMappingURL=[^ ]+$
+\\
+\\
+\\
+.*\.d\.ts$
+\\
+\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$
+https:\/\/registry\.[^.]+\.com\/
+--arch=(.*)
+,\s*([}\]])
+\/
+^(.*\
+-\w+$
+^[=v]+
+%25
+\|
+ \|
+\\\|
+c*$
+\\([\[\]])
+^(\s+)(?:```)
+^\s+
+^ {1,4}
+\n {0,3}((?:=+|-+) *)(?=\n|$)
+^ {0,3}>[ \t]?
+^\t+
+[^ ]
+^ {1,4}(?=( {4})*[^ ])
+[^ ]
+[^ ]
+^\[[ xX]\] +
+\s+
+^<(.*)>$
+^\||\| *$
+\n[ \t]*$
+\s+
+\n
+bull
+blockCode
+fences
+blockquote
+heading
+html
+bull
+tag
+punctuation
+punct
+punct
+punct
+punct
+\{2,\}
+\r\n|\r
+\t
+^( *)(\t+)
+^\S*
+\n$
+[\p{L}\p{N}]
+\n$
+\n$
+\\
+\\
+\?.*
+\s+
+\n
+\t
+\.tsx
+\.tsx
+\/service-worker.js$
+^\?
+^\?
+^bytes\=(\d+)\-(\d+)?$
+^(localhost|127.0.0.1|0.0.0.0):(\d+)$
+\.
+\r\n|\r|\n
+\/\/\/\s*<reference\s*lib="([^"]+)"
+\r\n|\r|\n
+\/\/\/\s*<reference\s*lib="([^"]+)"
+\r\n|\r|\n
+[\\/]
+typescript\/lib\/(.*)
+[^\w]
+(\.js)|(\.d\.ts)|(\.js\.map)$
+^src
+\.ts$
+(\.js)|(\.js\.map)$
+\.js$
+[^\w]
+[^\w]
+^src
+\.ts$
+\.js$
+[^\w]
+\s{2,}
+[^\w]+
+^src
+\.ts$
+\.js$
+\.js$
+import '[^']+\.css';
+\bTPromise\b
+[^\w]
+[^\w]
+\s+
+\s+
+[\\\/]
+[\\\/]
+s$
+'dayjs'
+\.js
+،
+\d
+,
+[١٢٣٤٥٦٧٨٩٠]
+،
+\d
+,
+[১২৩৪৫৬৭৮৯০]
+\d
+\d
+[১২৩৪৫৬৭৮৯০]
+\d
+(\[[^\]]+])|BBBB|BB
+s$
+\[([^\]]+)]|Q|wo|ww|w|WW|W|zzz|z|gggg|GGGG|Do|X|x|k{1,2}|S
+(\[[^\]]+])|(MMMM|MM|DD|dddd)
+(\[[^\]]+])|(LTS?|l{1,4}|L{1,4})
+([+-]|\d\d)
+\d+
+\[|\]
+^\[|\]$
+\d
+(\[[^\]]+])|(MMMM|MM|DD|dddd)
+[!@#$%^&*()]
+\d
+\r\n
+\[[^\]]+\]:.*
+^(#+)
+^(-|1.|\*) 
+\*\*langs: (.*)\*\*(.*)
+ title="(.+)"$
+\[[^\]]+\]:
+\[[^\]]+\]
+\[(\d+)\]
+↵
+[\n↵]
+[ ]+
+[^\w-_]
+\[(.*)\]
+@([\w-]+)\/(.*)
+(@[\w-]+\
+[ :'\-=\[\]\<\>]
+\W+(.)
+\W+$
+playwrightTest\('(.+)',.*{
+browserTest\('(.+)',.*{
+pageTest\('(.+)',.*{
+test\('(.+)',.*{
+it\('(.+)',.*{
+it\(`(.+)`,.*{
+\n\}\);
+ async route => {
+ route => {
+ async \(route, request\) => {
+ \(route, request\) => {
+(server.setRoute.+)\(req, res\) => \{
+([^\\])"
+(\) \=\>.*)'
+''
+(?<!\) \=\>.*)([^\\])'
+SINGLE_QUOTE
+`
+request => requests.push\(request\)
+, ([^,\(]+ \=\> [^\)]+)\)
+page.evaluate\((\(\) => [^\)]+)\)
+const \[(.+)\] = await Promise.all\(\[([^;]+|)\]\);
+await Promise.all\(\[([^;]+|)\]\);
+Promise\.all\(\[
+await 
+context\.tracing
+\.goto\(
+\.continue\(
+\.\$eval\(
+\.\$\$eval\(
+\.\$\(
+\.\$\$\(
+\.keyboard\.
+\.mouse\.
+\.coverage\.
+\.accessibility\.
+\.length
+expect\((.+)\).toBeTruthy\(\);
+expect\(error.message\)\.toContain\((.+)\);
+expect\((.+)\)\.toContain\((.+)\);
+expect\((.+)\)\.toBe\(null\);
+expect\((.+)\)\.not.toBe\(null\);
+expect\((.+\.evaluate.+)\)\.toBe\(true\);
+expect\((.+)\)\.toBe\(true\);
+expect\((.+)\)\.toBe\((.+)\);
+expect\((.+)\)\.toEqual\(\[([^;]+|)\]\);
+(asList\([^\)\']*)'
+expect\((.+)\)\.toEqual\((.+)\);
+(?<!.files)\[(\d+)\]
+\[("[^"]+")\]
+.push\(
+const request = playwright.request.newContext
+const (browser[^\s=]*) = 
+const sizes = 
+const remote = 
+const context = 
+const (page[^\s=]*) = 
+const newPage = 
+const button
+const result = 
+const response = 
+const request = 
+const requests = \[\];
+const snapshot = page.accessibility
+snapshot\.children\.
+const (.+) = \[\];
+const (\w+ = .+evalOnSelector)
+const (\w+ = .+querySelector)
+const messages = \[\]
+const frame = 
+const elementHandle = (.+)
+const (\w+ = \w+\.boundingBox)
+assertEquals\({ x: (\d+), y: (\d+), width: (\d+), height: (\d+) }, box\);
+setViewportSize\({ width: (\d+), height: (\d+) }\)
+\.on\("([^"]+)", 
+page.waitForEvent\("([^"]+)"
+server.waitForRequest
+context.request
+page.request
+playwright.request
+const error = 
+\.catch\(e => e\)[;,]
+(.+)\.catch\(e => error = e\);
+\.spec\.ts$
+<!-- GEN:([^ ]+) -->([^<]*)<!-- GEN:stop -->
+^(.*rv:)(.*)(\).*?)$
+(-(js|python|csharp|java))+
+\s
+playwright-(.*).0-linux.zip
+api-(.*).json
+\[([^\]]+)\]\((\.[^\)]+)\)
+(event|method|property|async method|optional method|optional async method): ([^.]+)\.(.*)
+(param|option): (.*)
+\`
+^`([^`]+)` (.*)
+^(returns): (.*)
+^(type): (.*)
+^(argument): (.*)
+%%-template-[^%]+-%%
+alias-(\w+)[\s]*:(.*)
+\|
+```(\w+)(\s+tab=js-(\w+))?
+tab=js-\w+
+\*\/
+\.
+\r\n
+( +)\n
+[^\w$]
+\\\(
+^\[
+\[`(\w+): ([^\]]+)`\](?:\(([^)]*?)\))?
+\[([\w]+)\](?:\(([^)]*?)\))?
+ lang=([\w\d]+)
+ tab=([\w\d-]+)
+(API|JS|CDP|[A-Z])(.*)
+(.*)#(.*)
+[\"]
+[-]
+\r\n
+const { (\w+) } = require\('playwright'\);
+const \[(.+)\] = await Promise.all\(\[
+Promise\.all\(\[
+await 
+\.goto\(
+\.continue\(
+\.\$eval\(
+\.\$\$eval\(
+\.\$\(
+\.\$\$\(
+console.log
+page.evaluate\((\(\) => [^\)]+)\)
+\.keyboard\.
+\.mouse\.
+\.coverage\.
+\.accessibility\.
+\.chromium\.
+\.webkit\.
+\.firefox\.
+\.length
+expect\((.+)\).toBeTruthy\(\);
+expect\(error.message\)\.toContain\((.+)\);
+expect\((.+)\)\.toContain\((.+)\);
+expect\((.+)\)\.toBe\(null\);
+expect\((.+)\)\.not.toBe\(null\);
+expect\((.+)\)\.toBe\(true\);
+expect\((.+)\)\.toBe\((.+)\);
+expect\((.+)\)\.toEqual\(\[(.+)\]\);
+expect\((.+)\)\.toEqual\((.+)\);
+\[('[^']+')\]
+.push\(
+const browser = 
+const context = 
+const page = 
+const newPage = 
+const button
+const result = 
+const response = 
+const request = 
+const requests = \[\];
+const snapshot = page.accessibility
+snapshot\.children\.
+const (.+) = \[\];
+const (\w+ = .+evalOnSelector)
+const (\w+ = .+querySelector)
+const (.+= page.waitForNavigation)
+const messages = \[\]
+const frame = 
+const elementHandle = (.+)
+const (\w+ = \w+\.boundingBox)
+setViewportSize\({ width: (\d+), height: (\d+) }\)
+\.on\('([^']+)'
+\.waitForEvent\('([^']+)'
+[`']
+const { (\w+) } = require\('playwright'\);
+\$\$eval
+\$eval
+\$\$
+\$
+([a-zA-Z$]+)
+try {
+async \(([^)]+)\) => {
+} catch \(e\) {
+;$
+  
+'
+const 
+{\s*(\w+):\s*([^} ]+)\s*}
+\/\/ 
+\(\) => 
+console.log
+function 
+{$
+await 
+[&]
+↵
+\[([^\]]*)\]\((.*?)\)
+(?<!`)\[(.*?)\]
+`([^`]*)`
+ITimeoutError
+Promise
+new Buffer\(toRead\)
+\s*\t*,\s*\t*
+%20
+\t
+%20
+[-.]
+([a-z])-([a-z])
+^@
+(\r?\n)
+Once$
+ hook$
+^\s*function (\w+)
+[-_]
+([^/\\]+)\.\w+$
+firefox\/(\d+)
+\s+
+\s+
+\s+
+\s+
+[^\w]
+[\t\r\n\f ]+
+^\r?\n
+\?.*$
+"
+firefox\/(\d+)
+[-_]
+([^/\\]+)\.vue$
+<!\--([\s\S]*?)-->
+<!\[CDATA\[([\s\S]*?)]]>
+^\s*
+,$
+\u2028
+\u2029
+\r?\n
+unsafe-eval|CSP
+^\s*
+\n( *(at )?)
+^.*[\\\/]
+\n( *(at )?)
+^.*[\\\/]
+[\\^$.*+?()[\]{}|]
+hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])
+^.*[\\\/]
+^.*[\\\/]
+%s
+%s
+%s
+%s
+^.*[\\\/]
+\s+
+\s+
+%s
+%s
+%s
+\n( *(at )?)
+\n( *(at )?)
+%s
+[=:]
+[=:]
+^\d+\.\d+$
+\n( *(at )?)
+Domain=[^;]+?
+'
+T
+×
+«
+»
+←
+→
+\n
+%(.)
+\{\{t:start\}\}
+\{\{t:end\}\}
+\{\{d:start\}\}
+\{\{d:end\}\}
+(?<!hot-update).js$
+\s([a-zA-Z]+)
+^\s*<!DOCTYPE\s[^<>]+>
+^\s*<\?xml\s[^<>]+\?>
+\r
+\.ts$
+^lang
+export\s+?default
+\/\*([\w\W]*?)\*\/
+((import\s+|from\s+|require\(\s*)["'])\.\/
+([\"\'])zrender\/src\/
+\.ts$
+import\s+type\s+
+export const version = '\S+'
+(export const dependencies = {\s+zrender: ')\S+('\s+})
+:|T|\.|-
+{{ECHARTS_RELEASE_VERSION}}
+{{ECHARTS_RELEASE_VERSION_FULL_NAME}}
+{{ECHARTS_RELEASE_COMMIT}}
+{{VOTE_UNTIL}}
+{{ECHARTS_RELEASE_VERSION}}
+{{ECHARTS_RELEASE_VERSION_FULL_NAME}}
+{{ECHARTS_RELEASE_VERSION}}
+{{ECHARTS_RELEASE_COMMIT}}
+\.png$
+[0-9]
+[0-9]
+Math\.random
+&
+<
+>
+"
+'
+[?&]__RENDERER__=(canvas|svg)(&|$)
+[?&]__USE_COARSE_POINTER__=(true|false|auto)(&|$)
+[?&]__USE_DIRTY_RECT__=(true|false)(&|$)
+[?&]__ECDIST__=(webpack-req-ec|webpack-req-eclibec|webpackold-req-ec|webpackold-req-eclibec)(&|$)
+[?&]__FILTER__=([a-zA-Z0-9_-]*)(&|$)
+^[^?&]*
+^#
+\*\*([^*]+?)\*\*
+\n
+&
+<
+>
+"
+'
+\\
+.json$
+\w+
+\D
+ +
+^#([A-F0-9])([A-F0-9])([A-F0-9])$
+^rgba\(\s*(.+)\s*,\s*(.+)\s*,\s*(.+)\s*\,\s*(.+)\s*\)
+#
+[.]$
+[A-Z]
+\/\/# sourceMappingURL=(.*)\n
+([.^$+?\-\\[\]{}])
+([^\n:]*):([^\n]*)(?:\n|$)
+[|\\{}()[\]^$+?.]
+\\
+\s+
+(?:^|\n)([^\n]*xcodebuild[^\n]*)(?:\n|$)
+[.-]
+^I\/v8\s*\(\d+\):\s+
+^I\/v8\s*\(\d+\):\s+
+\s+
+\\
+\\
+%(\w+)\(
+[Aa]ssert
+\/\/ Flags:\s*(.*)\s*
+\s+
+\.js$
+[-/\\^$+?.()|[\]{}]
+\/\/ META: .+
+\/\/ META: ([^=]+?)=(.+)
+\.js$
+(.{4}(?!$))
+^:|:$
+\/\/ Flags:\s+--
+\s+
+(step |break (?:on start )?)in ([^\n]+):(\d+)\n
+(?:\*|>)?\s*(\d+)
+.*[/\\]
+\.\w+$
+\r
+Debugger listening on ws:\/\/.+:(\d+)\/.+
+WRAP
+\s
+%25
+\|
+ \|
+\\\|
+c*$
+\\([\[\]])
+^(\s+)(?:```)
+^\s+
+^ {1,4}
+^ *> ?
+[^ ]
+^ {1,4}(?=( {4})*[^ ])
+[^ ]
+[^ ]
+^\[[ xX]\] +
+\s+
+^ *|\| *$
+\n$
+\s+
+\n
+bull
+tag
+punctuation
+punct
+punct
+punct
+\{2,\}
+---
+--
+(^|[-\u2014/(\[{"\s])'
+'
+(^|[-\u2014/(\[{\u2018\s])"
+"
+\.{3}
+\r\n|\r
+^ +$
+\n$
+<[!\/a-z].*?>
+[\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,./:;<=>?@[\]^`{|}~]
+(?:[0-9A-Za-z\xAA\xB2\xB3\xB5\xB9\xBA\xBC-\xBE\xC0-\xD6\xD8-\xF6\xF8-\u02C1\u02C6-\u02D1\u02E0-\u02E4\u02EC\u02EE\u0370-\u0374\u0376\u0377\u037A-\u037D\u037F\u0386\u0388-\u038A\u038C\u038E-\u03A1\u03A3-\u03F5\u03F7-\u0481\u048A-\u052F\u0531-\u0556\u0559\u0560-\u0588\u05D0-\u05EA\u05EF-\u05F2\u0620-\u064A\u0660-\u0669\u066E\u066F\u0671-\u06D3\u06D5\u06E5\u06E6\u06EE-\u06FC\u06FF\u0710\u0712-\u072F\u074D-\u07A5\u07B1\u07C0-\u07EA\u07F4\u07F5\u07FA\u0800-\u0815\u081A\u0824\u0828\u0840-\u0858\u0860-\u086A\u08A0-\u08B4\u08B6-\u08C7\u0904-\u0939\u093D\u0950\u0958-\u0961\u0966-\u096F\u0971-\u0980\u0985-\u098C\u098F\u0990\u0993-\u09A8\u09AA-\u09B0\u09B2\u09B6-\u09B9\u09BD\u09CE\u09DC\u09DD\u09DF-\u09E1\u09E6-\u09F1\u09F4-\u09F9\u09FC\u0A05-\u0A0A\u0A0F\u0A10\u0A13-\u0A28\u0A2A-\u0A30\u0A32\u0A33\u0A35\u0A36\u0A38\u0A39\u0A59-\u0A5C\u0A5E\u0A66-\u0A6F\u0A72-\u0A74\u0A85-\u0A8D\u0A8F-\u0A91\u0A93-\u0AA8\u0AAA-\u0AB0\u0AB2\u0AB3\u0AB5-\u0AB9\u0ABD\u0AD0\u0AE0\u0AE1\u0AE6-\u0AEF\u0AF9\u0B05-\u0B0C\u0B0F\u0B10\u0B13-\u0B28\u0B2A-\u0B30\u0B32\u0B33\u0B35-\u0B39\u0B3D\u0B5C\u0B5D\u0B5F-\u0B61\u0B66-\u0B6F\u0B71-\u0B77\u0B83\u0B85-\u0B8A\u0B8E-\u0B90\u0B92-\u0B95\u0B99\u0B9A\u0B9C\u0B9E\u0B9F\u0BA3\u0BA4\u0BA8-\u0BAA\u0BAE-\u0BB9\u0BD0\u0BE6-\u0BF2\u0C05-\u0C0C\u0C0E-\u0C10\u0C12-\u0C28\u0C2A-\u0C39\u0C3D\u0C58-\u0C5A\u0C60\u0C61\u0C66-\u0C6F\u0C78-\u0C7E\u0C80\u0C85-\u0C8C\u0C8E-\u0C90\u0C92-\u0CA8\u0CAA-\u0CB3\u0CB5-\u0CB9\u0CBD\u0CDE\u0CE0\u0CE1\u0CE6-\u0CEF\u0CF1\u0CF2\u0D04-\u0D0C\u0D0E-\u0D10\u0D12-\u0D3A\u0D3D\u0D4E\u0D54-\u0D56\u0D58-\u0D61\u0D66-\u0D78\u0D7A-\u0D7F\u0D85-\u0D96\u0D9A-\u0DB1\u0DB3-\u0DBB\u0DBD\u0DC0-\u0DC6\u0DE6-\u0DEF\u0E01-\u0E30\u0E32\u0E33\u0E40-\u0E46\u0E50-\u0E59\u0E81\u0E82\u0E84\u0E86-\u0E8A\u0E8C-\u0EA3\u0EA5\u0EA7-\u0EB0\u0EB2\u0EB3\u0EBD\u0EC0-\u0EC4\u0EC6\u0ED0-\u0ED9\u0EDC-\u0EDF\u0F00\u0F20-\u0F33\u0F40-\u0F47\u0F49-\u0F6C\u0F88-\u0F8C\u1000-\u102A\u103F-\u1049\u1050-\u1055\u105A-\u105D\u1061\u1065\u1066\u106E-\u1070\u1075-\u1081\u108E\u1090-\u1099\u10A0-\u10C5\u10C7\u10CD\u10D0-\u10FA\u10FC-\u1248\u124A-\u124D\u1250-\u1256\u1258\u125A-\u125D\u1260-\u1288\u128A-\u128D\u1290-\u12B0\u12B2-\u12B5\u12B8-\u12BE\u12C0\u12C2-\u12C5\u12C8-\u12D6\u12D8-\u1310\u1312-\u1315\u1318-\u135A\u1369-\u137C\u1380-\u138F\u13A0-\u13F5\u13F8-\u13FD\u1401-\u166C\u166F-\u167F\u1681-\u169A\u16A0-\u16EA\u16EE-\u16F8\u1700-\u170C\u170E-\u1711\u1720-\u1731\u1740-\u1751\u1760-\u176C\u176E-\u1770\u1780-\u17B3\u17D7\u17DC\u17E0-\u17E9\u17F0-\u17F9\u1810-\u1819\u1820-\u1878\u1880-\u1884\u1887-\u18A8\u18AA\u18B0-\u18F5\u1900-\u191E\u1946-\u196D\u1970-\u1974\u1980-\u19AB\u19B0-\u19C9\u19D0-\u19DA\u1A00-\u1A16\u1A20-\u1A54\u1A80-\u1A89\u1A90-\u1A99\u1AA7\u1B05-\u1B33\u1B45-\u1B4B\u1B50-\u1B59\u1B83-\u1BA0\u1BAE-\u1BE5\u1C00-\u1C23\u1C40-\u1C49\u1C4D-\u1C7D\u1C80-\u1C88\u1C90-\u1CBA\u1CBD-\u1CBF\u1CE9-\u1CEC\u1CEE-\u1CF3\u1CF5\u1CF6\u1CFA\u1D00-\u1DBF\u1E00-\u1F15\u1F18-\u1F1D\u1F20-\u1F45\u1F48-\u1F4D\u1F50-\u1F57\u1F59\u1F5B\u1F5D\u1F5F-\u1F7D\u1F80-\u1FB4\u1FB6-\u1FBC\u1FBE\u1FC2-\u1FC4\u1FC6-\u1FCC\u1FD0-\u1FD3\u1FD6-\u1FDB\u1FE0-\u1FEC\u1FF2-\u1FF4\u1FF6-\u1FFC\u2070\u2071\u2074-\u2079\u207F-\u2089\u2090-\u209C\u2102\u2107\u210A-\u2113\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u212F-\u2139\u213C-\u213F\u2145-\u2149\u214E\u2150-\u2189\u2460-\u249B\u24EA-\u24FF\u2776-\u2793\u2C00-\u2C2E\u2C30-\u2C5E\u2C60-\u2CE4\u2CEB-\u2CEE\u2CF2\u2CF3\u2CFD\u2D00-\u2D25\u2D27\u2D2D\u2D30-\u2D67\u2D6F\u2D80-\u2D96\u2DA0-\u2DA6\u2DA8-\u2DAE\u2DB0-\u2DB6\u2DB8-\u2DBE\u2DC0-\u2DC6\u2DC8-\u2DCE\u2DD0-\u2DD6\u2DD8-\u2DDE\u2E2F\u3005-\u3007\u3021-\u3029\u3031-\u3035\u3038-\u303C\u3041-\u3096\u309D-\u309F\u30A1-\u30FA\u30FC-\u30FF\u3105-\u312F\u3131-\u318E\u3192-\u3195\u31A0-\u31BF\u31F0-\u31FF\u3220-\u3229\u3248-\u324F\u3251-\u325F\u3280-\u3289\u32B1-\u32BF\u3400-\u4DBF\u4E00-\u9FFC\uA000-\uA48C\uA4D0-\uA4FD\uA500-\uA60C\uA610-\uA62B\uA640-\uA66E\uA67F-\uA69D\uA6A0-\uA6EF\uA717-\uA71F\uA722-\uA788\uA78B-\uA7BF\uA7C2-\uA7CA\uA7F5-\uA801\uA803-\uA805\uA807-\uA80A\uA80C-\uA822\uA830-\uA835\uA840-\uA873\uA882-\uA8B3\uA8D0-\uA8D9\uA8F2-\uA8F7\uA8FB\uA8FD\uA8FE\uA900-\uA925\uA930-\uA946\uA960-\uA97C\uA984-\uA9B2\uA9CF-\uA9D9\uA9E0-\uA9E4\uA9E6-\uA9FE\uAA00-\uAA28\uAA40-\uAA42\uAA44-\uAA4B\uAA50-\uAA59\uAA60-\uAA76\uAA7A\uAA7E-\uAAAF\uAAB1\uAAB5\uAAB6\uAAB9-\uAABD\uAAC0\uAAC2\uAADB-\uAADD\uAAE0-\uAAEA\uAAF2-\uAAF4\uAB01-\uAB06\uAB09-\uAB0E\uAB11-\uAB16\uAB20-\uAB26\uAB28-\uAB2E\uAB30-\uAB5A\uAB5C-\uAB69\uAB70-\uABE2\uABF0-\uABF9\uAC00-\uD7A3\uD7B0-\uD7C6\uD7CB-\uD7FB\uF900-\uFA6D\uFA70-\uFAD9\uFB00-\uFB06\uFB13-\uFB17\uFB1D\uFB1F-\uFB28\uFB2A-\uFB36\uFB38-\uFB3C\uFB3E\uFB40\uFB41\uFB43\uFB44\uFB46-\uFBB1\uFBD3-\uFD3D\uFD50-\uFD8F\uFD92-\uFDC7\uFDF0-\uFDFB\uFE70-\uFE74\uFE76-\uFEFC\uFF10-\uFF19\uFF21-\uFF3A\uFF41-\uFF5A\uFF66-\uFFBE\uFFC2-\uFFC7\uFFCA-\uFFCF\uFFD2-\uFFD7\uFFDA-\uFFDC]|\uD800[\uDC00-\uDC0B\uDC0D-\uDC26\uDC28-\uDC3A\uDC3C\uDC3D\uDC3F-\uDC4D\uDC50-\uDC5D\uDC80-\uDCFA\uDD07-\uDD33\uDD40-\uDD78\uDD8A\uDD8B\uDE80-\uDE9C\uDEA0-\uDED0\uDEE1-\uDEFB\uDF00-\uDF23\uDF2D-\uDF4A\uDF50-\uDF75\uDF80-\uDF9D\uDFA0-\uDFC3\uDFC8-\uDFCF\uDFD1-\uDFD5]|\uD801[\uDC00-\uDC9D\uDCA0-\uDCA9\uDCB0-\uDCD3\uDCD8-\uDCFB\uDD00-\uDD27\uDD30-\uDD63\uDE00-\uDF36\uDF40-\uDF55\uDF60-\uDF67]|\uD802[\uDC00-\uDC05\uDC08\uDC0A-\uDC35\uDC37\uDC38\uDC3C\uDC3F-\uDC55\uDC58-\uDC76\uDC79-\uDC9E\uDCA7-\uDCAF\uDCE0-\uDCF2\uDCF4\uDCF5\uDCFB-\uDD1B\uDD20-\uDD39\uDD80-\uDDB7\uDDBC-\uDDCF\uDDD2-\uDE00\uDE10-\uDE13\uDE15-\uDE17\uDE19-\uDE35\uDE40-\uDE48\uDE60-\uDE7E\uDE80-\uDE9F\uDEC0-\uDEC7\uDEC9-\uDEE4\uDEEB-\uDEEF\uDF00-\uDF35\uDF40-\uDF55\uDF58-\uDF72\uDF78-\uDF91\uDFA9-\uDFAF]|\uD803[\uDC00-\uDC48\uDC80-\uDCB2\uDCC0-\uDCF2\uDCFA-\uDD23\uDD30-\uDD39\uDE60-\uDE7E\uDE80-\uDEA9\uDEB0\uDEB1\uDF00-\uDF27\uDF30-\uDF45\uDF51-\uDF54\uDFB0-\uDFCB\uDFE0-\uDFF6]|\uD804[\uDC03-\uDC37\uDC52-\uDC6F\uDC83-\uDCAF\uDCD0-\uDCE8\uDCF0-\uDCF9\uDD03-\uDD26\uDD36-\uDD3F\uDD44\uDD47\uDD50-\uDD72\uDD76\uDD83-\uDDB2\uDDC1-\uDDC4\uDDD0-\uDDDA\uDDDC\uDDE1-\uDDF4\uDE00-\uDE11\uDE13-\uDE2B\uDE80-\uDE86\uDE88\uDE8A-\uDE8D\uDE8F-\uDE9D\uDE9F-\uDEA8\uDEB0-\uDEDE\uDEF0-\uDEF9\uDF05-\uDF0C\uDF0F\uDF10\uDF13-\uDF28\uDF2A-\uDF30\uDF32\uDF33\uDF35-\uDF39\uDF3D\uDF50\uDF5D-\uDF61]|\uD805[\uDC00-\uDC34\uDC47-\uDC4A\uDC50-\uDC59\uDC5F-\uDC61\uDC80-\uDCAF\uDCC4\uDCC5\uDCC7\uDCD0-\uDCD9\uDD80-\uDDAE\uDDD8-\uDDDB\uDE00-\uDE2F\uDE44\uDE50-\uDE59\uDE80-\uDEAA\uDEB8\uDEC0-\uDEC9\uDF00-\uDF1A\uDF30-\uDF3B]|\uD806[\uDC00-\uDC2B\uDCA0-\uDCF2\uDCFF-\uDD06\uDD09\uDD0C-\uDD13\uDD15\uDD16\uDD18-\uDD2F\uDD3F\uDD41\uDD50-\uDD59\uDDA0-\uDDA7\uDDAA-\uDDD0\uDDE1\uDDE3\uDE00\uDE0B-\uDE32\uDE3A\uDE50\uDE5C-\uDE89\uDE9D\uDEC0-\uDEF8]|\uD807[\uDC00-\uDC08\uDC0A-\uDC2E\uDC40\uDC50-\uDC6C\uDC72-\uDC8F\uDD00-\uDD06\uDD08\uDD09\uDD0B-\uDD30\uDD46\uDD50-\uDD59\uDD60-\uDD65\uDD67\uDD68\uDD6A-\uDD89\uDD98\uDDA0-\uDDA9\uDEE0-\uDEF2\uDFB0\uDFC0-\uDFD4]|\uD808[\uDC00-\uDF99]|\uD809[\uDC00-\uDC6E\uDC80-\uDD43]|[\uD80C\uD81C-\uD820\uD822\uD840-\uD868\uD86A-\uD86C\uD86F-\uD872\uD874-\uD879\uD880-\uD883][\uDC00-\uDFFF]|\uD80D[\uDC00-\uDC2E]|\uD811[\uDC00-\uDE46]|\uD81A[\uDC00-\uDE38\uDE40-\uDE5E\uDE60-\uDE69\uDED0-\uDEED\uDF00-\uDF2F\uDF40-\uDF43\uDF50-\uDF59\uDF5B-\uDF61\uDF63-\uDF77\uDF7D-\uDF8F]|\uD81B[\uDE40-\uDE96\uDF00-\uDF4A\uDF50\uDF93-\uDF9F\uDFE0\uDFE1\uDFE3]|\uD821[\uDC00-\uDFF7]|\uD823[\uDC00-\uDCD5\uDD00-\uDD08]|\uD82C[\uDC00-\uDD1E\uDD50-\uDD52\uDD64-\uDD67\uDD70-\uDEFB]|\uD82F[\uDC00-\uDC6A\uDC70-\uDC7C\uDC80-\uDC88\uDC90-\uDC99]|\uD834[\uDEE0-\uDEF3\uDF60-\uDF78]|\uD835[\uDC00-\uDC54\uDC56-\uDC9C\uDC9E\uDC9F\uDCA2\uDCA5\uDCA6\uDCA9-\uDCAC\uDCAE-\uDCB9\uDCBB\uDCBD-\uDCC3\uDCC5-\uDD05\uDD07-\uDD0A\uDD0D-\uDD14\uDD16-\uDD1C\uDD1E-\uDD39\uDD3B-\uDD3E\uDD40-\uDD44\uDD46\uDD4A-\uDD50\uDD52-\uDEA5\uDEA8-\uDEC0\uDEC2-\uDEDA\uDEDC-\uDEFA\uDEFC-\uDF14\uDF16-\uDF34\uDF36-\uDF4E\uDF50-\uDF6E\uDF70-\uDF88\uDF8A-\uDFA8\uDFAA-\uDFC2\uDFC4-\uDFCB\uDFCE-\uDFFF]|\uD838[\uDD00-\uDD2C\uDD37-\uDD3D\uDD40-\uDD49\uDD4E\uDEC0-\uDEEB\uDEF0-\uDEF9]|\uD83A[\uDC00-\uDCC4\uDCC7-\uDCCF\uDD00-\uDD43\uDD4B\uDD50-\uDD59]|\uD83B[\uDC71-\uDCAB\uDCAD-\uDCAF\uDCB1-\uDCB4\uDD01-\uDD2D\uDD2F-\uDD3D\uDE00-\uDE03\uDE05-\uDE1F\uDE21\uDE22\uDE24\uDE27\uDE29-\uDE32\uDE34-\uDE37\uDE39\uDE3B\uDE42\uDE47\uDE49\uDE4B\uDE4D-\uDE4F\uDE51\uDE52\uDE54\uDE57\uDE59\uDE5B\uDE5D\uDE5F\uDE61\uDE62\uDE64\uDE67-\uDE6A\uDE6C-\uDE72\uDE74-\uDE77\uDE79-\uDE7C\uDE7E\uDE80-\uDE89\uDE8B-\uDE9B\uDEA1-\uDEA3\uDEA5-\uDEA9\uDEAB-\uDEBB]|\uD83C[\uDD00-\uDD0C]|\uD83E[\uDFF0-\uDFF9]|\uD869[\uDC00-\uDEDD\uDF00-\uDFFF]|\uD86D[\uDC00-\uDF34\uDF40-\uDFFF]|\uD86E[\uDC00-\uDC1D\uDC20-\uDFFF]|\uD873[\uDC00-\uDEA1\uDEB0-\uDFFF]|\uD87A[\uDC00-\uDFE0]|\uD87E[\uDC00-\uDE1D]|\uD884[\uDC00-\uDF4A])
+\S*
+[4-6]+
+[^ (]*stack\.js
+\\
+\s
+\S
+\n
+\r
+\r
+.*a
+oo
+oo
+\\
+(\w)?X
+\b
+(?=(\w+))\b
+(not?)|(do)|(try)
+(FOUR|TWO) LEGS (GOOD|BAD)
+(\w)?\u1234
+\b
+(?=(\w+))\b
+(not?)|(d\u26aa)|(try)
+(FOUR|TWO) \u817f (GOOD|BAD)
+(.*)
+\b(?=u(p))
+~
+(dead)beef
+(dead)beef
+\n
+at position \d+
+([0-9]+):([0-9]+)
+=*$
+["\\]
+`globalPreload` has been removed; use `initialize` instead
+MODULE_NAME
+FUNC_BODY
+FUNC_NAME
+MODULE_NAME
+FUNC_BODY
+FUNC_NAME
+MODULE_NAME
+FUNC_BODY
+FUNC_NAME
+MODULE_NAME
+FUNC_BODY
+FUNC_NAME
+d
+(abc)def(ghi)
+(a(b(c(d(e)f)g)h)i)
+\\((\\d+)(px)* (\\d+)(px)* (\\d+)(px)* (\\d+)(px)*\\)
+\((\\d+)(px)* (\\d+)(px)* (\\d+)(px)* (\\d+)(px)*\)
+z?
+\\s*
+[^0-9a-z]*
+[^\\d\\.]*
+[^\\d\\.]*
+test
+\\u0062
+\\d
+\\d
+test
+\\d
+x
+(te)(st)
+\\+
+a
+^notHere
+^abc
+(^|X)abc
+^longer|123
+(^abc|c)123
+(c|^abc)123
+(^ab|abc)123
+(bc|^abc)([0-9]*)a
+__Z[\w\d_]+
+^win
+^ +| +$
+__Z[\w\d_]+
+^win
+^ +| +$
+=
+E
+S
+=
+E
+S
+<((\\/([^>]+)>)|(([^>]+)>))
+<((ABC>)|(\\/([^>]+)>)|(([^>]+)>))
+<(a|\\/p|.+?)>
+<((\\/([^>]+)>)|((([^>])+)>))
+<((ABC>)|(\\/([^>]+)>)|((([^>])+)>))
+<(a|\\/p|(.)+?)>
+<((\\/([^>]+)>)|(([^>]+)>))\\5
+<((ABC>)|(\\/([^>]+)>)|(([^>]+)>))\\6
+<(a|\\/p|.+?)>\\1
+;
+__Z[\w\d_]+
+^win
+^ +| +$
+__Z[\w\d_]+
+^win
+^ +| +$
+__Z[\w\d_]+
+^win
+^ +| +$
+__Z[\w\d_]+
+^win
+^ +| +$
+\/
+\r?\n
+[}],[{]
+x
+^(.*)
+^(.*)
+aabab
+\s
+__Z[\w\d_]+
+^win
+^ +| +$
+__Z[\w\d_]+
+^win
+^ +| +$
+__Z[\w\d_]+
+^win
+^ +| +$
+__Z[\w\d_]+
+^win
+^ +| +$
+>> 2
+\d+
+a
+a.
+a.
+a
+a.
+a
+a
+\b\w+\b
+\b\w+\b
+b
+^|X
+\r\n|\r|\n
+(.)\1
+(.)\1
+MODULE_TYPELESS_PACKAGE_JSON
+__Z[\w\d_]+
+^win
+^ +| +$
+__Z[\w\d_]+
+^win
+^ +| +$
+_0
+__Z[\w\d_]+
+^win
+^ +| +$
+\s
+a
+__Z[\w\d_]+
+^win
+^ +| +$
+<a[^>]*>
+\0
+^\s*at (@?(?:new )?[a-zA-Z0-9_\.\[\]]+)(.*)
+\\
+"
+([\ud800-\udbff])(?![\udc00-\udfff])
+(^|[^\ud800-\udbff])([\udc00-\udfff])
+\s
+\&
+<
+"
+'
+[-\/\\^$*+?.()|[\]{}]
+^(.*\/|)testharness\.js$
+a
+b
+x(?<=^x{3})
+x(?<=^x{4})
+x(?<=^x{7})
+x(?<=^x{17})
+__Z[\w\d_]+
+^win
+^ +| +$
+[^\x00-\x7F]
+(?<name>\S+)\s+\S+\s+\S+\s+(?<count>\S+)
+[a-z]
+[\u1234a-z]
+[a-z]
+[\u1234a-z]
+[a-z]
+[\u1234a-z]
+foo
+\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})
+__Z[\w\d_]+
+^win
+^ +| +$
+>> 2
+Break (\d)
+L
+l
+T
+\.
+,
+NAME
+(_)|(_|)
+(_)|(_|)
+((\\)|(\*)|(\$))
+[\u1234]
+\/\/ Break (\w)$
+\\d
+[^\x00-\x7F]
+\((').*\1\)
+\\.
+\/\/ (\w)$
+a
+a.
+\\
+[^\x00-\x7F]
+MODULE
+LIMIT
+[a-zA-Z]+
+^abc
+^abc
+(^|X)abc
+(^|X)abc
+(^a|Xa)bc
+[ \t\r\n]+
+"
+\\
+\\x0d\\x0a
+[^\0-\x7F]
+[\/\\]
+\r\n?|\n
+[\r\n"]
+[\r\n"]
+\r\n
+\n
+\/
+[ \t\r\n]+
+[ \t\r\n]+
+\(
+^yyy\/
+^xxx\/
+[.]el
+el:
+[.]arr
+arr:
+[.]del
+[.]darr
+"
+"
+\r\n?|\n
+[\r\n"]
+[\r\n"]
+\n
+\n
+.
+a
+%1B%28%42$
+%
+[\s]+
+=
+a
+=
+=
+=
+([^ ]+) *(.*)
+^-
+^
+[\n]\s+
+^--
+^-
+^no-
+[ |,]+
+([^ ]+) *(.*)
+ +
+^--no-
+^(--inspect(-brk)?)$
+^(--inspect(-brk|-port)?)=([^:]+)$
+^(--inspect(-brk|-port)?)=([^:]+):(\d+)$
+.
+[a-z]{0,1}
+[a-z]{0,1}
+[\W_]
+[\W]
+[\Wa]
+[\u00A0-\u0180]
+a*?
+a*
+a*?
+a*
+((?=.))
+((?=.))
+(?=)
+,
+,
+,
+,
+,
+,
+,
+,
+<(\
+x*
+x+
+x
+(?=[#.])
+(?=[d#.])
+(?=.)
+(?=)
+.
+.?
+.??
+()()
+b
+b
+z
+abc
+foo
+x
+=
+\\=
+(x)?\1y
+(x)?y
+(x)?\1y
+(x)?\1y
+(x)?y
+(x)?\1y
+(x)?\1y
+(x)?y
+(x)?\1y
+(x)?y
+(x)?y
+((a|i|A|I|u|o|U|O)(s|c|b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z|B|C|D|F|G|H|J|K|L|M|N|P|Q|R|S|T|V|W|X|Y|Z)*) de\/da([.,!?\s]|$)
+[\r\n]+
+[\r\n]+
+[\r\n]+
+libc\.so.+=>\s*(\S+)\s
+b
+b
+(b)(c)
+(b)(c)
+(ba.).*?f
+^|bar
+^|bar
+å{1,1}prune
+å{0,0}prune
+hello
+a
+.*
+\x60
+\xAB
+resolve passthru
+.*(200\d)
+\0
+(?:)
+(?:)
+[\\uD7FF]
+[\\uD800]
+[\\uDFFF]
+[\\uE000]
+[\\uFDBF]
+[\\uFDD0]
+[\\uFDEF]
+[\\uFDF0]
+[\\uFEFF]
+[\\uFEFF]
+[\\uFFFE]
+[\\uFFFF]
+[\\u10FFFF]
+[\\u110000]
+(?:(?=(f)o))?f
+(?=(f)o)?f
+(?:(?=(f)o)f)?o
+(?:(?=(f)o)f?)?o
+(?:(?=(f)o)f??)?o
+(?:(?=(f)o)f??)?.
+(?:(?=(f)o)fx)?.
+resolve foo
+require\(\) of ES Module
+require\(\) of ES Module
+a
+Now (\w+) the
+( )
+%d
+%d
+%d
+%d
+%d
+%d
+%d
+%d
+%d
+%d
+%d
+%d
+(?=(abcdefghijklmn))(?<=\1)a
+(?=(abcdefghijklmn))(?<=\1)a
+(?=(abcdefg))(?<=\1)
+^.(?<=a)
+^.(?<=a)
+^f..(?<=.oo)
+^f\w\w(?<=\woo)
+^f\w\w(?<=\woo)
+^f\w\w(?<=\woo)
+^f\w\w(?<=\woo)
+(?<=abc)\w\w\w
+(?<=a.c)\w\w\w
+(?<=a\wc)\w\w\w
+(?<=a[a-z])\w\w\w
+(?<=a[a-z][a-z])\w\w\w
+(?<=a[a-z]{2})\w\w\w
+(?<=a{1})\w\w\w
+(?<=a{1}b{1})\w\w\w
+(?<=a{1}[a-z]{2})\w\w\w
+(?<=[a|b|c]*)[^a|b|c]{3}
+(?<=\w*)[^a|b|c]{3}
+(?<=^abc)def
+(?<=^[a-c]{3})def
+(?<=^[a-c]{6})def
+(?<=^[a-c]{3})def
+(?<=^)\w+
+\w+(?<=$)
+(?<=^)\w+(?<=$)
+(?<=^[^a-c]{3})def
+"^foooo(?<=^o+)$
+"^foooo(?<=^o*)$
+^foo(?<=^fo+)$
+^foooo(?<=^fo*)
+^(f)oo(?<=^\1o+)$
+^(f)oo(?<=^\1o+)$
+^(f)oo(?<=^\1o+).$
+(?<=^\w+)def
+(?<=^\w+)def
+(?<=\b)[d-f]{3}
+(?<=\B)\w{3}
+(?<=\B)(?<=c(?<=\w))\w{3}
+(?<=\b)[d-f]{3}
+(?<!abc)\w\w\w
+(?<!a.c)\w\w\w
+(?<!a\wc)\w\w\w
+(?<!a[a-z])\w\w\w
+(?<!a[a-z]{2})\w\w\w
+(?<!abc)def
+(?<!a.c)def
+(?<!a\wc)def
+(?<!a[a-z][a-z])def
+(?<!a[a-z]{2})def
+(?<!a{1}b{1})cde
+(?<!a{1}[a-z]{2})def
+(?<=(c))def
+(?<=(\w{2}))def
+(?<=(\w(\w)))def
+(?<=(\w){3})def
+(?<=(bc)|(cd)).
+(?<=([ab]{1,2})\D|(abc))\w
+\D(?<=([ab]+))(\w)
+(?<=b|c)\w
+(?<=[b-e])\w{2}
+(?<!(^|[ab]))\w{2}
+(?<=ab(?=c)\wd)\w\w
+(?<=a(?=([^a]{2})d)\w{3})\w\w
+(?<=a(?=([bc]{2}(?<!a{2}))d)\w{3})\w\w
+(?<=a(?=([bc]{2}(?<!a*))d)\w{3})\w\w
+^faaao?(?<=^f[oa]+(?=o))
+(.)(?<=(\1\1))
+(.)(?<=(\1\1))
+((\w)\w)(?<=\1\2\1)
+(\w(\w))(?<=\1\2\1)
+(?=(\w))(?<=(\1)).
+(?<=(.))(\w+)(?=\1)
+(?<=(.))(\w+)(?=\1)
+(?<=(.))(\w+)(?=\1)
+(.)(?<=\1\1\1)
+(.)(?<=\1\1\1)
+(.)(?<=\1\1\1)
+(..)(?<=\1\1\1)
+(..)(?<=\1\1\1)
+(..)(?<=\1\1\1)
+(..)(?<=\1\1\1)
+(..)(?<=\1\1\1)
+(..)(?<=\1\1\1)
+(..)(?<=\1\1\1)
+(?<=\1(\w))d
+(?<=\1([abx]))d
+(?<=\1(\w+))c
+(?<=\1(\w+))c
+(?<=\1(\w+))c
+(?<=(\w+)\1)c
+.*(?<=(..|...|....))(.*)
+.*(?<=(xx|...|....))(.*)
+.*(?<=(xx|...))(.*)
+.*(?<=(xx|xxx))(.*)
+(?<=([abc]+)).\1
+(?<=(b+))c
+(?<=(b\d+))c
+(?<=((?:b\d{2})+))c
+(?<=$abc)def
+^foo(?<=foo)$
+^f.o(?<=foo)$
+^f.o(?<=foo)$
+^foo(?<!foo)$
+^f.o(?<!foo)$
+^f.o(?<!foo)$
+^foooo(?<=fo+)$
+^foooo(?<=fo*)$
+(b)
+(b)
+a
+(b)
+(?:(?=a)b){5}abcde
+[\u0001-\uFFFF]
+(A{9999999999}B|C*)*D
+(A{9999999999}B|C*)*D
+(9u|(2\`shj{2147483649,}\r|3|f|y|3*)+8\B)\W93+
+(9u|(2\`shj{2147483649,}\r|3|f|y|3*)+8\B)\W93+
+\u00C5
+\u00C5
+\u00E5
+\u00C5
+\u00E5
+\u00C5
+\u00E5
+\u00C5
+\[object .+Array\]
+\[object .+Array\]
+(z(?=.)){2}
+a(?=b|c)
+a(?=c|b)|d
+bar
+(\\n)[^\\n]+$
+:([0-9]+):
+a
+(b)
+a.
+a.
+a
+a.
+(?<a>a)
+(?<a42>a)
+(?<_>a)
+(?<$>a)
+.(?<$>a).
+.(?<a>a)(.)
+.(?<a>a)(?<b>.)
+.(?<a>\w\w)
+(?<a>\w\w\w)
+(?<a>\w\w)(?<b>\w)
+(?<a>a)
+(?<a42>a)
+(?<_>a)
+(?<$>a)
+.(?<$>a).
+.(?<a>a)(.)
+.(?<a>a)(?<b>.)
+.(?<a>\w\w)
+(?<a>\w\w\w)
+(?<a>\w\w)(?<b>\w)
+(a)
+(a)
+(a)
+(a)
+.(a).
+.(a)(.)
+.(a)(.)
+.(\w\w)
+(\w\w\w)
+(\w\w)(\w)
+(?<b>b).\1
+(.)(?<a>a)\1\2
+(.)(?<a>a)(?<b>\1)(\2)
+(?<lt><)a
+(?<gt>>)a
+(?<a>.(?<b>.(?<c>.)))
+(?<a>.(?<b>.(?<c>.)))
+(?<a>\k<a>\w)..
+(?<a>\k<a>\w)..
+\k<a>(?<a>b)\w\k<a>
+\k<a>(?<a>b)\w\k<a>
+(?<b>b)\k<a>(?<a>a)\k<b>
+(?<b>b)\k<a>(?<a>a)\k<b>
+\k<a>(?<a>b)\w\k<a>
+(?<b>b)\k<a>(?<a>a)\k<b>
+(?<=(?<a>\w){3})f
+(?<=(?<a>\w){3})f
+(?<=(?<a>\w){4})f
+(?<=(?<a>\w)+)f
+(?<=(?<a>\w){6})f
+((?<=\w{3}))f
+(?<a>(?<=\w{3}))f
+(?<!(?<a>\d){3})f
+(?<!(?<a>\D){3})f
+(?<!(?<a>\D){3})f|f
+(?<a>(?<!\D{3}))f|f
+(.)(.)
+(.)|(.)
+(?<fst>.)(?<snd>.)
+(?<fst>.)|(?<snd>.)
+(?<fst>.)(?<snd>.)
+(?<fst>.)|(?<snd>.)
+\k<a>
+\k<a
+(?<b>.).\k<b>
+(?<b>.).\k<b>
+at (?:(.*) )?.*$
+a
+a
+\\xa0*
+\\xa0+
+\\xa0*$
+.
+.?
+.??
+a*
+a*?
+(?:ab)
+(?:ab)*
+(?:ab)*?
+(?:)
+(?:)
+(?:)
+(?:)
+(?:)
+(?:)
+(?:)
+(?:)
+-
+-?
+-??
+a
+a?
+a??
+-
+-?
+-??
+-
+-?
+-??
+-
+-?
+-??
+()()
+()()
+(.?)(.?)
+(.??)(.??)
+(.)?(.)?
+(s)*
+(s)*?
+(s*)
+(s*?)
+(?:s)*
+(?=s+)
+t
+es
+(t)
+(es)
+(t)(e)(s)(t)
+(((.((.??)))))
+(((((.??)))))
+s
+s+
+s+
+(x)?\\1y
+(x)?y
+(x)?\\1y
+(x)?\\1y
+(x)?y
+(x)?\\1y
+(x)?\\1y
+(x)?y
+(x)?\\1y
+(x)?y
+(x)?y
+-
+-
+(-)
+(a)|(b)
+(a)??
+(a)??
+(a)??b
+(a+)??b
+(a)??(b+)??c
+(a)??(b)??c
+(a(b)??)??c
+(a(b)??)??c
+(?<a>x)|(?<a>y)
+(?<a>y)|(?<a>x)
+(?<a>x)|(?<a>y)
+(?<a>y)|(?<a>x)
+(?:(?:(?<a>x)|(?<a>y))\k<a>)
+(?:(?:(?<a>x)|(?<a>y))\k<a>)
+(?:(?:(?<a>x)|(?<a>y))\k<a>)
+(?:(?:(?<a>x)|(?<a>y))\k<a>){2}
+(?:(?:(?<a>x)|(?<a>y)|(a)|(?<b>b)|(?<a>z))\k<a>){3}
+(?:(?:(?<a>x)|(?<a>y))\k<a>)
+(?:(?:(?<a>x)|(?<a>y)|(a)|(?<b>b)|(?<a>z))\k<a>)
+\/\/ (.*$)
+[xy]
+u
+\/\/ (.*$)
+a
+\/\/ (.*$)
+a
+a
+a
+(a)*
+Y{1,4}
+M{1,2}
+Y{1,4}
+(?:(?=(f)o)fx|).
+🍤
+🍤|🍦
+🍤|🍦|🍋
+🍤|🍦|π|🍋
+c
+c
+\W\W
+c
+c
+[a-z]+
+\s
+\S
+\s
+\S
+(?:)
+\n
+\x1B.*?m
+\|
+\n
+\r
+\[
+\]
+\u0085
+\u2028
+\u2029
+'
+\n
+[&<>"'`=]
+(\/extensions\/.*\.js)
+%([^%]+)%
+<lora:([^:]+:[^>]+)>
+[.*+?^${}()|[\]\\]
+_+$
+\.json$
+[018]
+[/][/].*$
+\s+
+[/][*][^/*]*[*][/]
+^[^(]*[(]
+=[^,]+
+\((.*):(\d+(?:\.\d+)?)\)
+\/\*[\s\S]*?\*\/|\/\/.*
+\0+$
+(PointerCapture)$|Capture$
+[\s,'".?]
+[0-9]
+[A-Za-z]
+\/+$
+\/+$
+[\s\,]
+%23
+^#!.*
+^\.\/
+[\\`*_{}[\]()#+\-.!]
+\{(\d+)\}
+([^\n\r])(\r?\n)([^\n\r])
+[\\`*_{}[\]()#+\-.!]
+[\n]
+[\n]
+\t+|\r+|\n+| +
+__id__
+[\\`*_{}[\]()#+\-.!]
+[\\`*_{}[\]()#+\-.!]
+[\\`*_{}[\]()#+\-.!]
+[\\`*_{}[\]()#+\-.!]
+[\\`*_{}[\]()#+\-.!]
+[\\`*_{}[\]()#+\-.!]
+ 
+-
+[T:-]
+\\
+%
+^\[[^\]]+\]:?\s*
+^([^:]*:)
+&
+\n
+-
+^file:\/\/(localhost)?
+^([^:]+:)?\/\/([^:\/]+)(:\d*)?\/
+^\/+
+^\/+
+\burl\s*\(([^)]*)\)
+(\?|&)livereload=(\d+)
+LR-verbose
+stylesheet
+^!!ver:([\d.]+)$
+^[^:]+:\/\/(.*)\/z?livereload\.js(?:\?(.*))?$
+^([^\/:]+)(?::(\d+))?$
+\.css$
+\.(jpe?g|png|gif)$
+\.less$
+\.less$
+^LiveReloadPlugin
+[\t\n\r]
+^\+|\s*
+\\(\d+)
+\=\s*([^'"\]]*)\s*\]
+\s
+\s
+\s
+^validate
+\r
+\s
+\D
+,
+\.
+\[\]
+-?[^\p{Uppercase_Letter}\p{Lowercase_Letter}\d]+
+\n([^\n])
+\n([^\n])
+\n([^\n])
+\|
+(!|^)[^!]*$
+\s+-\s+
+(?<=[-0-9A-Za-z])\s+
+\s*\|\|\s*
+^\((.+)\)$
+^\\((.+)\\)$
+\\
+(^|\
+(^|\
+[\\/]?\*.*$
+\*\/
+\s+\n
+^(\.\.?\
+[/\\][^/\\]*$
+!
+\[index\]
+\\
+\\
+\\
+^www\.
+\.
+\.
+"
+\\
+\\
+\d+\/\d+ 
+\.[mc]?js(\?|$)
+\.[mc]?js(\?|$)
+[^a-zA-Z0-9\-#=_/@.%]+
+(^|\
+\0(.)
+\0(.)
+\0(.)
+\0(.)
+[\\/]$
+[/\\]+
+\n
+\n
+-+(\w)
+^[_.\- ]+
+[_.\- ]+([\p{Alpha}\p{N}_]|$)
+\d+([\p{Alpha}\p{N}_]|$)
+\r?\n
+[\r?\n]*$
+\u2028|\u2029
+[\\']
+!+
+Can't resolve '([^']+)'
+(^[.-]|[^a-zA-Z0-9_-])+
+(^[.-]|[^a-zA-Z0-9_-])+
+^data:([^;,]+)
+\\
+^\.\/
+!+$
+!!+
+\\
+node_modules
+(\\\/|\\\\)
+[-[\]{}()*+?.,\\^$|#\s]
+[-[\]{}()*+?.,\\^$|#\s]
+[-[\]{}()*+?.,\\^$|#\s]
+\r\n
+\r
+\[webpack-cli\].+\n
+\.chunkhash\.
+[\r\n]*$
+^[^a-zA-Z0-9]+|[^a-zA-Z0-9]+$
+[^a-zA-Z0-9._-]+
+\r\n
+[-[\]{}()*+?.,\\^$|#\s]
+debug-digest-([a-f0-9]+)
+\*\/
+%2F
+%20
+%5E
+%5C
+^\/
+\\
+'
+function\(([^)]+)\)
+^.*!|\?[^?!]*$
+[-[\]\\/{}()*+?.^$|]
+\\
+%(2F|3A|24|26|2B|2C|3B|3D)
+[-[\]{}()*+?.\\^$|]
+^_
+^_
+^\/+
+^\/+
+[\n\t ()'"\\]
+[\n"\\]
+[\n'\\]
+[-[\]{}()*+?.\\^$|]
+[-[\]\\/{}()*+?.^$|]
+\|
+[/\\]
+[/\\]
+^(\s|\S)*!
+\n([^\n])
+^\n+
+XXX
+\$
+YYY
+[?#].*
+\\
+\\
+\$key\$
+\$installedChunks\$
+\$loadUpdateChunk\$
+\$moduleCache\$
+\$moduleFactories\$
+\$hasOwnProperty\$
+\$hmrModuleData\$
+#.*$
+^\/+
+^\/+
+[-[\]\\/{}()*+?.^$|]
+\$key\$
+\$installedChunks\$
+\$loadUpdateChunk\$
+\$moduleCache\$
+\$moduleFactories\$
+\$hasOwnProperty\$
+\$hmrModuleData\$
+\$getFullHash\$
+\$moduleCache\$
+\$hmrModuleData\$
+\$hmrDownloadManifest\$
+\$key\$
+\$installedChunks\$
+\$loadUpdateChunk\$
+\$moduleCache\$
+\$moduleFactories\$
+\$hasOwnProperty\$
+\$hmrModuleData\$
+^\d+
+\/
+[^A-Za-z0-9_]+
+\[local\]
+\[uniqueName\]
+\$key\$
+\$installedChunks\$
+\$loadUpdateChunk\$
+\$moduleCache\$
+\$moduleFactories\$
+\$hasOwnProperty\$
+\$hmrModuleData\$
+\\
+\\
+\\
+\s+at .*aggregate-error\/index.js:\d+:\d+\)?
+[|\\{}()[\]^$+*?.]
+\u001B\[1m\u001B\[([0-9;]*)m
+\u001B\[1m
+\u001B\[39m\u001B\[22m
+\u001B\[([0-9;]*)m
+[\d.]+ ms
+[\d.]+ ms
+[\d.]+ ms
+[\d.]+ ms
+object \{ .* \}
+"none" \| .+
+[-[\]\\/{}()*+?.^$|]
+\\
+\\\\
+@@ -\d+,\d+ \+\d+,\d+ @@
+\r
+[.*+?^${}()|[\]\\]
+^https:\/\/test\.cases\/path\/
+^https:\/\/example\.com\/
+@import url\("([^"]+)"\);
+^https:\/\/test\.cases\/path\/
+^https:\/\/test\.cases\/path\/
+^https:\/\/example\.com\/public\/path\/
+^https:\/\/example\.com\/
+@import url\("([^"]+)"\);
+^https:\/\/test\.cases\/path\/
+\d+
+\w+
+\n\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$
+[-[\]\\/{}()*+?.^$|]
+\r
+\u001B\[[0-9;]*m
+[.0-9]+(\s?ms)
+\u001B\[1m\u001B\[([0-9;]*)m
+\u001B\[1m
+\u001B\[39m\u001B\[22m
+\u001B\[([0-9;]*)m
+[.0-9]+(<\/CLR>)?(\s?ms)
+\r\n?
+webpack [^ )]+(\)?) compiled
+(\w)\\(\w)
+, additional resolving: X ms
+Unexpected identifier '.+?'
+[.0-9]+(\s?(bytes|KiB))
+\r
+[A-Z]
+---+\r?\n
+(\d+)
+(\d+)
+\*
+\*
+\\
+\u2028
+\u2029
+\u2028
+\u2029
+\u2028
+\u2029
+\r\n?
+color: ([a-z0-9])
+^.*[\\/]
+^.*[\\/]
+XXX
+\*
+\*
+\\
+XXX
+\r\n?
+\?.*$
+\r\n?
+[-[\]\\/{}()*+?.^$|]
+test
+^\d+\.
+\s+
+\.\/nested\/
+\.\/nested\/
+\.scss
+([b-d]+)\.js$
+^\/+
+^\/+
+[?#]
+~
+~
+~
+~
+~
+~
+\\
+\s+at .*aggregate-error\/index.js:\d+:\d+\)?
+[|\\{}()[\]^$+*?.]
+^var (\w+)
+[,+]
+black
+white
+^WebGL GLSL ES ([0-9]\.[0-9][0-9]?)(?:$| .*)
+\\
+[?#].*
+[^a-zA-Z0-9_]
+^Error(:[^\n]*)?\n
+%%
+^WebGL GLSL ES ([0-9]\.[0-9][0-9]?)(?:$| .*)
+\\
+[?#].*
+[^a-zA-Z0-9_]
+^Error(:[^\n]*)?\n
+%%
+\s+
+\\
+\s+
+\s+
+\s+
+^\[object\s(.*)\]$
+\\n
+%\(\w+\)s
+%s
+[.\-/]
+[.\-/]
+[^-\w\s]
+^\s+|\s+$
+[-\s]+
+-+$
+(#\d+)
+\s+
+^edit_
+^delete_
+%\(\w+\)s
+%s
+[- _]+
+([\s\S])(?=[\s\S]*\1)
+^\(\?([\w$]+)\)
+(?:\(\?:\))+
+firefox\/(\d+)
+Edge\/(\d+)
+Chrome\/(\d+)
+AppleWebKit\/(\d+)\.
+[&<>"'\/\\]
+[^\u0000-\u007E]
+-([a-z])
+(:|\.|\[|\]|,)
+\s
+\s+
+\s+
+\D
+([\s\S])(?=[\s\S]*\1)
+[- _]+
+[&<>"'\/\\]
+__prefix__
+[^A-Za-z0-9]
+,
+\/$
+<
+^@
+BLANK
+\s+
+[\\W_]
+^\/challenges
+\.js$
+\.js$
+[^\w\u0080-\uFFFF]
+^\s*'|'\s*$
+^(.*?)[\r\n]
+[\x00-\x7f]
+\/|\\
+\s*:?\s*$
+.
+ 
+hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])
+^[a-zA-Z][a-zA-Z0-9_]+$
+\.js$
+\.js$
+\\
+\W
+(\.(android|ios|native))?\.js$
+_(.*)
+=
+tcp:\/\/
+DNS:|IP Address:
+(.{2})(?!$)
+<[^>]*>?|[\n\r]|\s+
+(git checkout )([^\s]+)
+<[^>]+>
+^::ffff:
+^::ffff:
+(git checkout )([^\s]+)
+^([\d\.,]+)\s?(\w+)$
+s$
+[^\x00-\x7F]
+\/+$
+\s
+[^\x00-\x7F]
+-
+\s
+\/*$
+\n
+[^\x00-\x7F]
+[^\x00-\x7F]
+[^\x00-\x7F]
+[^\x00-\x7F]
+^NTLM\s+(.+?)(,|\s+|$)
+[!*'()]
+[^\x00-\x7F]
+[^\x00-\x7F]
+[^\x00-\x7F]
+\/*$
+^[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*$
+\.(m)?js$
+[$()*+.?[\\\]^{|}]
+GMT
+[^a-z]+
+\\
+[^a-zA-Z0-9_]
+^Error(:[^\n]*)?\n
+\\
+\n
+Would remove (.*)$
+node_modules
+dist
+ts3\.4
+\.cache
+dll
+%s
+\/|\.|\|
+[|.]
+\u2028
+\u2029
+\(\#\d+\)
+^zone\.js-
+^\.?\/
+%
+%
+:.*$
+[\\]
+[/]
+[/\\]
+ 
+-preview
+^\W+|\W+$
+(%[0-9A-Fa-f]{2})
+%5B
+[!'()*]
+,
+\/$
+:([a-z]\w+)
+,
+[\w-]+(?=-preview)
+\bclient_secret=\w+
+<([^>]+)>; rel="deprecation"
+\.
+\.
+^(token|bearer) +
+ 
+^[=v]+
+\s+
+\s+
+\s+
+\s+
+\s+
+ 
+\\
+\.d\.ts$
+\.xmb$
+messagebundle
+<translationbundle>
+\bmsg\b
+Hello
+<source>.*<\/source>
+source>
+Hello
+source-language="([^"]+)"
+_expected.(ts)$
+\r?\n
+\\
+^(\.\.\
+\r?\n
+^(\/[^/]+)?\/api-docs\/(.*)
+\.
+\r?\n
+\s
+\\
+\\
+^docs\/src\/pages\/
+\/
+\/
+\/
+\/
+\/
+\.js$
+\.js$
+\/
+\\
+packages(?:\\|\
+^[A-Z]
+^(\[[\w-]+\])+
+([\w-]+)
+^(use|Unstable_)?(.*?)(Unstyled)?$
+^(use|Unstable)?(.*?)(es|s)?$
+-
+^\/
+\/$
+^\.\/(.*)\.(js|tsx)$
+<\/?[^>]+(>|$)
+=&gt;|&lt;| \/&gt;|<code>|<\/code>|&#39;
+[!@#$%^&*()=_+[\]{}`~;:'"|,.<>/?\s]+
+-+
+^-|-$
+^.*\/pages
+^\/index$
+\/index$
+-
+-
+\.tsx?$
+^\s*\/\/ @ts-ignore.*$
+\\
+'.*\?muiMarkdown'
+(.*)
+'
+,\s+\]$
+^'|'$
+^{{("(?:demo|component)":.*)}}$
+^(<codeblock.*?<\/codeblock>)$
+^(<featureList.*?<\/featureList>)$
+`
+`
+(\r?\n){2}
+\r?\n
+<a\b[^>]*>
+<code\b[^>]*>
+([^\s]\()
+\n$
+:::
+^<codeblock [^>]*storageKey=["|'](\S*)["|'].*>
+\S*
+title="([^"]*)"
+'
+(Outlined|TwoTone|Rounded|Sharp)$
+^\s+
+(.+?)(\w+)\.\w+$$
+\.js$
+\/system\/index\.js$
+\/system\/index\.js$
+\/system\/index\.js$
+\/system\/index\.js$
+\.(.*)$
+\n$
+\.js$
+(.*)\/(.*)\.md
+\.(js|tsx)$
+github\.com\/(.*)\/pull\/(.*)
+-([a-z])
+([A-Z])
+\/([a-z-]+)\.md\?
+\\
+ fill="#010101"
+<rect fill="none" width="24" height="24"\/>
+<rect id="SVGID_1_" width="24" height="24"\/>
+"\/>
+fill-opacity=
+xlink:href=
+clip-rule=
+fill-rule=
+ clip-path=".+?"
+<clipPath.+?<\/clipPath>
+^.*_([0-9]+)px.svg$
+<path 
+key="\d+" \/>
+<\/SVGChild:(\w+)>
+SVGChild:
+\n
+`
+\n?import.*core\/RootRef['"];?
+\n?import {\s?RootRef\s?} from ['"]@material-ui\/core\/?['"];?
+({.*)(RootRef,?)(.*})
+<RootRef.*>
+<\/RootRef>
+(.*)\/(.*)
+\.(js|tsx)$
+^@material-ui\/core\/?(styles)?$
+^@mui\/material\/?(styles)$
+@material-ui\/unstyled
+@material-ui\/core
+@material-ui\/icons
+@material-ui\/(?!(pickers|data-grid|x-grid))
+\.MuiFab-round
+\.MuiTablePagination-input
+^(Table|TableCell)$
+%s
+^[^a-z]+|[^\w:.-]+
+([A-Za-z]+?)(A?\d+)?$
+sx=\{\{[^}]+\}\}
+^\s+
+^\s+
+<\/?(\w*)[\s\S]*?>
+^[A-Z]
+withStyles\([^)]*\),?
+([^=]{.*)classes[^.],?(.*})
+^.*useStyles(.*);?
+^[A-Z]
+^[A-Z]
+^@material-ui\/core\/styles$
+(\s|:|\{)ThemeOptions
+^\/docs\/data\/
+\n
+^\s*
+\n
+^@material-ui\/core\/es
+(index)?(\.js)?$
+\/$
+^@material-ui\/core\/es
+^@material-ui\/core\/modern
+(index)?(\.js)?$
+\/$
+{{name}}
+{{component}}
+{{pathname}}
+{{suffix}}
+{{name}}
+{{muiName}}
+{{defaultPropsLink}}
+{{slotGuideLink}}
+\.MuiSkeleton-circle
+\.MuiSkeleton-rect([^\w])
+^}\)+(\({}\)|\(\))?;?$
+\s*&
+\s*&
+@mui\/base\/([a-zA-Z]+)Unstyled
+@mui\/base\/([a-zA-Z]+)Unstyled
+@material-ui\/lab\/(.*)
+([^a-zA-Z])Omit<
+^@material-ui\/types\/?$
+^@material-ui\/core
+^@mui\/material\/modern
+^\s+
+^\s+
+withMobileDialog
+(theme\.palette|palette)\.type
+(palette:\s*{\r?\n?\s.*)type
+(^.)|(_)(.)
+([^a-zA-Z])GridListTileBar
+([^a-zA-Z])GridListTile
+([^a-zA-Z])GridList
+(\.MuiBadge-.*)ircle
+(\.MuiBadge-.*)ectangle
+@mui\/lab\/(.*)
+--List-decoratorSize
+--List-decoratorColor
+--internal-
+--private_
+[\u0300-\u036f]
+\[([^\]]+)\]
+"|'
+@mui\/base\/(.+)
+,
+\.MuiAvatar-circle
+@mui\/lab\/(.*)
+(Outlined|TwoTone|Rounded|Sharp)$
+[\u0300-\u036f]
+([^a-zA-Z])ExpansionPanel
+\.(MuiPagination|MuiPaginationItem)-round
+^(Pagination|PaginationItem)$
+^[0-9]+\s[0-9]+\s[0-9]+$
+\/$
+\/$
+\/$
+Joy([A-Z]+)
+unstyled
+unstyled
+unstyled
+\s*&
+_([0-9]+)px\.svg
+(^.)|(_)(.)
+\D
+(\d{4})(?=\d)
+\D
+\D
+(\d{2})(?=\d{2})
+(CallExpression|TSAsExpression)
+\r?\n
+\\
+\.\w+$
+\.\w+$
+^material-
+(Variables|Usage)$
+\/\/ #region imports(.+?)\/\/ #endregion
+\/\/ #region usage(.+?)\/\/ #endregion
+none
+\r?\n
+-16px -16px( 0px)?
+0px -1px( 0px)?
+0px 1px( 0px)?
+-1px 0px( 0px)?
+1px 0px( 0px)?
+0px 0px( 0px)?
+^\s+|\s+$
+An update to Parent inside a test was not wrapped in act
+An update to Parent ran an effect, but was not wrapped in act
+^\s+|\s+$
+^\s+|\s+$
+\/fake.png
+\/fake.png
+fake2.png
+foo
+^\s+|\s+$
+^\s+|\s+$
+^\s+|\s+$
+^\s+|\s+$
+^\s+|\s+$
+^\s+|\s+$
+^\s+|\s+$
+The prop `children` is not supported. Please remove it
+^\?key=
+^\?key=
+,
+,
+onepirate
+\r?\n
+[\d.\-+]*\s*(.*)
+^(@mui\/material|@material-ui\/core)$
+(function\s*createTheme|const\s*createTheme)
+^@material-ui\/core\/?(styles)?$
+^@material-ui\/core\/?(styles)?$
+declare module ['"]@material-ui\/styles\/defaultTheme['"]
+^@material-ui\/core\/?(styles)?$
+^@material-ui\/lab\/?(useAutocomplete)?$
+^@material-ui\/core\/?(styles)?$
+^@material-ui\/core\/styles\/.+$
+^@material-ui\/core\/?(styles)?$
+^@material-ui\/styles\/?$
+(ArrowDown|ArrowUp|ArrowLeft|ArrowRight)
+(ArrowLeft|ArrowRight|Tab)
+(ArrowDown|ArrowUp|ArrowLeft|ArrowRight)
+(ArrowLeft|ArrowRight|Tab)
+^(@material-ui\/core|@mui\/material)\/Link
+^(@material-ui\/core|@mui\/material)\/?$
+^@mui\/material\/Tab$
+^@mui\/material\/Chip$
+^@mui\/material\/Alert$
+^@mui\/material\/Button$
+( *\*\n)( *\*.*\n)+( *\* @ignore\n)( *\*.*\n)*( )
+^@mui\/material\/ButtonGroup$
+^@mui\/material\/StepConnector$
+^@mui\/material\/PaginationItem$
+^@mui\/material\/TableSortLabel$
+^@mui\/material\/AccordionSummary$
+^@mui\/material\/CircularProgress$
+^@mui\/material\/ImageListItemBar$
+^@mui\/material\/ToggleButtonGroup$
+import\(("|')(\.\.\
+^\/(material-ui|joy-ui|base)\/
+^\/(material-ui|joy-ui|base)\/
+(.*):formatted$
+\s+
+\r?\n.*
+^\w[+\w.-]*:\/\/
+\S+
+'
+ 
+[-]
+[-T:]
+\.js$
+^"|"$
+'
+\\"
+'
+\\"
+(^"|"$)
+\u001b\[\d\d?m
+^\d+$
+^\d+$
+^"([a-zA-Z_][a-zA-Z_0-9]*)"$
+\/
+([^a-z0-9_])
+^assets_
+^\d+$
+^\d+$
+^\d+$
+^\d+$
+^prealpha-(\d{10})$
+^(\d{8})-(\d{4})$
+^\W*'
+(\.js)?$
+^(RCT|RK)
+^VERSION_NAME=.*
+\\
+\s*#
+(\s{2,})
+\\
+\.js$
+\s*,\s*
+^(TransformError |Warning: (Warning: )?|Error: )
+\n
+^ +
+\| $
+https?:\/\/
+\/$
+^https?:\/\/.*?\/
+\.\.\/
+\n
+^https?:\/\/.*?\/
+,(?![^()]*\))
+\s+(?![^(]*\))
+\n
+\/
+([^a-z0-9_])
+^assets_
+{imageURLLoaderClassNames}
+{imageDataDecoderClassNames}
+{requestHandlersClassNames}
+\s+
+^@
+\/+$
+\\
+^RCT
+^RCT
+\.\.\/
+-
+(deg|g?rad|turn)$
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+\s
+-
+%20
+\.
+^(application|image)\/
+^on
+^(rgba?|hsla?|hwba?|lab|lch|oklab|oklch|color)$
+\s+
+\n( *(at )?)
+%25
+\.h$
+^steps\((\d+), (start|middle)\)$
+@url\(([^\)]*?)\)
+\n( *(at )?)
+^\[object (.*)\]$
+\n( *(at )?)
+\.
+`(.*?)`
+[^a-z0-9.-]+
+Chrome\/(\S+)
+\.
+^([a-zA-Z0-9\.\-_]+):(\d+)$
+^(\d+)x(\d+)$
+^https?:\/\/
+[^ ]* [^ ]* (.*)
+ +
+\n
+\n( *(at )?)
+\n
+`(.*?)`
+^aria\/(.+?)(\[role="(.+)"\])?$
+\s+
+\s+
+\s+
+\n|$
+^-?[0-9\.]
+\n
+^function [gs]et 
+&(amp|lt|gt|quot|#39);
+[^\s\u00a0]
+\$(\$|&|\d+|<[^>]+>)
+^\d+ \/ part of key \(.*? @\d+\) -> value \(.*? @\d+\) pair in WeakMap \(table @(?<tableId>\d+)\)$
+^\s+
+\s+$
+\n(\s*)
+[^\S\n]+
+^[A-z]:\\
+\r\n?
+ひ
+ 
+\s
+ 
+\/__tests__\/
+^@@
+\+([0-9]+)
+[xy]
+^[0-9a-z]+$
+\s+
+[+-]?\d+(\.\d+)?
+^https?:\/\/
+^http\/2\.0?\+quic
+[%]o
+^(https|http|file):\/\/
+ 
+^{(\s)*"nodes":(\s)*\[
+^(?:https?|file)\:\/\/
+(.{2})
+\\(.)
+\r\n?|[\n\u2028\u2029]
+\s
+\s+
+[\\t\\n\\f\\r ]+
+ |$
+\s
+\/$
+[xX]
+ |$
+['"()]
+((?:rgb|hsl|hwb)a?\([^)]+\)|#[0-9a-f]{6}|#[0-9a-f]{3})
+\s(-\d\.\d)
+url\(.*\)
+[a-z]
+^(.*?)-
+^.+? \((?=\
+'
+^.*[\/\\]
+^\s+|\s+$
+[^a-z0-9 -]
+\s+
+-+
+&
+\n( *(at )?)
+^v|\n+$
+\/
+^\s+
+\/
+\D
+\s([a-z]+)
+#.*$
+Saved [0-9]+ new dependencies
+(npm run |npm )
+(npm run |npm )
+\.(exe|cmd|bat)$
+[\\]+
+^.+\.(tgz|tar\.gz)$
+^file:
+^file:(.*)?$
+^file:
+^file:(.*)?$
+^(@[^/]+\
+^.+\.(tgz|tar\.gz)$
+([^/]+)\.git(#.*)?$
+.+@
+^file:
+^file:(.*)?$
+\.$
+\\
+\n$
+\\
+\\
+[@]
+(\(eval at [^()]*)|(\),.*$)
+\(at 
+\s+
+^(.*) \d+:\d+-\d+$
+^\s*at\s<anonymous>(\n|$)
+Cannot find module.+sass
+\[path\]
+[\\]+
+[\\]+
+\.
+src[/\\]setupTests\.(.+)
+^\w*:
+^Invariant Violation:\s*
+^Warning:\s*
+\n
+\s
+^\s*
+^https?:\/\/[^/]+\/?
+\s*;\s*
+\s*:\s*
+\s
+ .*
+\/\/ @remove-file-on-eject
+^\s*in
+\.svg$
+webpack-internal:\/\/\/(.+)
+\.[^/.]+$
+[-_](.)
+^on
+%23
+^#!.*
+^\.\/
+[\\`*_{}[\]()#+\-.!]
+\{(\d+)\}
+([^\n\r])(\r?\n)([^\n\r])
+[\\`*_{}[\]()#+\-.!]
+[\n]
+[\n]
+\t+|\r+|\n+| +
+__id__
+[\\`*_{}[\]()#+\-.!]
+[\\`*_{}[\]()#+\-.!]
+[\\`*_{}[\]()#+\-.!]
+[\\`*_{}[\]()#+\-.!]
+[\\`*_{}[\]()#+\-.!]
+[\\`*_{}[\]()#+\-.!]
+^on
+^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$
+address(\[([0-9]*)\])?
+^bool(\[([0-9]*)\])*$
+^bytes([0-9]{1,})(\[([0-9]*)\])*$
+^bytes(\[([0-9]*)\])*$
+^bytes([0-9]*)
+^int([0-9]*)?(\[([0-9]*)\])*$
+real([0-9]*)?(\[([0-9]*)\])?
+^string(\[([0-9]*)\])*$
+[0-9]{1,}
+[0-9]{1,}
+[0-9]{1,}
+(\[[0-9]*\])
+^uint([0-9]*)?(\[([0-9]*)\])*$
+^ureal([0-9]*)?(\[([0-9]*)\])*$
+\}[\n\r]?\{
+\}\][\n\r]?\[\{
+\}[\n\r]?\[\{
+\}\][\n\r]?\{
+[=:]
+^0\.0*|\.
+\n( *(at )?)
+\\'
+\/+$
+\r\n?|\n|\f
+-
+\n|\r\n?|\f
+&[a-z]+;
+^<p>|<\/p>
+<p>
+<
+>
+(\{\{[^}]+\}\})
+<br>
+\n{3,}
+[\n\r]+
+\s+
+\.\d+Z$
+:
+[.*+?^${}()|[\]\\]
+(\d+)\s*([wdhm]?)
+\s+
+-
+^\^
+\s+
+ +
+^https?:
+[\n\r]+
+\s*[\n\r]+\s*
+\s+
+\s+
+^(m|mobile|www)\.
+ +
+\s+
+\s+
+\s*\n+\s*
+\s*[\n\r]+\s*
+\s*[\n\r]+\s*
+[.*+?^${}()|[\]\\]
+^[a-z-]+:\/\/
+\s+
+\|
+\x1F|\u200B
+^((?:@@)?\/.+\
+\s+$
+\s+$
+ +
+\s+
+\s+
+[.*+?^${}()|[\]\\]
+[\n\r]+
+[.*+?^${}()|[\]\\]
+\|
+\n
+ +
+\s+$
+\s+$
+\n
+\n
+\n
+ +
+:nth-of-type\(\d+\)
+[^\\]\.
+([^\\])\..+$
+\s*;.*$
+\s+
+\n\n+
+[.*+?^${}()|[\]\\]
+^\/\*[\S\s]+?\n\*\/\s*
+\s+
+\s+
+\.\d+Z$
+:
+[-[\]/{}()*+?.\\^$|]
+\\[nrt\\]
+^\/(.+)\/([iu]*)$
+\S+
+.*$
+[\n\r]+
+[.*+?^${}()|[\]\\]
+\n+
+^\*+$
+\*{2,}
+([^*]{1,3}\*)(?:[^*]{1,3}\*)+
+,$
+^https?:\/\/
+\?.*$
+([^\\])"
+\.
+[.+?${}()|[\]\\]
+\*+
+\^
+^https?:\/\/
+\/
+^\/+
+\n|[^\n]+\n?
+\n|[^\n]+\n?
+\s*\n\s*
+[.*+?^${}()|[\]\\]
+\P{ASCII}
+\|
+\|
+(\{\d*)\\,
+[.*+?^${}()|[\]\\]
+ +
+ +
+\s*;\s*
+\s*;\s*
+[\n\r]+
+\t
+\s+
+\s+
+\s*\|\s*
+\s*\|\s*
+\s
+[.+?^${}()|[\]\\]
+\n+
+\n\r|\n|\r
+^[^\x21-\x7e]+
+[^\x21-\x7e]+$
+-[a-z]
+\s*,\s*
+\s*\|\s*
+\s+
+ +
+ +
+\w+|\*
+\*
+__asterisk__
+["\\]
+[\x09-\x0D]
+^\s*:scope\s*
+\s*,\s*
+ +
+ dev\w+ build
+(?:^|\.|b|rc)\d+
+\s
+\s+
+^www\.
+\$
+'
+^[^\s\u00a0=<>\"\']*[^\s\u00a0=<>\"\'\/]
+^(\s*)
+[#?]
+^\s*\w*
+^-[\w\\\-]*
+^\s*:
+^\s*[\"\')]
+^\s*:(?:\s|$)
+^\s*\{
+^[\w-]+
+^\s*:
+^(charset|document|font-face|import|(-(moz|ms|o|webkit)-)?keyframes|media|namespace|page|supports)\b
+^\s*:
+^\w+-
+^-?[_a-z][_a-z0-9-]*
+^[\w-.]+(?=\()
+Version\/(\d*\.\d*)
+[^\s\u00a0]
+\r\n?|\n
+( |^)overlay .*
+(?:^|\s+)line-(background-)?(\S+)
+\S+
+-(?!$)
+\s*cm-s-\S+
+(^|\s)\s*
+^\u200b+
+\u200b+$
+\u200b
+^\s+
+\s+$
+\n
+^spans_(\d+)$
+\S
+\S
+^\s*
+\s
+\s+
+[.*+?^${}()|[\]\\]
+\/$
+\r|\n\r?
+\r|\n\r?
+^[\d_]*(?:n|(?:\.[\d_]*)?(?:[eE][+\-]?[\d_]+)?)?
+^\b(([gimyus])(?![gimyus]*\2))+\b
+^\s*$
+^\s*\w
+^([^<>]|<[^<>]*>)*>\s*\(
+^\s*:\s*
+^\s*\w+\s+is\b
+^\s*[?:]
+^\s*:
+^\s+[\w$\xa1-\uffff]
+^\d[\d_]*(?:[eE][+\-]?[\d_]+)?
+^(?:x[\dA-Fa-f_]+|o[0-7_]+|b[01_]+)n?
+^(\s|\/\*([^*]|\*(?!\
+[;\}\)\],]
+[\}\)\]]
+[;\}\)\],]
+\s+
+[.*+?^${}()|[\]\\]
+\P{ASCII}
+[-\/\\^$*+?.()|[\]{}]
+\s+
+\s+
+\s+
+<\/?$
+^v
+^v
+^.+$
+([.0-9]+)
+([.0-9]+)
+&
+^['"]|['"]$
+FontAwesome
+&
+^['"]|['"]$
+&
+^['"]|['"]$
+&
+^['"]|['"]$
+&
+^['"]|['"]$
+FontAwesome
+&
+^['"]|['"]$
+FontAwesome
+&
+^['"]|['"]$
+FontAwesome
+\D
+\w+
+https:\/\/api\.github\.com\/repos
+https:\/\/api\.github\.com\/repos\/
+https:\/\/secure.gravatar.com\/avatar\/[0-9a-z]+
+\/
+\/
+^pages\.
+\/
+\+
+^#
+(?:::\s*)|(?:\s+(?:::\s*)?)
+_
+\r|\n|\t
+"
+::
+::
+::
+::
+::
+::
+_
+_
+^#
+^#?(\d+)(?:-(\d+))?$
+-
+ 
+search.*\.js$
+<(script|style)[^>]*>[\s\S]*?<\/\1>
+百度为您找到相关结果约([\d,]+)个
+,
+<(script|style)[^>]*>[\s\S]*?<\/\1>
+,
+,
+poet\.(song|tang)
+poet\.(song|tang)
+poet\.(song|tang)
+poet\.(song|tang).rank
+poet\.(song|tang)
+poet\.(song|tang)
+poet\.(song|tang)
+\D
+left|right|bottom|top
+\s([a-z]+)
+android\s([0-9]+.*Chrome)
+Android.*SM-
+0*$
+%t
+\r\n?
+\ {2,}
+\ $
+(\S)\ {3}(\S)
+^\ 
+&nbsp;
+\$<([^>]+)>
+.*?\n
+<\/html[^>]*>[^]*$
+\s
+\n$
+\n$
+\.(\w+)$
+\/(\w+)$
+\.[^.]*$
+^(?:|\.(?:htm|html|xhtml|php))$
+^(?:text\/([^\s;,]+\b)?html|application\/xhtml\+xml)\b
+^\n
+^\s+
+^ws{1,2}:
+#(.*)$
+<[^>]+>
+\b(xml|html|svg)\b
+;.+
+\?.*$
+\bjson\b
+\b(?:java|ecma)script\b
+(.*?)(.{0,8})$
+(.*?)(.{0,8})$
+(.*?)(.{0,8})$
+\b(xml|html|svg)\b
+;.+
+\?.*$
+\bjson\b
+\b(?:java|ecma)script\b
+(.*?)(.{0,8})$
+(.*?)(.{0,8})$
+(.*?)(.{0,8})$
+(.*?)(.{0,8})$
+(.*?)(.{0,8})$
+(.*?)(.{0,8})$
+^[\/\.\?]|[^\/\.\?]+
+^[\/\.\?]|[^\/\.\?]+
+(.*?)(.{0,8})$
+(.*?)(.{0,8})$
+(.*?)(.{0,8})$
+\D
+\w+
+<noscript[\S\s]*?<\/noscript>
+\D
+\w+
+<noscript[\S\s]*?<\/noscript>
+[ ,]
+associated with version (\d+\.\d+\.\d+-?\S*)
+next release version is (\d+\.\d+\.\d+-?\S*)
+\s
+(.*?)\/node_modules
+(.*?)_node_modules
+(win32-x64|linux-x64|linux-arm64|darwin-x64|darwin-arm64)
+\\?\$\{endpoint\}
+\\?\$\{platform\}
+\\?\$\{arch\}
+\\?\$\{version\}
+\*
+const CY_TEST = `(.*?)`
+"(.*)" should be marked as external for use with "require.resolve"
+\.ts$
+[^0-9\.-]+
+^http:\/\/(.*)
+^http:\/\/([^\/]*)\/?(.*)$
+\s+$
+\\
+(<!--.*?-->)|(<!--[\S\s]+?-->)|(<!--[\S\s]*?$)
+(close[sd]?|fix(es|ed)?|resolve[s|d]?) ((cypress-io\/cypress)?#\d+|https\:\/\/github.com\/cypress-io\/cypress\/issues\/\d+)
+\d+
+Unhandled\srejection\sTypeError
+\.js$
+\D
+\w+
+Cypress\.require
+^\.?example\.com$
+^\.?example\.com$
+\s+
+['"]
+^`cy.viewport\(\)` could not find a preset for: `foo`. Available presets are: 
+\.?barbaz\.com
+\.?barbaz\.com
+\.?foobar\.com
+\.?www\.barbaz\.com
+\.?www\.barbaz\.com
+\.?barbaz\.com
+\.?barbaz\.com
+\.?www\.foobar\.com
+\.?foobar\.com
+\.?www\.foobar\.com
+\.?foobar\.com
+\.?barbaz\.com
+\.?barbaz\.com
+\.?www\.barbaz\.com
+\.?www\.barbaz\.com
+\.?barbaz\.com
+\.?barbaz\.com
+\.?barbaz\.com
+\.?foobar\.com
+\.?www\.barbaz\.com
+\.?www\.foobar\.com
+\.?barbaz\.com
+\.?foobar\.com
+\.?www\.foobar\.com
+\.?www\.barbaz\.com
+foo
+^\s+
+\s
+\s+$
+\s
+foo
+bar
+f
+google
+foo
+^.*\n
+Platform: .+
+Cypress Version: .+
+.+
+[a-f0-9]+
+at errors(.*)\n
+POST \/instances\/.*\/results
+\/Cypress\/beta\-1\.2\.3\-aBranchName\-3b7f0b5c$
+\n
+((?: {6}-)+[^\n]+\n)
+Compression progress:\s+\d{1,3}%
+cross-origin-script-error\s+?\(Results
+cross-origin-script-error\s+at <unknown> \(http:\/\/localhost:1122\/static\/fail\.js:0:0\)\s+?\(Results
+^\/
+initial=;
+initial=;
+initial=;
+^bar-
+(found on your system are:)(?:\n - .*)*
+^PROJECT-CHILD-\d
+^PROJECT-CHILD-\d
+^PROJECT-CHILD-\d
+^-----BEGIN RSA PRIVATE KEY-----
+-----END RSA PRIVATE KEY-----$
+^-----BEGIN RSA PRIVATE KEY-----
+-----END RSA PRIVATE KEY-----$
+\/\S+\/_test
+window.__Cypress__ = true
+document.domain = \'localhost\'
+window.__Cypress__ = true
+This browser was not launched through Cypress\.
+window.__Cypress__ = true
+React
+\.reporter
+parent\.postMessage
+localStorage
+sessionStorage
+parent\.postMessage
+set:storage
+localStorage
+sessionStorage
+text\/plain
+application\/json
+application\/json
+text\/html
+text\/plain
+text\/plain
+application\/json
+application\/json
+application\/json
+application\/json
+text\/plain
+text\/plain
+__cypress.initial=;
+initial=;
+userId=123
+^foo 'bar'$
+^foo 'bar'; script-src-elem 'fake-src' 'nonce-[^-A-Za-z0-9+/=]|=[^=]|={3,}';$
+^foo 'bar'; script-src 'fake-src' 'nonce-[^-A-Za-z0-9+/=]|=[^=]|={3,}';$
+^foo 'bar'; default-src 'fake-src' 'nonce-[^-A-Za-z0-9+/=]|=[^=]|={3,}';$
+^foo 'bar'; script-src 'fake-src' 'nonce-[^-A-Za-z0-9+/=]|=[^=]|={3,}'; default-src 'fake-src' 'nonce-[^-A-Za-z0-9+/=]|=[^=]|={3,}';$
+^foo 'bar'; script-src-elem 'fake-src' 'nonce-[^-A-Za-z0-9+/=]|=[^=]|={3,}'; script-src 'fake-src' 'nonce-[^-A-Za-z0-9+/=]|=[^=]|={3,}'; default-src 'fake-src' 'nonce-[^-A-Za-z0-9+/=]|=[^=]|={3,}';$
+foo 'bar'
+script-src 'nonce-[^-A-Za-z0-9+/=]|=[^=]|={3,}'
+^foo 'bar'$
+^foo 'bar'
+initial=true
+initial=;
+initial
+initial=;
+text\/css
+initial
+dashboard
+dashboard
+initial=true
+\\
+\\
+\s+
+^\d+%\s+of visits to [^\s]+ finished in less than.*$
+run-\d+
+\\
+\\
+\s
+passes inherited(.*)
+passes quickly(.*)
+passes slowly(.*)
+^[^_]((?!json).)*js$
+\.svg$
+^[a-z0-9]+$
+\s
+^(ct|adata|salt|iv)$
+\s|0x
+\s|=
+\s|=
+^[a-z0-9]+$
+\s
+^(ct|adata|salt|iv)$
+\s|0x
+\s|=
+\s|=
+\\
+\/|\\
+\/|\\
+\/
+\\
+\\
+\s+
+^0+
+"
+\+
+^(([ \t\r\n]*)(\s*))(?:(?=\S)[\s\S]*\S)?((\s*?)([ \t\r\n]*))$
+^\s+|\s+$
+[\s\-]+
+<(.+?)>
+^[\t\r\n]+
+^[ \t]+|[ \t]+$
+^\n*
+<\/?[a-z][^>]*>
+[.?!…]+.
+['";:,.?¿\-!¡]+
+\s
+[\n\r]
+ 
+\/|\\
+menu\.items
+toolbar\.buttons
+note\.list
+content\.scripts
+^[a-z0-9]{32}$
+^\n+|\n+$
+^
+^\n+
+\n+$
+\n
+\n
+language-(\S+)
+^([ \t]*\n)+
+\n$
+[\n\r]+
+ 
+\n
+\t
+\(
+\)
+\"
+\(
+\)
+\r?\n|\r
+\r?\n|\r
+`+
+([[\]])
+[\/\\]+$
+^\/+
+\n+
+\n\r
+\|+
+\\
+('|")(inner\/lib\/.*)('|")
+[ \r\n\t]+
+ $
+ $
+&
+<
+>
+"
+'
+FILE_NAME
+FILE_NAME
+\n
+[\u2212\u2013\u2014\u2010]
+[\u2026]
+^(\+\-|\+\/\-|\+|\-|\\pm\s?)?([0-9]+(?:[,.][0-9]+)?|[0-9]*(?:\.[0-9]+))?(\((?:[0-9]+(?:[,.][0-9]+)?|[0-9]*(?:\.[0-9]+))\))?(?:([eE]|\s*(\*|x|\\times|\u00D7)\s*10\^)([+\-]?[0-9]+|\{[+\-]?[0-9]+\}))?
+^(\+\-|\+\/\-|\+|\-|\\pm\s?)?([0-9]+(?:[,.][0-9]+)?|[0-9]*(?:\.[0-9]+)?)\^([+\-]?[0-9]+|\{[+\-]?[0-9]+\})
+^($|[\s,;\)\]\}])
+^(?:\((?:\\ca\s?)?\$[amothc]\$\))
+^(?:(?:(?:\([+\-]?[0-9]+\/[0-9]+\)|[+\-]?(?:[0-9]+|\$[a-z]\$|[a-z])\/[0-9]+|[+\-]?[0-9]+[.,][0-9]+|[+\-]?\.[0-9]+|[+\-]?[0-9]+)(?:[a-z](?=\s*[A-Z]))?)|[+\-]?[a-z](?=\s*[A-Z])|\+(?!\s))
+^\$(?:\(?[+\-]?(?:[0-9]*[a-z]?[+\-])?[0-9]*[a-z](?:[+\-][0-9]*[a-z]?)?\)?|\+|-)\$$
+^\([a-z]+\)$
+^(?:[a-z]|(?:[0-9\ \+\-\,\.\(\)]+[a-z])+[0-9\ \+\-\,\.\(\)]*|(?:[a-z][0-9\ \+\-\,\.\(\)]+)+[a-z]?)$
+^([0-9]+|\$[a-z]\$|[a-z])\/([0-9]+)(\$[a-z]\$|[a-z])?$
+\$
+\$
+\s*$
+\u00B0C|\^oC|\^{o}C
+\u00B0F|\^oF|\^{o}F
+\u00B0C|\^oC|\^{o}C
+\u00B0F|\^oF|\^{o}F
+^[+\-]
+^[0-9]+$
+[,.]
+^[+\-]
+^[+\-]
+[\^_]
+_TEMPLATE
+\r?\n
+[*+~.()'"!:@[\]]
+^[-]+
+[-]+$
+\s+
+\s+
+(.*)[\|\-\\\/>»] .*
+[^\|\-\\\/>»]*[\|\-\\\/>»](.*)
+[\|\-\\\/>»]+
+\.( |$)
+&(quot|amp|apos|lt|gt);
+&#(?:x([0-9a-z]{1,4})|([0-9]{1,4}));
+^\s*<!\[CDATA\[|\]\]>\s*$
+^https?\:\/\/schema\.org$
+\s
+\s
+base64\s*
+[&<>]
+[&<>'"]
+&(quot|amp|apos|lt|gt);
+&#(?:x([0-9a-z]{1,4})|([0-9]{1,4}));
+[ ,]
+\r\n
+\r\n
+[\n\r]
+\n
+\r\n
+\s([a-z]+)
+\D
+\D
+\w+
+\s([a-z]+)
+\\\*
+\:\n*
+>|<
+(\(.+\))(?:\n+)
+<(?:.|\n)*?>
+\\\*
+\:\n*
+>|<
+(\(.+\))(?:\n+)
+<(?:.|\n)*?>
+^\W+
+\s([a-z]+)
+\s+
+^>>>
+\s*$
+^--
+^--?=
+^-
+^-[-=]?$
+^[0-9]+$
+\.js$
+^[ \t]
+^[^\n]*
+^[\s\S]*?\*\/
+^\s*
+^[ \t]*\* ?
+^[^\n]*
+\:$
+^[A-Za-z][A-Za-z0-9+-\.]*\:\/\/
+^[A-Za-z][A-Za-z0-9+-\.]*\:\/\/
+^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$
+(\W)
+^(\d{1,4}(?:\.\d{1,4})*)(?:-([-A-Za-z.]{1,15})(\d{0,4}))?$
+^[0-9]+$
+\s*,\s*
+\s*,\s*
+^(?:(.+):)?([0-9]+)?$
+~name~
+~cc~
+~cc~
+~release~
+~name~
+~prototype~
+~prototype~
+\s*,\s*
+^local-test:
+\$\$name\$\$|\$\$PascalName\$\$|\$\$camelName\$\$
+^https?:\/\/github.com\/(.+?)\/(.+?)\/tarball\/([0-9a-f]{40})
+^[0-9]+$
+^[a-z_$][0-9a-z_$.[\]]*$
+[.#]
+<([^>]+)>
+[^gimuy]
+(.)(?=.*\1)
+^\s+|\s+$
+.
+^\/
+\b__dirname\b
+\b__filename\b
+\bmodule\b
+\bexports\b
+\brequire\b
+^([^#]*)(#.*)$
+^((?:.*\S)?)(\s*)$
+^(\s*)((?:\S.*)?)$
+\s+
+^LISTENING\s*$
+^local-test[:_]
+\.js\b
+\.js\b
+\n\/\/# source(?:Mapping)?URL=[^\n]+
+^(packages|assets|dynamic)\/
+^packages\/
+[^a-zA-Z0-9._\:\-@#]
+^.*#RemoveInProd.*$
+^\.+$
+^os\.
+^os\.
+^examples\/other
+^examples\/unfinished
+\.\.
+^os\.
+^## v\.NEXT.*?^(?=##[^#])
+^mongod.exe\s+(\d+) 
+\s
+^(private|public)\/
+:
+web\.cordova
+web\..*
+os.*
+^([^=\s]+)=([^;\s]+)
+\.(\d+)$
+\/+$
+\/+$
+^https?:\/\/registry.npmjs.org\/
+\.xcodeproj$
+^([A-Z])\/([^\(]*?)\(\s*(\d+)\): (.*)$
+^\[(.*):(.*)\((\d+)\)\] (.*)$
+^\"(.*)\", source: (.*) \((\d+)\)$
+^(.*): Line (\d+) : (.*)$
+\?.*$
+^--------- beginning of 
+\*
+%20
+^http:
+^-*
+&
+##CONFIG##
+:
+^\https:\/\/
+^\http:\/\/
+\/+$
+\.meteor\.com$
+[^a-zA-Z0-9.-]
+:
+[.*+?^${}()|[\]\\]
+\s+
+\s+
+""
+\"
+^|\s+
+^web\.
+^\n+|\n+$
+\/$
+meteor-css-not-found-error
+\/$
+\W
+[!'()]
+\/
+\\
+^\/?packages\/
+:
+\n\s*
+^Error: 
+^\)\]\}'
+(^|\()meteor:\/\/..app\/
+^\s+|\s+$
+^\s+|\s+$
+'
+\[GH ([^\]]+)\]
+\n
+\.\.
+[\\\/]
+^.*?\/www\/
+\.
+'
+"
+\n
+\*
+^wss:
+^ddp(i?)\+sockjs:\/\/
+^http(s?):\/\/
+\*
+\s*,\s*
+:\d+$
+[_-]||\s
+\.js$
+^[ ]{0,3}\[(.+)\]:[ \t]*\n?[ \t]*<?(\S+?)>?[ \t]*\n?[ \t]*(?:(\n*)["(](.+?)[")][ \t]*)?(?:\n+|(?=~0))
+^(<(p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math|ins|del)\b[^\r]*?\n<\/\2>[ \t]*(?=\n+))
+^(<(p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math|style|section|header|footer|nav|article|aside)\b[^\r]*?<\/\2>[ \t]*(?=\n+)\n)
+(\n[ ]{0,3}(<(hr)\b([^<>])*?\/?>)[ \t]*(?=\n{2,}))
+(\n\n[ ]{0,3}<!(--[^\r]*?--\s*)+>[ \t]*(?=\n{2,}))
+(?:\n\n)([ ]{0,3}(?:<([?%])[^\r]*?\2>)[ \t]*(?=\n{2,}))
+^[ ]{0,2}([ ]?\*[ ]?){3,}[ \t]*$
+^[ ]{0,2}([ ]?\-[ ]?){3,}[ \t]*$
+^[ ]{0,2}([ ]?\_[ ]?){3,}[ \t]*$
+(\[((?:\[[^\]]*\]|[^\[\]])*)\][ ]?(?:\n[ ]*)?\[(.*?)\])()()()()
+(\[((?:\[[^\]]*\]|[^\[\]])*)\]\([ \t]*()<?(.*?(?:\(.*?\).*?)?)>?[ \t]*((['"])(.*?)\6[ \t]*)?\))
+(\[([^\[\]]+)\])()()()()()
+(!\[(.*?)\][ ]?(?:\n[ ]*)?\[(.*?)\])()()()()
+(!\[(.*?)\]\s?\([ \t]*()<?(\S+?)>?[ \t]*((['"])(.*?)\6[ \t]*)?\))
+^(.+)[ \t]*\n=+[ \t]*\n+
+^(.+)[ \t]*\n-+[ \t]*\n+
+^(\#{1,6})[ \t]*(.+?)[ \t]*\#*\n+
+[^\w]
+(\n)?(^[ \t]*)([*+-]|\d+[.])[ \t]+([^\r]+?(\n{1,2}))(?=\n*(~0|\2([*+-]|\d+[.])[ \t]+))
+(?:\n\n|^)((?:(?:[ ]{4}|\t).*\n+)+)(\n*[ ]{0,3}[^ \t\n]|(?=~0))
+(?:^|\n)```(.*)\n([\s\S]*?)\n```
+(^|[^\\])(`+)([^\r]*?[^`])\2(?!`)
+(\*\*|__)(?=\S)([^\r]*?\S[*_]*)\1
+(\*|_)(?=\S)([^\r]*?\S)\1
+((^[ \t]*>[ \t]?.+\n(.+\n)*\n*)+)
+^\n+
+\n+$
+\n{2,}
+~K(\d+)K
+\S
+^([ \t]*)
+~K(\d+)K
+\$
+~K\d+K
+\\(\\)
+\\([`*_{}\[\]()>#+-.!])
+<(?:mailto:)?([-.\w]+\@[-a-z0-9]+(\.[-a-z0-9]+)*\.[a-z]+)>
+.
+~E(\d+)E
+~B(.+?)~A
+~
+\$
+\r\n
+\r
+^[ \t]+$
+~D
+~T
+"
+~0
+\n
+\n\n
+\n\n
+^\n
+\n+$
+  +\n
+(.)<\/?code>(?=.)
+ ?\n
+\(\s*\)$
+"
+ ?\n
+"
+"
+[*+-]
+\n{2,}
+\s+$
+[*+-]
+\n{2,}
+~0
+\n{2,}$
+\n{2,}
+\n$
+~0
+^\n+
+\n+$
+~0
+^\n+
+\n+$
+~0
+(^\n+|\n+$)
+^([ \t]*)
+[ \t]*$
+&
+<
+>
+^-
+^[ \t]*>[ \t]?
+~0
+^[ \t]+$
+(^|\n)
+^  
+~0
+&(?!#?[xX]?(?:[0-9a-fA-F]+|\w+);)
+<(?![a-z\/?\$!])
+<((https?|ftp|dict):[^'">\s]+)>
+">.+:
+^-
+^(\t|[ ]{1,4})
+~0
+\t(?=\t)
+\t
+~A
+~B
+([\[\]\\])
+#(.*)$
+(javascript:|#).*$
+^.+\/\/
+\/*$
+:
+\d+\.\d+\.\d+-winr.\d+
+Version\/([0-9]*)\.([0-9]*)
+&amp;
+\r?\n
+\s|\-|\/
+[.#]
+'
+\[GH ([^\]]+)\]
+\n
+\n
+(^|\()meteor:\/\/..app\/
+,|\|
+[^A-Z0-9_]
+^(https?:)?\/\/
+^(\{[^}]*\})
+^{(.*)}\/(.*)$
+^https?:\/\/
+\/$
+^.*?\n
+^[^\/]+\/(.*)\.js$
+\/+$
+[#\?].*
+\/+$
+[^#]*#
+([^#]*)#?([^#]*)#?(.*)
+[^\/]+$
+\/+$
+^\/+
+#.*
+[\?#].*
+^(\.\
+^(\.\
+\#$
+^(\.\
+\D
+\??\&_suid.*
+\??\&_suid.*
+\%21
+\%26
+\%3D
+\%3F
+.*(?=#[^\s]*$)
+.*(?=#[^\s]+$)
+.*(?=#[^\s]+$)
+.*(?=#[^\s]*$)
+.*(?=#[^\s]+$)
+.*(?=#[^\s]+$)
+.*(?=#[^\s]*$)
+[\-\[\]{}()*+?.,\\\^$|#\s]
+\s+
+<script[^>]+>(.|\n|\r)*?<\/script\s*>
+\n
+\s+\/\/
+^(width|height)$
+_
+_end$
+EVENT
+[^\w-]
+CONTAINER
+__
+(border|padding|margin)$
+\<
+,
+%
+(fixed|absolute|relative)
+(scroll|auto)
+(north|west)
+^(container|options)$
+\-99999
+mouseover
+(click|dblclick|mouseenter)
+click
+(click|mouseleave)
+(visible|auto)
+(visible|auto)
+# sourceMappingURL=
+\.js$
+^[ \t]
+^[^\n]*
+^[\s\S]*?\*\/
+^\s*
+^[ \t]*\* ?
+^[^\n]*
+,|\|
+'
+,|\|
+^\s*|\s*$
+<meteor-bundled-css[^<>]*>
+<meteor-bundled-css[^<>]*>
+localhost
+localhost
+^\s*|\s*$
+\/+$
+ *\|\| *
+^(.*)@([^@]*)$
+[^a-z0-9:.\-]
+\+.*$
+^(?:((['"])use strict\2;)\n)?
+,\s+
+\s+
+\d+\.\d+\.\d+-winr.\d+
+,|\|
+Can't listen on port.*another Meteor
+My pid is (\d+)
+glasser:package-for-selftest.*0.0.1\*
+\* New versions
+glasser:package-for-selftest.*0.0.2 
+create\s*Create a new project
+\s*admin\s
+--list\s*Show list
+recommend-release\s*Recommend a previously published
+mongosh
+v5\.\d+\.\d+
+1 - absoluteFilePath:(.*)ma_a_verde.txt
+2 - absoluteFilePath:(.*)ma_a_verde.txt
+3 - absoluteFilePath:(.*)ma_a_verde.txt
+tmeasday:acceptance-test-driver\b.*?added
+\/
+[{}"a-zA-Z0-9,\s\n\r:_.()\[\]]+
+backbone
+indirect-dependency.*1.0.1
+indirect-dependency.*1.1.0
+depends-on-plugin.*added,
+contains-plugin.*removed from your project
+depends-on-plugin.*removed from your project
+say-something-client-targets.*added,
+first-weak.*removed from your project
+first-unordered.*added
+second-unordered.*added
+second-weak.*removed from your project
+~version~
+~git~
+~summary~
+~documentation~
+~documentation~
+~documentation~
+\n*$
+tilde-constraints.*added, version 0\.4\.2
+tilde-constraints.*removed
+tilde-constraints.*added, version 0\.4\.2
+tilde-dependent.*added, version 0\.1\.0
+\n*$
+override-constraints.*added, version 1\.5\.3
+override-conflicts.*added, version 1\.0\.1
+api.versionsFrom\('v1'\);
+background-color: (transparent|rgba\(0, 0, 0, 0\))
+background-color: (red|rgb\(255, 0, 0\))
+background-color: (blue|rgb\(0, 0, 255\))
+background-color: (transparent|rgba\(0, 0, 0, 0\))
+my-package.*added,
+background-color: (blue|rgb\(0, 0, 255\))
+appcache.*added,
+background-color: (blue|rgb\(0, 0, 255\))
+background-color: (red|rgb\(255, 0, 0\))
+my-package.*removed from your project
+background-color: (transparent|rgba\(0, 0, 0, 0\))
+my-package.*added,
+appcache.*added,
+appcache.*removed from your project
+\\u000a
+^\s*|\s*$
+:tests\.js
+\bimport\b
+\/\/import\b
+android
+No plugins
+['"-\/\\^$*+?.()|[\]{}]
+['"-\/\\^$*+?.()|[\]{}]
+\.css$
+\s+
+PMC
+Duplicate source file
+Duplicate asset file
+requires a second argument
+__meteor_runtime_config__ = JSON.parse\(decodeURIComponent\("([^"]+?)"\)\)
+^[^\n\r]+
+\.
+\.
+[<>&"']
+ 
+ 
+","
+.{9}
+Message-ID: <[^<>]*>\r\n
+Date: (?!dummy).*\r\n
+(boundary="|^--)--[^\s"]+?(-Part|")
+^\\s+|\\s+$
+ 
+\bfunction[^(]*\(
+&
+<
+>
+"
+^
+\n$
+@@ -(\d+),(\d+) \+(\d+),(\d+) @@
+^([^:]+): expected
+^
+^
+\t
+\r
+\n
+fail|pass
+fail|pass
+[?&]grep=[^&\s]*
+%([se])
+^
+#
+&
+"
+<
+>
+ +
+[^-\w]
+\r\n?|[\n\u2028\u2029]
+^function *\(.*\)\s*{|\(.*\) *=> *{?
+\s+\}$
+^\n?( *)
+^\n?(\t*)
+^\s+|\s+$
+<
+>
+\/\/(.*)
+('.*?')
+(\d+\.\d+)
+(\d+)
+\bnew[ \t]+(\w+)
+\b(function|new|throw|return|var|if|else)\b
+^\[.+\s(.+?)\]$
+,(\n|$)
+,(\n|$)
+\/[^\/]*$
+(\s+|\b)
+([{}:;,]|\s+)
+\@\@
+\\ No newline
+[^0-9a-zA-Z]
+<!--IE-->
+<!---->
+<!--.*?-->
+<\/?(\w+)
+\s+
+^\s+|\s+$
+\s*(<\/?\w.*?>)\s*
+<(\w+)\s+(.*?)\s*>
+sizcache[0-9]+="[^"]*"
+jQuery[0-9]+="[0-9]+"
+\$blaze_teardown_callbacks="[^"]*"
+\$blaze_range="[^"]*"
+\s*=\s*
+^\s+
+\s+$
+\s+
+(\w)=([^'" >/]+)
+(\w)='([^']*)' 
+(\w)="([^"]*)" 
+\"
+["'`]
+\"
+\'
+;\"$
+^\s+|\s+$
+indirect@2\.0\.0 is not satisfied by indirect 1\.0\.0
+^\* indirect@1\.0\.0 <- bad-1 1\.0\.0 <- mytoplevel 1.0.0$
+^\* indirect@2\.0\.0 <- bad-2 1\.0\.0 <- mytoplevel 1.0.0$
+bad-1[^]+bad-1
+onstraints on package "foo":[^]+@[^]+@[^]+@
+Constraints on package "foo":[^]+top level
+Constraints on package "foo":[^]+bar 1.0.0
+Constraints on package "indirect":[^]+top level
+Constraints on package "indirect":[^]+one-of-equal 1.0.0
+unknown package: bar
+ 
+%20
+\t
+%20
+\s
+<meta name="1"[^<>]*>
+<meta name="2"[^<>]*>
+<link[^<>]*href="[^<>]*bootstrap[^<>]*">
+\s
+<meta name="1"[^<>]*>
+<meta name="2"[^<>]*>
+<link[^<>]*href="[^<>]*bootstrap[^<>]*">
+\+
+\+
+^--ecma(\d+)$
+\(\d+:\d+\)$
+\r\n?
+,(?="prerelease"|"raw")
+,
+"(\w+)":
+^.*?(@|$)
+['"-\/\\^$*+?.()|[\]{}]
+['"-\/\\^$*+?.()|[\]{}]
+foo
+lazy-resource
+[.*+?^${}()|[\]\\]
+^http:
+^http:\/\/localhost([:\/].*)
+[.*+?^${}()|[\]\\]
+^http:
+^http:\/\/localhost([:\/].*)
+[.*+?^${}()|[\]\\]
+^http:
+^http:\/\/localhost([:\/].*)
+[.*+?^${}()|[\]\\]
+^http:
+^http:\/\/localhost([:\/].*)
+[.*+?^${}()|[\]\\]
+^http:
+^http:\/\/localhost([:\/].*)
+[.*+?^${}()|[\]\\]
+^http:
+^http:\/\/localhost([:\/].*)
+[.*+?^${}()|[\]\\]
+^http:
+^http:\/\/localhost([:\/].*)
+ 
+ 
+\r\n?
+\\u\{([0-9a-fA-F]+)\}
+\\u([a-fA-F0-9]{4})|[\uD800-\uDBFF][\uDC00-\uDFFF]
+^[0-7]+
+\\u\{([0-9a-fA-F]+)\}
+\\u([a-fA-F0-9]{4})|[\uD800-\uDBFF][\uDC00-\uDFFF]
+^[0-7]+
+ 
+\r\n?
+\\u\{([0-9a-fA-F]+)\}
+\\u([a-fA-F0-9]{4})|[\uD800-\uDBFF][\uDC00-\uDFFF]
+^[0-7]+
+^--ecma(\d+)$
+\r\n?
+\r\n?
+\r\n?
+\r\n?
+\r\n
+\.9\.png$
+\/$
+^\s*(at eval \(eval)|(eval:)
+packages\/(?:local-test[:_])?logging(?:\/|\.js)
+^([_$a-zA-Z][_$a-zA-Z0-9]*)$
+:
+^http
+^localhost(:\d+)?$
+\/
+^\$|\.|\0
+\/+$
+^\{.*\}\/
+^package.*\.js$
+^[^.].*\.js$
+\bat\b
+@babel\/runtime\/helpers\/construct\b
+^#.+
+^[0-7]+
+^\$([^$]+)\$([^$]+)\$(.*)$
+(.*) does not export '(.*)'
+\n|__parcel__require__\(['"](.*?)['"]\)
+^\s*#private;\s*$
+\\(.)
+.|^$
+^file:\/\/
+["']
+^@parcel\/
+(https?|file|ftp):\/\/[^)\n]+
+^((?:https?|file|ftp):\/\/.+)\/[^/]+$
+\d+
+;$
+;$
+\\+
+^#
+(["\\])
+"
+"
+]]>
+\n
+"
+"
+~
+"
+"
+<!--
+<\/(script)
+<\/(style)
+^(×|x)\s+
+(?:╭─|,-)\[(\d+):(\d+)\]
+\.\.(\/|\\)
+^@parcel\/
+(?<=(?:^|\s)href\s*=\s*")(.+?)(?=")
+(?<!\\)\\
+\$ReadOnlyMap
+\$ReadOnlySet
+\$Partial
+^~
+^file:\/\/
+{port}
+[!'()*]
+^["']|["']$
+(\r\n|\n|\r)
+ +$
+at (new )?Error
+^[A-Z]:\\
+\\
+`
+\${
+^"|"$
+^ *\n?
+^(?: {2})*
+^(?: {2})*
+\s+
+\s+
+url\("(test\.[0-9a-f]+\.woff2)"\)
+<script src="[/\\]{1}index\.[a-f0-9]+?\.js" defer="">
+"
+<link rel="stylesheet" href="\/\w+\.[a-z0-9]+\.css">
+a\.[a-z0-9]+\.js
+b\.[a-z0-9]+\.js
+<link rel="stylesheet" href="\/\w+\.[a-z0-9]+\.css">
+a\.[a-z0-9]+\.js
+b\.[a-z0-9]+\.js
+<script
+<script
+<script
+<script
+<script
+<script
+<script
+<source srcset=".*>
+\/\w+\.[a-z0-9]+\.css
+\/\w+\.[a-z0-9]+\.css
+\.js
+if \(b\) \{((?:.|\n)+)\}
+\\\\
+output=(\d+)
+output=(\d+)
+output=(\d+)
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+prefetched-loaded\..*\.css
+\\
+async\..*\.js
+prefetched\..*\.js
+prefetched\..*\.css
+prefetched-loaded\..*\.css
+prefetched-loaded\..*\.css
+preloaded\..*\.js
+preloaded\..*\.css
+async\..*\.js
+\s+
+runtime-[0-9a-f]*
+^([\d.]+) ([\d.]+) ([\w]+):([\d.]+)$
+parcelRegister\(
+number
+(\n|[ \f\r\t\v\u2028\u2029]+|\u00ad+|\u200b+)
+[ab]
+(?:^|\
+\.([0-9a-z]+)(?:[?#]|$)
+url\("(test\.[0-9a-f]+\.woff2)"\)
+url\((test\.[0-9a-f]+\.woff2)\)
+url\(([^)]*)\)
+url\("?(test\.[0-9a-f]+\.woff2)"?\)
+return \d+;
+return \d+;
+\.([0-9a-z]+)(?:[?#]|$)
+url\("?(test\.[0-9a-f]+\.woff2)"?\)
+(foo_[0-9a-z])
+(foo_[0-9a-z])
+\.([0-9a-z]+)(?:[?#]|$)
+function (\$.*\$var\$helloWorld)
+([_0-9a-zA-Z]+_foo)
+([_0-9a-zA-Z]+_composes1)
+([_0-9a-zA-Z]+_composes2)
+(test\.[0-9a-f]+\.txt)
+(test\.[0-9a-f]+\.txt)
+src="\/(.*?)"
+src="\/(.*?)"
+src="\/(.*?)"
+src="\/(.*?)"
+(?<=node_modules\\)(.*)
+ *; *
+ *= *
+[^\[\]\w$.]
+\u2028
+\u2029
+[<>&]
+\{([^}]+)\}
+\{([^}]+)\}
+#
+#
+#
+#
+\/snow(\/|$)
+\r\n
+\r\n
+[\\/]
+\r\n
+\.delete$
+\r?\n
+\r\n
+\r\n
+\r\n
+:|T|\.|-
+\\
+\r?\n
+_+
+^_([^\d])
+_$
+]5D;
+]
+[.*+?^${}()|[\]\\]
+\r?\n
+\r?\n
+ 
+ 
+ 
+ 
+ 
+ 
+(?<bar>foo)
+(?<bar>foo)
+(#|0x)?([a-f0-9]{6})
+\\u[\dA-Fa-f]{4}|\\x[\dA-Fa-f]{2}|\\[0-3][0-7]{0,2}|\\[0-7]{1,2}|\\[\S\s]|[^\\]
+\[(?:[^\\\]]|\\[\S\s])*]|\\u[\dA-Fa-f]{4}|\\x[\dA-Fa-f]{2}|\\\d+|\\[^\dux]|\(\?[!:=]|[()^]|[^()[\\^]+
+[A-Za-z]
+\r\n?
+\n$
+^ | $
+[\s,]+
+\blinenums\b(?::(\d+))?
+%(\d)
+%(\d)
+\\u\{([0-9a-fA-F]+)\}|\\u([a-fA-F0-9]{4})
+[\uD800-\uDBFF][\uDC00-\uDFFF]
+\\(\\|")
+\\n
+\\r
+\\t
+\\v
+\\f
+\\b
+\n
+\n
+\n
+\n.*
+[ \t\r\n]+
+\r\n?
+\n$
+^ | $
+[\s,]+
+\blinenums\b(?::(\d+))?
+\bshowlinemods\b
+\r\n
+^#(\d+)$
+(?:"([^"]*)"|([\w$]+))\s*:\s*function\b
+^(.*?)\bfunction\b
+\\u([a-fA-F0-9]{4})|\\u\{([0-9a-fA-F]+)\}|[\uD800-\uDBFF][\uDC00-\uDFFF]
+\s+
+\s
+\s
+\s
+\n[ \t]*\* ?
+\.\s
+\s*\n\s*\*\s*|\s{1,}
+^\s*\*+\s*
+^\s*(\[?)\s*([^\]\s=]+)\s*(?:=[^\]]+\s*)?(\]?).*
+^\s*(\S+)
+\\
+^([^, \(\[\{]+): 
+^\) -> (.*)$
+\bfunction\b
+Version\/(\d*\.\d*)
+[^\s\u00a0]
+\r\n?|\n
+( |^)overlay .*
+(?:^|\s+)line-(background-)?(\S+)
+\S+
+-(?!$)
+\s*cm-s-\S+
+(^|\s)\s*
+^\u200b+
+\u200b+$
+\u200b
+^\s+
+\s+$
+\n
+^spans_(\d+)$
+\S
+\S
+^\s*
+\.
+\.
+^[^\?]+\??
+(\\?"|')((http)(s)?(:\
+^[\d_]*(?:n|(?:\.[\d_]*)?(?:[eE][+\-]?[\d_]+)?)?
+^\b(([gimyus])(?![gimyus]*\2))+\b
+^\s*$
+^\s*\w
+^([^<>]|<[^<>]*>)*>\s*\(
+^\s*:\s*
+^\s*\w+\s+is\b
+^\s*[?:]
+^\s*:
+^\s+[\w$\xa1-\uffff]
+^\d[\d_]*(?:[eE][+\-]?[\d_]+)?
+^(?:x[\dA-Fa-f_]+|o[0-7_]+|b[01_]+)n?
+^(\s|\/\*([^*]|\*(?!\
+[;\}\)\],]
+[\}\)\]]
+[;\}\)\],]
+\\
+[ \t]+
+\n
+[\\^$.*+?()[\]{}|]
+^\s*(\w+)\s*=\s*
+^custom (\S+)\s*(.*)
+\\
+^ktx
+\\
+\\
+\\
+\\n
+=(.+)
+\D
+\d
+(\d+)(m|h|d)
+^(?:after:|before:)
+[^0-9A-Za-z]
+\s+
+-
+\{(.*)\}
+[^0-9A-Za-z]
+[^0-9a-z]
+\$
+\/
+-
+_
+\.
+[^0-9a-z]
+ 
+-
+-+
+-$
+ApiGatewayResource(.*)
+([A-Z])
+\.
+\.
+\\
+\n
+node_modules
+[\r\n]+
+\\
+[^0-9a-z.]+
+^[a-z]
+\r?\n
+\r?\n
+\r?\n
+\r?\n
+(?<!:):(?!:)
+::
+@@
+\r?\n
+"
+\/
+\/
+\r?\n
+\r?\n
+\r?\n
+\\n|\\r
+\\n|\\r
+"
+\\n|\\r
+\\n|\\r
+\r?\n
+\.
+[.:*]
+^\/
+^\/
+[.:*]
+[.:*\s]
+\d
+^sha256:[a-f0-9]{64}$
+^sha256:[a-f0-9]{64}$
+tmpdirs-serverless
+serverless\/aws-nodejs\/dev\/[^]*\/artifact.zip
+serverless\/aws-nodejs\/dev\/[^]*\/aws-nodejs.zip
+serverless\/aws-nodejs\/dev\/[^]*\/hello.zip
+serverless\/aws-nodejs\/dev\/[^]*\/hello2.zip
+.+
+.+
+.+
+.+
+.+
+.+
+.+
+.+
+.+
+.+
+.+
+.+
+.+
+.+
+.+
+.+
+.+
+.+
+dev$
+prod$
+dev$
+prod$
+dev$
+prod$
+dev$
+prod$
+dev$
+prod$
+dev$
+prod$
+^arn
+^arn
+^arn
+^sha256:[a-f0-9]{64}$
+^FnOriginResponseLambdaVersion.*$
+^FnOriginResponseLambdaVersion.*$
+[0-9]+-.+
+WebsocketsDeployment
+WebsocketsDeployment
+undefined
+undefined
+undefined
+extraCognitoPoolClaims
+\$\{self:service}
+\$\{sls:stage}
+^not 
+%([a-zA-Z%])
+[\s,]+
+\*
+\.\*\?$
+(edge|trident)\/(\d+)
+firefox\/(\d+)
+%[a-zA-Z%]
+_([a-z])
+\\
+\\
+, *
+:$
+[, ]+
+\\
+\\
+, *
+, *
+\r?\n
+(^|\s)[;#]
+^\s*\[([^\[\]]+)\]\s*$
+^\s*(.+?)\s*=\s*(.+?)\s*$
+applewebkit\/(\d+)
+^(.+):(.+)$
+(sha256:[a-f0-9]{64})
+^[A-Za-z_][a-zA-Z0-9_]*$
+not found
+us-gov
+cn-
+iso-
+isob-
+^https:\/\/
+something went wrong
+\/ver=([^/]+)
+\/ver=([^/]+)
+\\
+\bbug (\d+)
+^\s+|\s+$
+^\s+|\s+$
+\n
+\n
+([^\(]*)\((\d+),(\d+)\):\s+((.*[\s\r\n]*.*)+)\s*$
+reference\spath='(\w*_?\w*\.?d?\.ts)'
+\r\n?
+\r\n?
+\\
+\bbug (\d+)
+^\s+|\s+$
+^\s+|\s+$
+\n
+\n
+([^\(]*)\((\d+),(\d+)\):\s+((.*[\s\r\n]*.*)+)\s*$
+reference\spath='(\w*_?\w*\.?d?\.ts)'
+\r\n?
+\r\n?
+[^\/]*$
+[^\/]*$
+[^\/]*$
+[^\/]*$
+[^\/]*$
+[^\/]*$
+^\s+|\s+$
+^\s+|\s+$
+^\s+|\s+$
+^\s+|\s+$
+[a-z._ \/\-]
+[a-z._ \/\-]
+anything
+anything
+-(.)
+\r
+( {2,}|\n|\t|\{|\})
+-(.)
+\r
+( {2,}|\n|\t|\{|\})
+\{(\d+)\}
+\{(\d+)\}
+:\/\/(.[^/]+)
+:\/\/(.[^/]+)
+.[/]
+.[//]
+.[/no sleep /till/]
+.[/]
+.[//]
+.[/no sleep /till/]
+ 
+ 
+(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})
+(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})
+\s+
+\s
+([\\\.?+*\[\](){}|^$])
+wc-(.+)
+\s+
+\[
+["']
+\s
+\Rollback of PR #(\d+).*
+^stylesheet\/less$
+LR-verbose
+-
+^\/+
+^\/+
+\/|\\
+\/|\\
+^stylesheet$
+(\?|&)livereload=(\d+)
+\.less$
+\.less$
+[,;]
+\.css(?:\.map)?$
+\.css(?:\.map)?$
+^LiveReloadPlugin
+\bno-js\b
+[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]
+^\s*
+[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]
+\bno-js\b
+^\s*|\s*$
+\.less$
+LR-verbose
+[,;]
+^\/+
+-(\w)
+^\.\/([^_][\w-]+)\/index\.tsx?$
+\/([^/]+).tsx?$
+#[^#]*$
+[&'`"<>]
+\.html$
+<script type="module".*?<\/script>
+<script nomodule
+^[a-zA-Z]:
+\\
+\\
+\\
+^v(\d+)\.(\d+)\.\d+$
+\\
+\\
+★
+\\
+\\
+[\n。]
+[\n。]
+[ _,;\.]
+\s
+<[^<>]+>
+^
+\D
+\w+
+\S+
+[\-\[\]{}()*+?.,\\\^$|#\s]
+[\-\[\]{}()*+?.,\\\^$|#\s]
+^c
+^(canvas|textarea|input|select|button|img)$
+[!"$%&'()*+,.\/:;<=>?@\[\]\^`{|}~]
+^core-
+^import \w+ from
+^export const (?!meta)
+%23
+^#!.*
+^([a-z])\:(.*)
+\\
+\.js$
+^\.\/
+^(([^\/])|([^\/][^\/\.])|([^\/\.][^\/])|([^\/][^\/][^\/]+))\/\.\.\/
+\\
+\n
+(.*):(\d+):(\d+)\)?$
+^([A-Z])|[\s-_]+(\w)
+([a-z0-9])([A-Z])
+--core-
+^(\d+)\.(\d+)$
+[\\`*_{}[\]()#+\-.!]
+[\\`*_{}[\]()#+\-.!]
+[\\`*_{}[\]()#+\-.!]
+[\\`*_{}[\]()#+\-.!]
+%23
+^#!.*
+^([a-z])\:(.*)
+\\
+\.js$
+^\.\/
+\\
+\n
+(.*):(\d+):(\d+)\)?$
+\{(\d+)\}
+[aouei]
+[<>&]
+[\\\{\}\*\+\?\|\^\$\.\[\]\(\)]
+[\-\\\{\}\+\?\|\^\$\.\,\[\]\(\)\#\s]
+\*
+\r\n|\r|\n
+\\.
+^not 
+\\
+\/
+\r\n|\n|\r
+\s+
+[^\w-]+
+--+
+^-+
+-+$
+<
+\n|;
+[\w\u4E00-\u9FA5]+
+[^\s\p{P}]
+&
+#.*$
+#.*$
+[\. ]
+[\. ]
+[\-]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+left|right
+[\. ]
+[^\d.]
+[^\d.]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+\/$
+[\. ]
+display.*?;
+display.*?;
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+\/$
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\-]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+left|right
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[^\d.]
+[^\d.]
+[\. ]
+[\. ]
+[\. ]
+display.*?;
+display.*?;
+[\. ]
+[\. ]
+\\
+\\
+\\
+[\. ]
+\/$
+[\. ]
+(\/$|\\$)+
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+left|right
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\-]
+[\. ]
+[\. ]
+[^\d.]
+[^\d.]
+[\. ]
+[\. ]
+[\. ]
+display.*?;
+display.*?;
+[\. ]
+[\. ]
+function\s+([^\(]+)
+ contentEditable="inherit"
+function ([^\s\(]+)
+%(.)
+^(callsArg|yields)
+Async
+_method=([^\b;]+)
+[ \]]
+ +
+\\u[0-9a-f]{4}|\\x[0-9a-f]{2}|\\[^ux]
+[\. ]
+[\. ]
+\/$
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+left|right
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[\. ]
+[^\d.]
+[\. ]
+[\. ]
+display.*?;
+[\. ]
+\D
+\w+
+\\
+theme.less
+\([0-9]+x[0-9]+\)
+[0-9]+
+\([0-9]+x[0-9]+,[\ ]*\w+\)
+[0-9]+x[0-9]+
+[0-9]+
+\n
+^\n
+\n
+^\n
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+,[\ ]*BORDER\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+,[\ ]*BORDER\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+,[\ ]*CV\_\w+,[\ ]*INTER\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+,[\ ]*CV\_\w+,[\ ]*INTER\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*\w+,[\ ]*\([0-2],[0-2]\),[\ ]*\w+\)
+\([0-9]+x[0-9]+,[\ ]*\w+,[\ ]*\([0-2],[0-2]\),[\ ]*\w+\|\w+\)
+\([0-9]+x[0-9]+,[\ ]*\w+,[\ ]*\([0-2],[0-2]\),[\ ]*\w+\)
+\([0-9]+x[0-9]+,[\ ]*\w+,[\ ]*\([0-2],[0-2]\),[\ ]*\w+\|\w+\)
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+\)
+\(\w+,[\ ]*[0-9]+x[0-9]+,[\ ]*[0-9]+x[0-9]+\)
+\(\w+,[\ ]*[0-9]+x[0-9]+,[\ ]*[0-9]+x[0-9]+\)
+\([0-9]+x[0-9]+,[\ ]*\w+,[\ ]*\([0-2],[0-2]\),[\ ]*\w+\)
+\([0-9]+x[0-9]+,[\ ]*\w+,[\ ]*\([0-2],[0-2]\),[\ ]*\w+\|\w+\)
+\([0-9]+x[0-9]+,[\ ]*\w+,[\ ]*\([0-2],[0-2]\),[\ ]*\w+\)
+\([0-9]+x[0-9]+,[\ ]*\w+,[\ ]*\([0-2],[0-2]\),[\ ]*\w+\|\w+\)
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*[0-9],[\ ]*BORDER\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*[0-9],[\ ]*BORDER\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*\w+\)
+\([0-9]+x[0-9]+,[\ ]*\w+\)
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+,[\ ]*THRESH\_\w+\)
+[\ ]*[0-9]+x[0-9]+[\ ]*
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+,[\ ]*THRESH\_\w+\)
+[\ ]*[0-9]+x[0-9]+[\ ]*
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+,[\ ]*(3|5)\)
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+,[\ ]*(3|5)\)
+\([0-9]+x[0-9]+,[\ ]*INTER\_\w+,[\ ]*BORDER\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*INTER\_\w+,[\ ]*BORDER\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+,[\ ]*BORDER\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*CV\_\w+,[\ ]*BORDER\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*INTER\_\w+,[\ ]*BORDER\_\w+\)
+\([0-9]+x[0-9]+,[\ ]*INTER\_\w+,[\ ]*BORDER\_\w+\)
+[\s&]
+\/
+\/
+\.?0*$
+[- :]
+[&<>"'\/]
+\r
+\r
+\s+
+^|\s+
+left|right|bottom|top
+((?:\-|\+)?\d*\.?\d*)(.*)
+(\+|\-)
+,|\s
+\s([a-z]+)
+left|right|bottom|top
+\D
+\s([a-z]+)
+\s([a-z]+)
+^[\s\(]*function[^(]*\(([^)]*)\)
+^(path|svg|rect|circle)$
+\s([a-z]+)
+[\n\r]*$
+\S
+\.\d+
+\.[cm]?js$
+(?<=\nconst syntax = )\{.*?\n\}(?=;\n)
+(?<=\n)export .*?;
+\/plugins\/(?<outputBaseName>.*?)\.js$
+<!--.*?-->
+^(\d{4,})(-\d+)?\.md$
+[/\\]
+^([+-]?[\d.]+e)(?:\+|(-))?0*(?=\d)
+^([+-]?[\d.]+)e[+-]?0+$
+^([+-])?\.
+(\.\d+?)0+(?=e|$)
+\.(?=e|$)
+T.+
+^(?<leadingSpace> *)[^\n\r ]
+( +)
+^[^\n]*\n(.*)$
+^\d+\.\d+\.\d+-pr.(\d+)$
+\[IMPROVEMENT(:(\d+))?\]
+^#{4} [a-z]
+^[^\S\n]*\n
+\n
+^v
+@prettier-placeholder-(\d+)-id
+^prettier-ignore-attribute(?:\s+(.+))?$
+\s+
+([\t\n ]+)
+ \(\d+:\d+\)$
+\.0(?=$|e)
+`+
+[\n\r]
+^\s*display:\s*([a-z]+)\s*$
+^([^\S\n]*)\S
+^html\b
+^pr-(\d+)$
+(\$\S+?)(\s+)?\.{3}
+^(?!if)(\S+)(\s+)\(
+:--\S+\s+
+\s*!\s*important
+\s*!default
+\s*!global
+\.js$
+\.js$
+\.js$
+\s+
+^(\*\*Prettier ).*?(\*\*)$
+^(- Prettier Version: ).*$
+tslib\.js$
+^(\\?[*_])+
+^prettier-ignore(?:-(start|end))?$
+(?<=\n)(\/\/ src\/\S+\n)
+\s*\|\s*
+\s+
+^([^\S\n\r]*[\n\r])+
+([\n\r][^\S\n\r]*)+$
+^(\{%.*?%\}|\{\{.*?\}\})
+\/\*.*?\*\/
+\/\/.*\n
+\n
+\n
+^\w*:\/\/
+\/$
+[\W_]
+\r\n?|\n
+\r\n?|\n
+\s+
+^\s*
+^\s*:?\s*
+^[\t ]*
+^#!\/(?:usr\
+^#!\/(?:usr\/(?:local\
+"dependentsCount":(\d+),
+ +
+^>?\s+1 \|
+pattern
+pattern
+pattern
+^#diff-.+$
+(.*)\/.*
+^#(L\d+)\-(L\d+)$
+^#(L\d+)$
+[^\u00C0-\u1FFF\u2C00-\uD7FF\w\- ]
+[ ]
+^[ \t\r\n\f]+|[ \t\r\n\f]+$
+(?:\r\n?|\n)
+>\\376\\377([^<]+)
+\\([0-3])([0-7])([0-7])
+([A-Z])
+\.js$
+#|$
+\d*(?:e[+\-]?\d+)?
+\d*(?:\.\d+)?(?:e[+\-]\d+)?L?
+\s*if(\s+|$)
+^[a-f0-9]{2}
+^[a-f0-9]{4}
+^[a-f0-9]{8}
+^[0-7]{1,2}
+.[.\d]+
+^\d{4}\.\d{2}(m|\.\d{2}([D|T](\d{2}(:\d{2}(:\d{2}(\.\d{1,9})?)?)?)?)?)
+^\d+D(\d{2}(:\d{2}(:\d{2}(\.\d{1,9})?)?)?)
+^\d{2}:\d{2}(:\d{2}(\.\d{1,9})?)?
+^\d+[ptuv]{1}
+^0[NwW]{1}
+^0x[\d|a-f|A-F]*
+^[0|1]+[b]{1}
+^\d+[chijn]{1}
+-?\d*(\.\d*)?(e[+\-]?\d+)?(e|f)?
+^[0-9]+([eE][\-+]?[0-9]+)?
+^[xX][0-9a-fA-F]+
+^[0-9]*\.?[0-9]*([eE][\-+]?[0-9]+)?
+([A-Z][A-Za-z0-9_]*)|(`.+`)
+([a-zA-Z][A-Za-z0-9_]*)|(`.+`)
+([A-Z][A-Za-z0-9_]*)|(`.+`)|\$
+^\s+|\s+$
+(\[])
+[{}]
+(\[])
+^[xX][0-9a-fA-F]+
+^[xX][0-9a-fA-F]+
+^((&H)|(&O))?[0-9\.a-f]
+^\s+|\s+$
+^\d*\.\d+F?
+^\d+\.\d*F?
+^\.\d+F?
+^&H[0-9a-f]+
+^&O[0-7]+
+^[1-9]\d*F?
+^0(?![\dx])
+^[0-9]+([eE][\-+]?[0-9]+)?
+^[xX][0-9a-fA-F]+
+^[0-9]*\.?[0-9]*([eE][\-+]?[0-9]+)?
+\?|\+
+\]\s+|\]
+[\(\)\[\]\-\.,\+\?>]
+[\[\]]
+^[^>]*>\s*$
+^.*?\*\/
+^([\w?]+)(?==)
+^="([^"]+)
+^.*?("|\\[\s\S])
+^.*?\*\/
+^}
+^\/?}
+^"
+^(?=\{\/literal})
+^\/\*
+^\{\$[\w?]*
+^\{literal}
+^\{([\/@\\]?[\w?]*)
+^[^\s\u00a0=<>\"\']*[^\s\u00a0=<>\"\'\/]
+^(\s*)
+^[0-9\.+-]
+^[+-]?0x[0-9a-fA-F]+
+^[+-]?\d*\.\d+([EeDd][+-]?\d+)?
+^[+-]?\d+([EeDd][+-]?\d+)?
+^"([^"]|(""))*"
+^'([^']|(''))*'
+^[0-9]+([eE][\-+]?[0-9]+)?
+^[xX][0-9a-fA-F]+
+^[0-9]*\.?[0-9]*([eE][\-+]?[0-9]+)?
+[%&;\w]+
+[%&;\w]+
+[\w]+
+[\w]+
+[\w]+
+[\w]+
+run\s;
+{(\d+)}
+^:
+^:`
+^`
+^`
+^`:
+^:
+^:
+^:
+^`
+^`_
+^latex\s*$
+^python\s*$
+^(?:math|latex)
+^_?_?
+^\W$
+^\W$
+^(?:math|latex)
+^python
+=+$
+\-([a-z])
+\s+
+Chrom(e|ium)\/([0-9]+)\.
+\-\>\w
+^(\$[a-zA-Z_][a-zA-Z0-9_]*|\$\{)
+<\?
+[\'\"]$
+^\$[a-zA-Z_][a-zA-Z0-9_]*
+<<\s*
+^<\?\w*
+^[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?
+^( )*(d|D|t|T|ts|TS)( )*'[^']*'( )*}
+^( )+'[^']*'
+^session\.
+^local\.
+^global\.
+^.*'
+^.*"
+^.*`
+^[0-9a-zA-Z$\.\_]+
+^[a-zA-Z.#!?]
+^[xX][0-9a-fA-F]+
+^'[0-9a-fA-F]+'
+^'[01]+'
+^b[01]+
+[a-z][a-z0-9]*
+^(?:\d+(?:e[+-]?\d+)?)
+^[a-zA-Z_]+
+^\s*\w*
+^-[\w\\\-]+
+^\s*:
+\s*[\"\')]
+^\s*:(?:\s|$)
+^[\w-]+
+^\s*:
+^(charset|document|font-face|import|(-(moz|ms|o|webkit)-)?keyframes|media|namespace|page|supports)\b
+^\s*:
+^\w+-
+^-?[_a-z][_a-z0-9-]*
+rl(-prefix)?\(
+\s*\{
+[\t ]+?$
+ $
+^[A-Z]+
+^\d+
+^HTTP\/\d\.\d
+^HTTP\/\d\.\d$
+^.*?:
+^.[^\\\"\']*
+^\d\d\d\d[\d\-\:\.T]*Z
+^\-?\d+(?:\.\d+)?
+[\w-#\.]*
+^%[\w:#\.]+=
+^%[\w:]+
+^\{%.*
+^.[^\\\"\']*
+^.[^\*]*
+^[^\]\\]+
+^\/\*
+^\(\*
+\*\/
+\*\)
+[%][A-Za-z]+
+[%][}]
+[\/][A-Za-z]+
+[\][a-z]+
+[$][0-9]+
+<<[a-zA-Z_]+>>
+^\/\/
+return
+^[a-zA-Z_][a-zA-Z0-9_]*
+(?=[\(.])
+(?=[\s\n]*[:=])
+^url
+ *: *[\w-\+\$#!\("']
+ *:
+ *,
+^url
+^[\w]+
+^[\w-]+
+^[\w-]+
+^-?[0-9\.]+
+^(px|em|in)\b
+^=[\w-]+
+^\+[\w-]+
+@extend
+\s*[\w]
+^@(else if|if|media|else|for|each|while|mixin|function)
+[0-9a-fA-F]{6}|[0-9a-fA-F]{3}
+^-?[0-9\.]+
+^(px|em|in)\b
+^[\d_]*(?:\.[\d_]+)?(?:[eE][+\-]?[\d_]+)?
+^<-?[\`\"\']?([a-zA-Z_?]\w*)[\`\"\']?(?:;|$)
+^\\[CM]-
+^@?[a-zA-Z_\xa1-\uffff]
+^include:([a-zA-Z0-9\-]+)
+^\+([-\w]+)
+^\( *[-\w]+ *=
+^\+#{
+^\( *[-\w]+ *=
+^ in\b
+,\s*$
+^(<[^\n]*)
+"|'
+^yield\b
+^(?:doctype) *([^\n]+)?
+^case\b
+^when\b
+^default\b
+^extends?\b
+^append\b
+^prepend\b
+^block\b *(?:(prepend|append)\b)?
+^include\b
+^mixin\b
+^(if|unless|else if|else)\b
+^(- *)?(each|for)\b
+^ in\b
+^while\b
+^(\w(?:[-:\w]*\w)?)\/?
+^:([\w\-]+)
+^(!?=|-)
+^#([\w-]+)
+^\.([\w-]+)
+^[^=,\)!]+
+^&attributes\b
+^ *\/\/(-)?([^\n]*)
+^: *
+^(?:\| ?| )([^\n]+)
+^\d*(?:\.\d*(?!\.))?(?:[eE][+\-]?\d+)?
+[;\}\)\],]
+^[\[{}\(,;:]$
+^\\$
+^#\{
+^\\$
+(?:^|[^\\])(?:\\\\)*\\$
+,$
+^\\$
+^#\{
+^==?
+^(true|false|nil)\b
+^#\{
+^[|']
+^\/(!|\[\w+])?
+^(-|==?[<>]?)
+^doctype\b
+^(<>?|><?)
+^([\[\{\(])
+^==?
+^(true|false|nil)\b
+^[^\s],(?=:)
+^==?
+^\/$
+^:
+^\-?[\d\.]
+^(\-?(\d*\.\d+(e[+-]?\d+)?|\d+\.\d*)|0x[\da-fA-F]+|0b[01]+|\d+(e[+-]?\d+)?)
+^<<(?=\w)
+^\=item(?!\w)
+[A-Z]
+(\s+)?\w+\(
+[0-9]
+^[a-zA-Z_][a-zA-Z0-9_]*
+^.[^\\\"\']*
+^.[^\*]*
+^[^\]\\]+
+^\/\*
+\*\/
+^\/\/
+^(\:)\s+(\S+)(\s|$)+
+^(VARIABLE|2VARIABLE|CONSTANT|2CONSTANT|CREATE|POSTPONE|VALUE|WORD)\s+(\S+)(\s|$)+
+^(\'|\[\'\])\s+(\S+)(\s|$)+
+^(\S+)(\s+|$)
+^(\]|:NONAME)(\s|$)
+^(\;|\[)(\s)
+^(\;|\[)($)
+^(POSTPONE)\s+\S+(\s|$)+
+^[-+]?[0-9]+\.[0-9]*
+^(\w+)\s*\(
+\d+ *#
+(?:\[|\]|{|}|\(|\))
+(?:\\|\+|\-|\*|\/|,|;|\.|:|@|~|=|>|<|&|\||_|`|'|\^|\?|!|%)
+^\s*($|\/[\/\*])
+^(?:[^*]|\*(?!\
+^[+-]?[0-9]*\.[0-9]*([esdx][+-]?[0-9]+)?
+^[+-]?[0-9]+([esdx][+-]?[0-9]+)
+^[+-]?\d+
+f|t|all-keys|include|key|next|rest
+^\s*\w*
+^#=
+^[0-9\.]
+^({[^}]*})*\(
+^(\(\s*)
+^\s*?=(?!=)
+^$
+\(
+^'+
+^\.{2,3}
+^:
+^end
+^=>
+^\d*\.(?!\.)\d*([Eef][\+\-]?\d+)?
+^\d+\.(?!\.)\d*
+^\.\d+
+^0x\.[0-9a-f]+p[\+\-]?\d+
+^0x[0-9a-f]+
+^0b[01]+
+^0o[0-7]+
+^[1-9]\d*(e[\+\-]?\d+)?
+^0(?![\dx])
+^<:
+:\.
+^{[^}]*}(?=\()
+^'
+^\)
+^([^()]*)
+^#=
+.*?(?=(#=|=#))
+^=#
+\\u([a-f0-9]{1,4})(?=')
+\\U([A-Fa-f0-9]{5,8})(?=')
+^[^']+(?=')
+^'
+^\/[\/*]
+^\s*\(
+^\/[\/\*]
+(R|u8R|uR|UR|LR)
+"([^\s\\()]{0,16})\(
+(u8|u|U|L)
+["']
+[^\w\s]
+^.$
+\.
+\.
+^[0-9\.+-]
+^[+-]?0x[0-9a-fA-F]+[ij]?
+^.*%}
+^[%#]
+^[+-]?\d*\.\d+([EeDd][+-]?\d+)?[ij]?
+^[+-]?\d+([EeDd][+-]?\d+)?[ij]?
+^"([^"]|(""))*"
+^'([^']|(''))*'
+^[\s\u00a0=]
+^[^\s\u00a0>]*>?
+^-?[0-9\.]
+^\s*(.+?)\b
+.+?["']
+\s
+^[\w\d]*
+^[\s\u00a0=]
+^[^\s\u00a0>]*>?
+\/\*[^\*\/]*
+[^\*\/]*\*\/
+\"(\\\"|[^\"])*
+[^\"]*\"
+\[
+]
+[\w]+
+(\s+)?\w+\s+=>.*
+(\s+)?[\w:_]+(\s+)?{
+(\s+)?[@]{1,2}[\w:_]+(\s+)?{
+\s+{
+(\s+)?\S+(\s+)?
+(\s+)?\w+
+[\w]+
+\s+\S+\s+{
+(^|\s+)[A-Z][\w:_]+
+(\s+)?[\w:_]+
+(\s+)?[@]{1,2}
+.*?\/
+(\s+)?[\w:_]+(\s+)?
+(\s+)?\w+\(
+[0-9]
+\{[{%#]
+\b(\w+)\b
+\{%\s*endcomment\s*%\}
+\.\W+
+\.\W+
+\b(\w+)\b
+\b\d+(\.\d+)?\b
+\.\W+
+\.\W+
+\b(\w+)\b
+\b\d+(\.\d+)?\b
+\b(\w+)\b
+^.*?#\}
+^[0-9\.]
+^([\s\[\{\(]|#.*)*$
+^\d*\.\d+(e[\+\-]?\d+)?
+^\d+\.\d*
+^\.\d+
+^0x[0-9a-f]+
+^0b[01]+
+^0o[0-7]+
+^[1-9]\d*(e[\+\-]?\d+)?
+^0(?![\dx])
+^(self|cls)\b
+^#b
+^#o
+^#x
+^#d
+^[-+0-9.]
+^#[ei]
+^\d*(?:\.\d*)?(?:E[+\-]?\d+)?
+^[ \t]*\(
+^[^\"]+\"\:
+^[^\"]+\'\:
+\s*\/\s*[0-9]
+\s*\/\s*[0-9]
+\s*\(
+\s*\/\s*[0-9]
+\s*\/\s*[0-9]
+\s*\(
+([\n\s]+|%[^\n]*\n)*(.)
+,|[a-z]+|\}|\]|\)|>>|\|+|\(
+-\s*[a-zß-öø-ÿ][\wØ-ÞÀ-Öß-öø-ÿ]*
+(^[\w-]+\s*=\s*$)|(^\s*[\w-]+\s*=\s*[\w-])|(^\s*(\.|#|@|\$|\&|\[|\d|\+|::?|\{|\>|~|\
+^\s*
+^(important|optional)
+^\s*&
+^\$?[-_]*[a-z0-9]+[\w-]*
+^(\.|\[)[\w-\'\"\]]+
+\.
+\s*[\"\')]
+^\s*\$?[\w-]+
+^[a-z-]+
+^\s*$
+^\s*
+^\s?\$[\w-\.\[\]\'\"]+$
+\s*(,|\.|#|\[|:|{)
+=
+^(\s*\.|#|\&|\[|\/|>|\*)
+^[a-z][\w-]*\(
+^-?[a-z][\w-\.\[\]\'\"]*\s*=
+^[\$-]?[a-z][\w-\.\[\]\'\"]*\s*=
+^\s*(\(|\)|[0-9])
+^\s+[a-z][\w-]*\(
+^\s+[\$-]?[a-z]
+^[a-z-]+
+^\s*(\.|#|:|\[|\*|&|>|~|\+|\
+^\s*[a-z]
+^(\{|\s*\&)
+\s*[\w-]
+^\s*
+[-[\]{}()*+?.,\\^$|#\s]
+^[0-9a-f]{6}|[0-9a-f]{3}
+^[a-z][\w-]*
+^-?[0-9]?\.?[0-9]
+^\.[a-z][\w-]*
+^[a-z][\w-]*\(
+^(\+|-)[a-z][\w-]*\(
+^(\/|&)(-|_|:|\.|#|[a-z])
+^&{1}\s*$
+^[A-Z]
+^\s?\$[\w-\.\[\]\'\"]+$
+^(\.|\$)
+^\.[\w-]+
+%N
+^(?:[^']|\\(?:[befnrtv0'"]|[0-7]{3}|u(?:[0-9a-fA-F]{4}|\{[0-9a-fA-F]{1,6}\})))
+^[0-9a-fA-F]+
+^[0-7]+
+^[01]+
+^\d*(?:\.\d+)?(?:[eE][+-]?\d+)?
+[({[]
+^\s*(?:\{%)?\s*|\s*(?:%\})?\s*$
+^%([^\w\s=])
+^%[a-zA-Z0-9_\u009F-\uFFFF]*
+\s*\|
+.*
+[^\|]*
+\|\s*
+#.*
+@\S+
+(機能|功能|フィーチャ|기능|โครงหลัก|ความสามารถ|ความต้องการทางธุรกิจ|ಹೆಚ್ಚಳ|గుణము|ਮੁਹਾਂਦਰਾ|ਨਕਸ਼ ਨੁਹਾਰ|ਖਾਸੀਅਤ|रूप लेख|وِیژگی|خاصية|תכונה|Функціонал|Функция|Функционалност|Функционал|Үзенчәлеклелек|Свойство|Особина|Мөмкинлек|Могућност|Λειτουργία|Δυνατότητα|Właściwość|Vlastnosť|Trajto|Tính năng|Savybė|Pretty much|Požiadavka|Požadavek|Potrzeba biznesowa|Özellik|Osobina|Ominaisuus|Omadus|OH HAI|Mogućnost|Mogucnost|Jellemző|Hwæt|Hwaet|Funzionalità|Funktionalitéit|Funktionalität|Funkcja|Funkcionalnost|Funkcionalitāte|Funkcia|Fungsi|Functionaliteit|Funcționalitate|Funcţionalitate|Functionalitate|Funcionalitat|Funcionalidade|Fonctionnalité|Fitur|Fīča|Feature|Eiginleiki|Egenskap|Egenskab|Característica|Caracteristica|Business Need|Aspekt|Arwedd|Ahoy matey!|Ability):
+(背景|배경|แนวคิด|ಹಿನ್ನೆಲೆ|నేపథ్యం|ਪਿਛੋਕੜ|पृष्ठभूमि|زمینه|الخلفية|רקע|Тарих|Предыстория|Предистория|Позадина|Передумова|Основа|Контекст|Кереш|Υπόβαθρο|Założenia|Yo\-ho\-ho|Tausta|Taust|Situācija|Rerefons|Pozadina|Pozadie|Pozadí|Osnova|Latar Belakang|Kontext|Konteksts|Kontekstas|Kontekst|Háttér|Hannergrond|Grundlage|Geçmiş|Fundo|Fono|First off|Dis is what went down|Dasar|Contexto|Contexte|Context|Contesto|Cenário de Fundo|Cenario de Fundo|Cefndir|Bối cảnh|Bakgrunnur|Bakgrunn|Bakgrund|Baggrund|Background|B4|Antecedents|Antecedentes|Ær|Aer|Achtergrond):
+(場景大綱|场景大纲|劇本大綱|剧本大纲|テンプレ|シナリオテンプレート|シナリオテンプレ|シナリオアウトライン|시나리오 개요|สรุปเหตุการณ์|โครงสร้างของเหตุการณ์|ವಿವರಣೆ|కథనం|ਪਟਕਥਾ ਰੂਪ ਰੇਖਾ|ਪਟਕਥਾ ਢਾਂਚਾ|परिदृश्य रूपरेखा|سيناريو مخطط|الگوی سناریو|תבנית תרחיש|Сценарийның төзелеше|Сценарий структураси|Структура сценарію|Структура сценария|Структура сценарија|Скица|Рамка на сценарий|Концепт|Περιγραφή Σεναρίου|Wharrimean is|Template Situai|Template Senario|Template Keadaan|Tapausaihio|Szenariogrundriss|Szablon scenariusza|Swa hwær swa|Swa hwaer swa|Struktura scenarija|Structură scenariu|Structura scenariu|Skica|Skenario konsep|Shiver me timbers|Senaryo taslağı|Schema dello scenario|Scenariomall|Scenariomal|Scenario Template|Scenario Outline|Scenario Amlinellol|Scenārijs pēc parauga|Scenarijaus šablonas|Reckon it's like|Raamstsenaarium|Plang vum Szenario|Plan du Scénario|Plan du scénario|Osnova scénáře|Osnova Scenára|Náčrt Scenáru|Náčrt Scénáře|Náčrt Scenára|MISHUN SRSLY|Menggariskan Senario|Lýsing Dæma|Lýsing Atburðarásar|Konturo de la scenaro|Koncept|Khung tình huống|Khung kịch bản|Forgatókönyv vázlat|Esquema do Cenário|Esquema do Cenario|Esquema del escenario|Esquema de l'escenari|Esbozo do escenario|Delineação do Cenário|Delineacao do Cenario|All y'all|Abstrakt Scenario|Abstract Scenario):
+(例子|例|サンプル|예|ชุดของเหตุการณ์|ชุดของตัวอย่าง|ಉದಾಹರಣೆಗಳು|ఉదాహరణలు|ਉਦਾਹਰਨਾਂ|उदाहरण|نمونه ها|امثلة|דוגמאות|Үрнәкләр|Сценарији|Примеры|Примери|Приклади|Мисоллар|Мисаллар|Σενάρια|Παραδείγματα|You'll wanna|Voorbeelden|Variantai|Tapaukset|Se þe|Se the|Se ðe|Scenarios|Scenariji|Scenarijai|Przykłady|Primjeri|Primeri|Příklady|Príklady|Piemēri|Példák|Pavyzdžiai|Paraugs|Örnekler|Juhtumid|Exemplos|Exemples|Exemple|Exempel|EXAMPLZ|Examples|Esempi|Enghreifftiau|Ekzemploj|Eksempler|Ejemplos|Dữ liệu|Dead men tell no tales|Dæmi|Contoh|Cenários|Cenarios|Beispiller|Beispiele|Atburðarásir):
+(場景|场景|劇本|剧本|シナリオ|시나리오|เหตุการณ์|ಕಥಾಸಾರಾಂಶ|సన్నివేశం|ਪਟਕਥਾ|परिदृश्य|سيناريو|سناریو|תרחיש|Сценарій|Сценарио|Сценарий|Пример|Σενάριο|Tình huống|The thing of it is|Tapaus|Szenario|Swa|Stsenaarium|Skenario|Situai|Senaryo|Senario|Scenaro|Scenariusz|Scenariu|Scénario|Scenario|Scenarijus|Scenārijs|Scenarij|Scenarie|Scénář|Scenár|Primer|MISHUN|Kịch bản|Keadaan|Heave to|Forgatókönyv|Escenario|Escenari|Cenário|Cenario|Awww, look mate|Atburðarás):
+(那麼|那么|而且|當|当|并且|同時|同时|前提|假设|假設|假定|假如|但是|但し|並且|もし|ならば|ただし|しかし|かつ|하지만|조건|먼저|만일|만약|단|그리고|그러면|และ |เมื่อ |แต่ |ดังนั้น |กำหนดให้ |ಸ್ಥಿತಿಯನ್ನು |ಮತ್ತು |ನೀಡಿದ |ನಂತರ |ಆದರೆ |మరియు |చెప్పబడినది |కాని |ఈ పరిస్థితిలో |అప్పుడు |ਪਰ |ਤਦ |ਜੇਕਰ |ਜਿਵੇਂ ਕਿ |ਜਦੋਂ |ਅਤੇ |यदि |परन्तु |पर |तब |तदा |तथा |जब |चूंकि |किन्तु |कदा |और |अगर |و |هنگامی |متى |لكن |عندما |ثم |بفرض |با فرض |اما |اذاً |آنگاه |כאשר |וגם |בהינתן |אזי |אז |אבל |Якщо |Һәм |Унда |Тоді |Тогда |То |Также |Та |Пусть |Припустимо, що |Припустимо |Онда |Но |Нехай |Нәтиҗәдә |Лекин |Ләкин |Коли |Когда |Когато |Када |Кад |К тому же |І |И |Задато |Задати |Задате |Если |Допустим |Дано |Дадено |Вә |Ва |Бирок |Әмма |Әйтик |Әгәр |Аммо |Али |Але |Агар |А також |А |Τότε |Όταν |Και |Δεδομένου |Αλλά |Þurh |Þegar |Þa þe |Þá |Þa |Zatati |Zakładając |Zadato |Zadate |Zadano |Zadani |Zadan |Za předpokladu |Za predpokladu |Youse know when youse got |Youse know like when |Yna |Yeah nah |Y'know |Y |Wun |Wtedy |When y'all |When |Wenn |WEN |wann |Ve |Và |Und |Un |ugeholl |Too right |Thurh |Thì |Then y'all |Then |Tha the |Tha |Tetapi |Tapi |Tak |Tada |Tad |Stel |Soit |Siis |Și |Şi |Si |Sed |Se |Så |Quando |Quand |Quan |Pryd |Potom |Pokud |Pokiaľ |Però |Pero |Pak |Oraz |Onda |Ond |Oletetaan |Og |Och |O zaman |Niin |Nhưng |När |Når |Mutta |Men |Mas |Maka |Majd |Mając |Mais |Maar |mä |Ma |Lorsque |Lorsqu'|Logo |Let go and haul |Kun |Kuid |Kui |Kiedy |Khi |Ketika |Kemudian |Keď |Když |Kaj |Kai |Kada |Kad |Jeżeli |Jeśli |Ja |It's just unbelievable |Ir |I CAN HAZ |I |Ha |Givun |Givet |Given y'all |Given |Gitt |Gegeven |Gegeben seien |Gegeben sei |Gdy |Gangway! |Fakat |Étant donnés |Etant donnés |Étant données |Etant données |Étant donnée |Etant donnée |Étant donné |Etant donné |Et |És |Entonces |Entón |Então |Entao |En |Eğer ki |Ef |Eeldades |E |Ðurh |Duota |Dun |Donitaĵo |Donat |Donada |Do |Diyelim ki |Diberi |Dengan |Den youse gotta |DEN |De |Dato |Dați fiind |Daţi fiind |Dati fiind |Dati |Date fiind |Date |Data |Dat fiind |Dar |Dann |dann |Dan |Dados |Dado |Dadas |Dada |Ða ðe |Ða |Cuando |Cho |Cando |Când |Cand |Cal |But y'all |But at the end of the day I reckon |BUT |But |Buh |Blimey! |Biết |Bet |Bagi |Aye |awer |Avast! |Atunci |Atesa |Atès |Apabila |Anrhegedig a |Angenommen |And y'all |And |AN |An |an |Amikor |Amennyiben |Ama |Als |Alors |Allora |Ali |Aleshores |Ale |Akkor |Ak |Adott |Ac |Aber |A zároveň |A tiež |A taktiež |A také |A |a |7 |\* )
+"[^"]*"?
+<[^>]*>?
+^(r|tm|c)\)
+^:\S+
+\S+
+\d+\]
+(\w+)[^>]+>[^<]+<\/\1>
+\s*$
+[a-z]
+[0-9a-z]{4}
+\b[mM]4+
+[a-zA-Z_0-9]+
+[a-zA-Z_0-9]+
+^[0-9\.+-]
+^[+-]?0x[0-9a-fA-F]+
+^[+-]?\d*\.\d+([EeDd][+-]?\d+)?
+^[+-]?\d+([EeDd][+-]?\d+)?
+^"([^"]|(""))*"
+^'([^']|(''))*'
+^#@?[a-z0-9_]+ *$
+ *\[ *\[
+^((&H)|(&O))?[0-9\.]
+^\s+|\s+$
+^\d*\.\d+
+^\d+\.\d*
+^\.\d+
+^&H[0-9a-f]+
+^&O[0-7]+
+^[1-9]\d*F?
+^0(?![\dx])
+^#+$
+([.?*+^$[\]\\(){}|-])
+\[[^\]]*\] ?(?:\(|\[)
+[^\]]*\](\(.*\)| ?\[.*?\])
+\(.*?\)| ?\[.*?\]
+^(https?|ftps?):\/\/(?:[^\\>]|\\.)+>
+^[^> \\]+@(?:[^\\>]|\\.)+>
+^(!--|\w)
+(\w)
+(\w)
+^[^\s]
+^~~
+ +$
+^[^>]+
+^([^\]\\]|\\.)*\]:
+^\]:
+^([^\]\\]|\\.)+
+^[^\s]+
+^(?:\s+(?:"(?:[^"\\]|\\\\|\\.)+"|'(?:[^'\\]|\\\\|\\.)+'|\((?:[^)\\]|\\\\|\\.)+\)))?
+^\s*$
+^\s*
+^\/\w*?>
+^\s*\S
+^-----BEGIN (.*)?-----\s*$
+^\w+:
+^-----END (.*)?-----\s*$
+\.
+[-\/\\^$*+?.()|[\]{}]
+[({]
+^\d*(?:\.\d*)?(?:[eE][+\-]?\d+)?
+^\b(([gimyu])(?![gimyu]*\2))+\b
+^\s*:
+^\d+(?:[eE][+\-]?\d+)?
+[;\}\)\],]
+[;\}\)\],]
+^.[^\\\"\']*
+^[^\]\\]+
+\d+
+^\w+
+^[a-zA-Z_]\w*
+(?=[\(.])
+\\[a-z]+
+(?:In|Out)\[[0-9]*\]
+([a-zA-Z\$]+(?:`?[a-zA-Z0-9\$])*::usage)
+([a-zA-Z\$]+(?:`?[a-zA-Z0-9\$])*::[a-zA-Z\$][a-zA-Z0-9\$]*):?
+([a-zA-Z\$][a-zA-Z0-9\$]*\s*:)(?:(?:[a-zA-Z\$][a-zA-Z0-9\$]*)|(?:[^:=>~@\^\&\*\)\[\]'\?,\|])).*
+[a-zA-Z\$][a-zA-Z0-9\$]*_+[a-zA-Z\$][a-zA-Z0-9\$]*
+[a-zA-Z\$][a-zA-Z0-9\$]*_+
+_+[a-zA-Z\$][a-zA-Z0-9\$]*
+\\\[[a-zA-Z\$][a-zA-Z0-9\$]*\]
+(?:\[|\]|{|}|\(|\))
+(?:#[a-zA-Z\$][a-zA-Z0-9\$]*|#+[0-9]?)
+(?:\\|\+|\-|\*|\/|,|;|\.|:|@|~|=|>|<|&|\||_|`|'|\^|\?|!|%)
+^-?[0-9\.]
+^.*\/
+^-?\d*\.\d+(e[\+\-]?\d+)?
+^-?\d+\.\d*
+^-?\.\d+
+^-?0x[0-9a-f]+
+^-?[1-9]\d*(e[\+\-]?\d+)?
+^-?0(?![\dx])
+([\[\]\/\{\}\(\)\-\.\+]{1})
+_
+([0-9]{1})
+\{digit([0-9]{1})\}
+\{digit[\+]\}
+Y
+F
+m
+d
+H
+i
+s
+[0-9]
+[0-9]
+[0-9]
+^.*? ([A-Z]{3}) [0-9]{4}.*$
+---
+---
+\D
+[\. ]
+(^|[^\[])\^
+%25
+\n*
+[xy]
+^#
+msie|chrome
+^\{\{.*?\}\}
+\\?.'
+^\$\w+
+^\$\{\w+\}
+^(\d+)
+^%[\w]+
+^\(
+^\d+
+^\)
+^%\{\??[\w \-\:\!]+\}
+ *\[ *\[
+^```+
+^```+
+^(?:[a-zA-Z0-9\-_]+\
+^(?:[a-zA-Z0-9\-_]+\
+^('([^']|\\.)*'?|"([^"]|\\.)*"?)
+---
+\.\.\.
+\s*-\s+
+^(\{|\}|\[|\])
+^\s*(\||\>)\s*
+^\s*(\&|\*)[a-z0-9\._-]+\b
+^\s*-?[0-9\.\,]+\s?$
+^\s*-?[0-9\.\,]+\s?(?=(,|}))
+^\s*(?:[,\[\]{}&*!|>'"%@`][^\s'":]|[^,\[\]{}#&*!|>'"%@`])[^#]*?(?=\s*:($|\s))
+^:\s*
+^\\[a-zA-Z@]+
+^\\[$&%#{}_]
+^\\[,;!\/\\]
+^\\[a-zA-Z@]+
+^[a-zA-Z]+
+^\\[$&%#{}_]
+^\\[,;!\/]
+^[\^_&]
+^[+\-<>|=,\/@!*:;'"`~#?]
+^(\d+\.\d*|\d*\.\d+|\d+)
+ *\( *\(
+^[-+]?\d+(\.\d+)?([eE][-+]?\d+)?
+^\.\d+
+<\/?$
+^\d*#
+\{\{
+\b(ttps?|tp|ile):\/\/[\-A-Z0-9+&@#\/%?=~_|$!:,.;]*[A-Z0-9+&@#\/%=~_|$]
+^[\[\]]
+<
+^data:[^;]*;base64,
+^data:[^;]*;base64,
+{port}
+{port}
+{port}
+&gt;\u20D2
+&lt;\u20D2
+&#x66;&#x6A;
+&gt;\u20D2
+&lt;\u20D2
+.*\/
+[\r\n]+
+\s*#.*|^\s*|\s*$
+^.*[\.\/\\]
+^\s*([^;\s]*)(?:;|\s|$)
+\[|\]
+\+
+&
+^--([^=]+)=([\s\S]*)$
+^--no-(.+)
+^--(.+)
+\W
+_([a-z])
+^\/
+\$0
+\/$
+^[.\/]
+\t
+\s+$
+\n
+^\s+
+\n
+\n
+^\s+
+%([a-zA-Z%])
+[\s,]+
+\*
+\x1B\[\d+m
+firefox\/(\d+)
+applewebkit\/(\d+)
+%[a-zA-Z%]
+\n
+\s+
+\S
+\n
+\s+
+\s+
+\S
+\n
+\n
+\n+
+\n+
+\n+
+\n+
+^\.
+\%00
+bytes=
+\/$
+\\
+(\/{0,3})\/*
+:\/
+([^:\s\%\3\A])\/+
+\/(\?|&|#[^!])
+(\?.+)\?
+^([a-zA-z]+)(\d*)$
+\s*,\s*
+\s*,\s*
+\\n
+\n
+:(\d+)
+\/+
+\n
+\s*,\s*
+^--([^=]+)=([\s\S]*)$
+^--no-(.+)
+^--(.+)
+\W
+\n
+\/$
+^--([^=]+)=([\s\S]*)$
+^--no-(.+)
+^--(.+)
+\W
+ sorted$
+\\u[0-9a-f]{4}|\\x[0-9a-f]{2}|\\[^ux]
+\D
+\w+
+[0-9]*
+[0-9]*
+[0-9]*
+[0-9]*
+[0-9]*
+[0-9]*
+[0-9]*
+[0-9]*
+[0-9]*
+[0-9]*
+[0-9]*
+[0-9]*
+,\s*
+\b([A-Z])\B
+(#|$)
+^\.
+^[^|]+
+[\r\n]
+[^.]+
+"
+"
+"
+\${VERSION}
+\${PREVIOUS_VERSION}
+\${DATE}
+\${INDEX}
+\${YEAR}
+\${MONTH}
+"
+(["\\])
+(["\\])
+"
+"
+"
+"
+"
+[[\]!]
+!
+!
+"
+"
+\.[^/.]+$
+[^A-Z0-9]
+\s*(\S+:)\s*
+<a 
+\\
+^GATSBY_
+^\/(404|500)(\/?|.html)$
+^\/offline-plugin-app-shell-fallback\/?$
+"
+"
+\s
+\/\/en\.wikipedia\.org\/wiki\/
+-|__|:|\.|\s
+-|__|:|\.|\s
+^\/?
+[\r\n]
+([0-9]+\.[0-9]+\.[0-9]+)
+[\\/]+
+\+
+\/
+=+$
+\/$
+\n
+%idbKeyValVersioned%
+%pathPrefix%
+%appFile%
+href="~\/
+snippet\s*:
+%
+\r
+\n
+%
+\r
+\n
+:
+,
+ 
+:.*$
+\\n
+(\r\n|\n|\r)
+ 
+[^_a-zA-Z0-9]
+\/$
+\.[^/.]+$
+[^A-Z0-9]
+\.[^/.]+$
+[^A-Z0-9]
+\d+$
+Connection$
+___
+^__
+_
+^[0-9]
+\r$
+\/\/
+^page-
+\/$
+;\n;$
+\/\/
+\/\/
+\/$
+^\/+
+\/$
+^\/
+\n
+^([^:]+):
+-([a-z])
+^#\/?
+\s*,\s*
+\s+
+^(.*) \d+:\d+-\d+$
+^\s*at\s<anonymous>(\n|$)
+<
+^\/
+\*$
+\/$
+\*$
+dev-404-page
+\((\d+)[^)]+\)
+[[\]]
+\+
+[^0-9a-zA-Z]
+(\?|&)export=(default|head)$
+\/$
+<pre([\w\W]+?)[\/]?>(?:(?!<\/pre>).)+(<\/pre>)
+<code([\w\W]+?)[\/]?>(?:(?!<\/code>).)+(<\/code>)
+['"\\]
+\?
+\\
+^`
+\+n
+\/$
+^\/client-only-paths
+<!-- -->
+<!-- -->
+h1>
+yellow
+\+n
+^public
+<PROJECT_ROOT>
+\s+
+\(
+\)
+data-gatsby-image-ssr=\"\"
+\s*,\s*
+\s*,\s*
+<span
+<\/span
+merriweather-latin-300-
+merriweather-latin-300italic-
+^(features|modules)\/
+.*\/node_modules\/
+-(\w)
+\..+
+^data:image\/svg\+xml
+^data:image\/[a-z]+;base64
+auth\\":.*?\\"htaccess\\"
+\\"username\\": \\"admin\\"
+\\"password\\": \\"secret\\"
+[^\w]+
+%SUBCACHE_VALUE%
+^\s+
+https:\/\/gatsbyinttests.wpengine.com
+Wp
+(^\w+)_
+(^\w+)_
+CYPRESS-MARKER
+CYPRESS-MARKER
+CYPRESS-MARKER
+.*packages[/\\]
+.*packages[/\\]
+.*packages[/\\]
+[^.]+
+^\/app
+packages\/([^/]+)
+[^/]+$
+\.d\.ts$
+must be an instance of
+Duplicate document
+^(async )?(.*)
+:(.+)
+\/.gatsby-plugin-offline:.+
+(jpe?g|png|gif)$
+(socket\.io|commons\.js)
+[!@#$^&," ]
+[!@#$^&," ]
+\/sw-append\.js
+\n
+\.mjs$
+^InvalidPDFjsFont_(.*)_\d+$
+\.
+[^/]*$
+\s*;\s*
+\s*:\s*
+ \t
+\s*:\s*
+\s+
+\s*,\s*
+\s*,\s*
+\s+
+\s+
+\s+
+\s+
+\s*,\s*
+\s+
+\s+
+\s*,\s*
+\r\n?|\n
+\r\n?|\n
+\r\n?|\n
+\r\n?|\n
+\S+
+iso-8859-\d{2}
+([RBLT])
+\s+
+\s+
+iso-8859-\d{2}
+[\u2029\u2028\n]
+[\u2028\n]
+[\u2028\n]
+[-_]
+^\/
+^\/
+(\d+)
+, ?
+^[^<]+
+[#?]
+[- ,+]+
+\w*[^\w]*$
+^[^\w]*\w*
+(?:\r\n?|\n)
+^[^;]+
+^[^']*'
+[&?]file=([^&]+)
+:|%3A
+[;, ]+
+\s+$
+T.*$
+T.*$
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+\(D:\d+\)
+[\r\n]+
+^(?:NEXT ERROR )?REFTEST (.*)$
+\/mozilla\/(.*)
+\D
+[\u2029\n]
+[\u2029\n]
+[ \t]+
+\s+
+\s+
+\r\n?|\n
+\r\n?|\n
+(:|\.|\[|\]|,|=|@)
+,| 
+\/
+-[0-9]+\.pid$|\.pid$
+-[0-9]+\.log$|\.log$
+[^a-zA-Z0-9\\.\\-]
+^(fork|cluster)$
+node
+^(fork|cluster)$
+\/$
+\.tgz($|\?)
+^(.+\
+^(.+\
+^(.+)-[0-9]+\.[0-9]+\.[0-9]+(-[a-zA-Z0-9_]+\.[0-9]+)?$
+^(.+)-[0-9]+\.[0-9]+\.[0-9]+(-[a-zA-Z0-9_]+\.[0-9]+)?$
+\d+
+\s(\w+):
+\s-\w+
+\s--\w+
+-
+^--?
+\/bin\/(\w+)
+\/bin\/(\w+)
+"
+%PM2_PATH%
+%NODE_PATH%
+%USER%
+%HOME_PATH%
+%SERVICE_NAME%
+\.[^<>:"/|?*.]+$
+([\w\-]+\="[^"]*")|([\w\-]+\='[^']*')|"([^"]*)"|'([^']*)'|\s
+'
+(?:[^."]+|"[^"]*")+
+(?:[^:"]+|"[^"]*")+
+(?:[^ "]+|"[^"]*")+
+\s+
+\.
+\.
+%HOME_PATH%
+%USER%
+\/
+\/
+"
+'
+[;`|]
+\/
+"
+cannot be found
+(\r\n|\n|\r)
+(?:[^ "]+|"[^"]*")+
+^(\w:\\|\
+\\u[\dA-Fa-f]{4}|\\x[\dA-Fa-f]{2}|\\[0-3][0-7]{0,2}|\\[0-7]{1,2}|\\[\S\s]|[^\\]
+\[(?:[^\\\]]|\\[\S\s])*]|\\u[\dA-Fa-f]{4}|\\x[\dA-Fa-f]{2}|\\\d+|\\[^\dux]|\(\?[!:=]|[()^]|[^()[\\^]+
+[A-Za-z]
+\r\n?
+\n$
+\b(\w+)=([\w%+\-.:]+)
+\blinenums\b(?::(\d+))?
+^ | $
+\w+
+.*(?=#[^\s]*$)
+(:|\.)
+\.
+\r?\n
+#{1,6} {1,}(.*\S.*)(?:\n|$)
+(#{1,6}) {1,}(.+)
+\\
+\bapp\.asar\b
+_
+_([a-z])
+([A-Z])
+<title>(.*)<\/title>
+(<(style|script|title)[^<>]*>)([\s\S]*?)(<\/\2>)
+[&<>"']
+\n{2,}
+[\u4e00-\u9fa5]
+[\s\n]+
+\r?\n
+\r?\n
+[\r?\n]+$
+\s+
+^[^ ]+ +
+"install": "prebuild-install \|\| npm run build",
+^(\d+)\.
+\\
+-_
+\s
+\s
+\\
+\\
+2008|2012|2016|2019
+^<section>([\s\S]+?)<\/section>$
+&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?
+(^|[^\[])\^
+[^\w:]
+%25
+^([^:]+:)[\s\S]*$
+^([^:]+:\/*[^/]*)[\s\S]*$
+\|
+ \|
+\\\|
+c*$
+\r\n|\r
+\t
+^ +$
+^ {4}
+^\[\^[^\^\[\]\s]+?(?<!\\)\]:\s*
+\n {4}(?=[^\s])
+^ *| *\| *$
+^ *|\| *$
+\n$
+\n*$
+^ *> ?
+^ *([*+-]|\d+(?:\.|\))) {0,4}
+^ {1,4}
+\s+
+\n*$
+^ *| *\| *$
+^ *|\| *$
+\n$
+^ *\| *| *\| *$
+\n
+^(\s+)(?:```)
+^\s+
+\s
+cmdorctrl|cmd
+ctrl
+%N
+^(\n+)
+(\n+)$
+^\s+
+\s$
+\n+$
+^\n+
+\|
+<span>&nbsp;<\/span>
+\S*
+\\
+\s+
+[.*+?^${}()|[\]\\]
+[\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,./:;<=>?@[\]^`{|}~]
+\s
+(#{1,6})(.*)
+([^\\])\|
+\s
+\\\/
+^\s*#{1,6}\s{1,}
+<[!\/a-z].*?>
+[\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,./:;<=>?@[\]^`{|}~]
+\s
+^\n+
+\n+$
+\n
+<br>
+\n
+^.*$
+ 
+ 
+ 
+ 
+(\/|\\)(?:[^/\\]+)$
+\\
+\\
+\*
+\S*
+^ {4}
+(?<!\\)\$\d
+^\$
+\\
+\\
+bull
+bull
+tag
+punctuation
+\{2,\}
+\u00a0
+\s+
+\n
+\\([\[\]])
+---
+--
+(^|[-\u2014/(\[{"\s])'
+'
+(^|[-\u2014/(\[{\u2018\s])"
+"
+\.{3}
+^(?:_{1,2}|\*{1,2})
+^(?:_{1,2}|\*{1,2})
+\n
+^h([1-6]{1})$
+\s
+.$
+^\s+
+^`{3,}math\s*
+(^`{3,})([^`]+)
+^(`+)([^`]+$)
+\{\{icon\}\}
+\{\{title\}\}
+\{\{message\}\}
+^"(.*)"$
+(?:\r\n?|\n).*
+(?:\r\n?|\n)
+(?:\r\n?|\n)
+\n
+\n
+(?:\r\n?|\n).*
+^\s+|\s+$
+\r?\n?
+[`*{}[\]()#+\-.!_>~:|<>$]
+\s+
+[`*{}[\]()#+\-.!_>~:|<>$]
+[#.]{1}
+(?:\r\n|\n)
+^\d+\.\d+(.*?) \(extension\)[\s\S]*$
+\D
+\d+\.\d+
+^(\d+\.\d+).*$
+`
+`
+(?=[\.\^\]\[\-])
+\s*,\s*
+\.{3}|\u2026
+^(\d+)\.
+nc-lib-gui
+nocodb-sdk
+\.(\d+)$
+(\r?\n)
+Once$
+ hook$
+^\s*(function|class) (\w+)
+[-_]
+([^/\\]+)\.\w+$
+\s+
+\s+
+\s+
+\s+
+[^\w]
+[\t\r\n\f ]+
+\r\n
+^\r?\n
+\s+
+\?.*$
+"
+\((.+)\)
+ 
+\+ {2}test\('(.*)',
+firefox\/(\d+)
+^\s*
+<script.*?<\/script>|<!--.*?-->|<style.*?<\/style>|<.*?>
+\/index.html
+\.html
+\n
+^Copyright\s+
+\/\*$
+^\.?\.\/(?:(.*)\
+^\.\/
+(?<!\\)'
+\.(test|spec)
+\$\$
+\\
+^locale\s+markdown_here\s+([a-zA-Z_-]+)\s+firefox\/chrome\/locale\/([a-zA-Z_-]+)\/$
+,"applications":[^{]*{[^{]*{[^}]*}[^}]*}
+[&<>]
+Thunderbird|Postbox'
+\$\$
+[^A-Za-z0-9\+\/]
+^on
+\r\n|\r
+\t
+\u00a0
+\u2424
+^ +$
+^ {4}
+\n+$
+^ *| *\| *$
+^ *|\| *$
+\n$
+ *\| *
+^ *> ?
+^ *([*+-]|\d+\.) +
+^ {1,4}
+^ *| *\| *$
+^ *|\| *$
+(?: *\| *)?\n$
+^ *\| *| *\| *$
+ *\| *
+\s+
+<-->
+<--
+-->
+<==>
+<==
+==>
+--
+(^|[-\u2014/(\[{"\s])'
+'
+(^|[-\u2014/(\[{\u2018\s])"
+"
+\.{3}
+[^\w]+
+[^\w:]
+<
+>
+"
+'
+&([#\w]+);
+(^|[^\[])\^
+prevVer=([0-9\.]+)
+(?:\n|\r\n|\r)
+<\s*script[^>]*>[\s\S]*?<\/script>
+<\s*style[^>]*>[\s\S]*?<\/style>
+<!--.*?-->
+<!DOCTYPE.*?>
+<\s*br[^>]*\/?\s*>
+\n{2,}
+^\n+
+\n+$
+&([^;]+);
+(<([^>]+)>)
+([^\n\S]+)\n
+([^\n\S]+)$
+^[*+-] 
+`
+\$([^ \t\n\$]([^\$]*[^ \t\n\$])?)\$
+__([\s\S]+?)__(?!_)|\*\*([\s\S]+?)\*\*(?!\*)
+(^\s{0,3}#{2,6}[^#])|(^\s*[-=]{5,}\s*$)
+\]\(|\]\[
+^--[\s\u00a0]+(\n|$)
+;[\s]*$
+\n
+\s
+^\b\w+\b$
+\{mathcode\}
+\{urlmathcode\}
+[^\w]+
+^(?!#)([^:]+)$
+<(img[^>]*)>
+<br\b
+<p\b
+<p\b[^>]*>
+<\/p\b[^>]*>
+<code\b.+?<\/code>
+^((?:(?!<div\b)[\s\S])+)
+(<\/div>)((?!<div\b)[\s\S]+?)(<div\b[^>]*>)
+^(?=([\s\S]*>))\1([^>]+)$
+(<\/div>)<div\b[^>]*><\/div>(<div[^>]*>)
+<div\b[^>]*><br\b[^>]*><\/div>
+<br\b[^>]*><\/div>
+(<\/div>)+
+<div\b[^>]*>
+<(img[^>]*)>
+&nbsp;
+(`+)[\s\S]+?\1
+^foo
+#{this}
+#{act}
+#{exp}
+\[
+(\\\.|[^.]+?)+
+^"|"$
+'
+\\"
+'
+\\"
+(^"|"$)
+^\d+$
+^\d+$
+^"([a-zA-Z_][a-zA-Z_0-9]*)"$
+&
+<
+>
+"
+^
+\n$
+^
+^
+\t
+\r
+\n
+fail|pass
+fail|pass
+%([se])
+^
+#
+\|
+\n
+\r
+\[
+\]
+\u0085
+\u2028
+\u2029
+'
+&
+"
+<
+>
+ +
+[^-\w]
+^function *\(.*\) *{
+\s+\}$
+^\n?( *)
+[-\\^$*+?.()|[\]{}]
+^\s+|\s+$
+<
+>
+\/\/(.*)
+('.*?')
+(\d+\.\d+)
+(\d+)
+\bnew *(\w+)
+\b(function|new|throw|return|var|if|else)\b
+(\s+|\b)
+([{}:;,]|\s+)
+\.(js|coffee)$
+\D
+\w+
+AppleWebKit.*Version.*Safari
+^https?:\/\/
+\s+
+latest_leaflet_version:.*
+integrity_hash_source:.*
+integrity_hash_uglified:.*
+integrity_hash_css:.*
+[, ]+
+&
+\d
+<[^>]*>
+<
+>
+&lt;
+&amp;lt;
+&#xa;
+.*\/
+\+
+^data:image\/(jpeg|png),(.*);$
+MathML
+[^A-Za-z0-9\+\/\=]
+\r\n
+Mac
+[^\/]+$
+\/?[^\/]*$
+^\W*([0-9A-F]{3}([0-9A-F]{3})?)\W*$
+\s+
+^(([A-Za-z][0-9A-Za-z+.-]*)(:))?((\/\
+[^\/]+$
+^\.+
+^\/?[^\/]*
+%script-src%
+%script-src%
+ 'sha256-[^']+'
+%script-src%
+%script-src%
+&lt;
+&amp;lt;
+&#xa;
+\n.*
+.*\/
+\.?0+$
+\((.+)\)
+primary key
+[A-Z]
+([A-Z])
+[\x00-\x1F\x7F-\x9F]|\s+
+[\x00-\x1F\x7F-\x9F]|\s+
+<br>
+<[^>]*>
+<[^>]*>
+\n(<(BLOCKQUOTE|DIV|H1|H2|H3|H4|H5|H6|OL|P|PRE|TABLE|UL)[^>]*>)
+[A-Z]
+([A-Z])
+\b\w+\b|[^\w\s]|\=
+\(([^)]+)\)
+_
+_
+_
+%20
+%([0-9A-F]{2})
+\t
+(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)
+[\x00-\x1F\x7F-\x9F]|\s+
+\n
+\n
+\n
+\n
+\r\n
+\r\n
+ 
+Trident\/7\.
+Edge\/
+Mac
+^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?
+\n
+\+
+&gt;
+\\&quot;
+&
+&
+_
+Chrom(e|ium)\/([0-9]+)\.
+:$
+ xmlns:\S*="http:\/\/www.w3.org\/XML\/1998\/namespace"
+\s+
+\u00a0
+\s
+\s
+[^a-z0-9]+
+_+$
+\s+
+\r$
+\r$
+\r$
+MJXZERO, 
+[\/\,\(\)]
+\.*\d*$
+\.*\d*$
+[-_]
+_
+_
+_
+_
+\n
+\'
+OS (\d+)_(\d+)_?(\d+)?
+&gt;
+\\&quot;
+[\/ +]
+\n.*
+<
+\u2028
+<
+>
+<
+>
+\d+
+[^a-z0-9]+
+_+$
+MMMM
+MMMM
+i18nShort
+i18nMediumWithTime
+xyz
+xyz
+\n
+\n
+\d+
+\d+
+\d+
+\n
+\t
+\r\n\t[\t]*
+\n
+^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?
+\n
+ 
+ 
+&
+<
+>
+"
+\'
+\n
+\n
+\\n
+\\n
+\n
+\n
+\n
+\n
+^.*[\\\/]
+^.*[\\\/]
+^.*[\\\/]
+^.*[\\\/]
+\+
+\+
+\+
+\.\s*SUPER\s*\(
+<\?.*?\?>
+\s
+\s
+\s
+;rotation=(\d+\.*\d+)
+;rotation=(\d+\.*\d+)
+\s*,\s*
+am\/pm
+\n
+([\(\)])
+([\(\)])
+&amp;
+&#62;
+&gt;
+>
+&
+&amp;amp;
+<hr>
+[^a-zA-Z0-9]+
+\(([^)]+)\)
+[ ,]+
+[ ,]+
+[ ,]+
+[ ,]+
+([\(\)])
+\n
+\n
+"
+ 
+,
+0
+0
+\n
+^(.)(\S*)(.*)
+^(.)(\S*)(.*)
+^.*?([a-z]*)$
+=
+\n
+ 
+^[cbt]$
+\\[a-z]+$
+\s
+[^0-9]
+\n
+.*?\/latest\.js(\?|$)
+\r?\n
+\D
+(.{2})
+^(?:[a-z]+:\
+^(?:[a-z]+:\
+^[a-z]+:
+^((\w+:)?\/\/[^\/]+\/?).*$
+(^| )link($| )
+^((\w+:)?\/\/[^\/]+\/?).*$
+,
+"([^"]+)"
+ ?id=".*?"
+\\(?=u[a-fA-F\d]{4})
+[^0-9]
+ 
+ xmlns[=:]
+[><VA.|=]
+^[a-z]+|.
+,
+[^_a-zA-Z0-9]
+\n
+^\\([a-z]+|.)$
+\s
+^([ \t\r\n,]+)
+[^A-Za-z0-9\+\/\=]
+\r?\n
+^v
+^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$
+[-_\s]([a-z\d])(\w*)
+[!'()~]|%20|%00
+([a-z\d])(\w*)
+\/?\/$
+\r?\n|\r\n?
+[\r\n"]
+^\?
+:$
+^\?
+^#
+^.+\n
+^.+\n.+\n
+^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$
+[-_\s]([a-z\d])(\w*)
+^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$
+[-_\s]([a-z\d])(\w*)
+[!'()~]|%20|%00
+%3A
+([a-z\d])(\w*)
+:$
+^\?
+^#
+\/?\/$
+^.+\n
+^.+\n.+\n
+^v
+^v
+^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$
+[-_\s]([a-z\d])(\w*)
+[!'()~]|%20|%00
+([a-z\d])(\w*)
+:$
+^\?
+^#
+\/?\/$
+^.+\n
+^.+\n.+\n
+^.+\n
+^.+\n.+\n
+(?:\r\n|\r|\n){3,}
+\n +
+^ +
+\n\n\n+
+\n\n$
+^v
+^\?
+^v
+^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$
+[-_\s]([a-z\d])(\w*)
+[!'()~]|%20|%00
+([a-z\d])(\w*)
+:$
+^\?
+^#
+\/?\/$
+^.+\n
+^.+\n.+\n
+([a-z\d])(\w*)
+\/?\/$
+:$
+^\?
+^#
+\r?\n|\r\n?
+[\r\n"]
+[!'()~]|%20|%00
+^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$
+^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$
+^[^/]+
+^[^/]+
+^'
+^\D+
+(\[([^\]]+)\])
+(\[([^\]]+)\])
+\.
+\`
+\.(?:client|server)
+Lorem
+Ipsum
+dummy
+Lorem
+Ipsum
+dummy
+[-_]([a-z])
+[-_]([a-z])
+^\/
+^\/
+^\/
+^\/
+[🚀┃]
+Local\s*
+Network\s*
+\r\n
+:\d+:\d+$
+:\d+:\d+$
+:\d+:\d+$
+^\/?
+\s
+^\/?
+^\/?
+^\/?
+\s*
+\s*
+\s*
+ReactDynamic\..*\.css
+^\/?
+\s
+\s
+^\/?
+\s
+^\/?
+^\/?
+<!--\/?lit-part-->
+[\\/]+
+^\\\\\?\\.:\\
+^([a-zA-Z]+:|\.\
+(\?|&)inline=?(&|$)
+\/$
+\/$
+\s
+\s*
+\/blog
+\/blog
+\s*
+\s+
+\s+
+\n
+cubic-bezier
+^\/?
+\s
+\s+
+export\s+const\s+prerender\s+=\s+true;
+\\
+\.html$
+index.html$
+cubic-bezier
+^Counter\.[\w-]+\.js\.map$
+^\s*
+(?:\s*,\s*|\s+)
+^Bearer 
+[.*+?^${}()|[\]\\]
+<br\s*\/?>
+[^\p{L}\p{N}_\u00b7\u200c]
+^#
+^#
+[_-].*
+(access_token)=([a-zA-Z0-9\-_]+)
+^history
+:
+\w\w
+[-|_|\s]+
+<br\s*\/?>
+<br\s*\/?>
+(^|[^/\w])@(([a-z0-9_]+)@[a-z0-9.-]+[a-z0-9]+)
+\uFE0F$
+\S+$
+\s
+ 
+\S+$
+\s
+^@
+^#
+^@
+^#
+^@?[a-z0-9_-]+(@[^\s]+)?$
+^@
+\/(followers|following)\/?$
+^#
+<br\s*\/?>
+-
+_
+[\s|,\-_]+
+\s
+\n\n
+\n
+\*\*\*\*\*\*
+^#
+:
+\.json$
+\s+
+&
+\D
+\D
+^[\s\uFEFF]+|[\s\uFEFF]+$
+(scroll|auto|overlay)
+<(script)>([\s\S]+)<\/\1>
+<(style)\s*>([\s\S]+)<\/\1>
+<(script|style)[\s\S]+<\/\1>
+\[(\w+)\]
+^\.
+[|\\{}()[\]^$+*?.]
+firefox
+([+-]|\d\d)
+@@@
+@@@
+left|right|bottom|top
+\W?m{1,2}|\W?ZZ
+\W?h{1,2}|\W?s{1,3}|\W?a
+\W?D{1,2}|\W?Do|\W?d{1,4}|\W?M{1,4}|\W?y{2,4}
+<(script)>([\s\S]+)<\/\1>
+<(style)\s*>([\s\S]+)<\/\1>
+<(script|style)[\s\S]+<\/\1>
+\r?\n
+export\s+default
+:::[\s\S]*?:::
+```[\s\S]*?```
+#{2,4}[^#]*
+\n+
+#{2,4}
+<[^>]+>
+^demo\s*(.*)$
+el-table_[^\s]+
+^demo\s*(.*)$
+^demo\s*(.*)$
+\s+
+\s+
+hsla|hsl|\(|\)
+\s|,
+hsva|hsv|\(|\)
+\s|,
+rgba|rgb|\(|\)
+\s|,
+@font-face{[^}]+}
+['"]
+-
+hsla|hsl|\(|\)
+\s|,
+hsva|hsv|\(|\)
+\s|,
+rgba|rgb|\(|\)
+\s|,
+\d+
+\d+
+\d+
+\d+
+\d+
+\d+
+\d+
+\d+
+\d+
+\d+
+\d+
+\d+
+\d+
+\d+
+\d+
+\d+
+\.+$
+\.+$
+\.+$
+\.+$
+\*+
+-
+[^a-z0-9%*][a-z0-9%]{3,}(?=[^a-z0-9%*])
+[a-z0-9%]{3,}
+[a-z0-9%]{3,}
+%([a-zA-Z%])
+[\s,]+
+\*
+\.\*\?$
+firefox\/(\d+)
+applewebkit\/(\d+)
+%[a-zA-Z%]
+:
+;
+;
+(?:^|&)([^&=]*)=?([^&]*)
+\/$
+(edge|trident)\/(\d+)
+:
+;
+;
+(?:^|&)([^&=]*)=?([^&]*)
+\/$
+:
+;
+;
+(?:^|&)([^&=]*)=?([^&]*)
+\/$
+^http
+Illegal
+Trident.*rv[ :]*11\.
+Android
+:
+:
+:
+:
+:
+:
+:
+:
+"sid":"([^"]+)"
+"sid":"([^"]+)"
+"sid":"([^"]+)"
+"sid":"([^"]+)"
+"sid":"([^"]+)"
+"sid":"([^"]+)"
+"sid":"([^"]+)"
+"sid":"([^"]+)"
+^http
+(\r\n|\n|\r)
+palette=([a-z]+)
+#\/?
+T|Z
+\((.*)\)
+previously published
+\s\(.*\)
+^(\.?www\.|\.)
+-\d{6,}
+(\?|&)amp
+-runtime$
+\.js$
+^@vue\/
+\((.*)\)
+previously published
+\d+
+^\s*(\d+)\D+(\d+)\s*$
+,
+,
+[(){}[\]]
+(\w+)\W*
+_
+^(\S*\.)?(\S*\.\S*)$
+\n
+@
+\+
+-
+^['"]|['"]$
+^\[|\]$
+\/$
+\/$
+\/+$
+\/$
+\/$
+&apos;
+&apos;
+^www\.
+^(www)\.(?=[^/]*\..{2,5})
+^(www)\.(?=[^/]*\..{2,5})
+^http(s?):\/\/
+^http(s?):\/\/
+[\d\s.]
+[\d\s.]
+\/+
+^www\.
+\/$
+count\.posts
+count\.posts
+\s
+\/$
+^\/
+^\/explore(\/.*)?
+\/explore
+\/$
+^\/
+\/amp\/$
+^#\/
+^\/
+^ghost\/
+\/+|\\+
+^https?:\/\/
+.js$
+\s
+\.\[
+id:-[a-f0-9A-F]{24}
+[-/\\^$*+?.()|[\]{}]
+^nth:(\d+)
+^@
+@
+count:\d+
+count:(\d+)
+count:>\d
+count:>(\d+)
+count:<\d
+count:<(\d+)
+count:
+count:
+images\.unsplash\.com
+%5B
+explore\/
+s$
+&
+<
+>
+"
+'
+[.*+?^${}()|[\]\\]
+"
+%%{uuid}%%
+--uuid--
+&apos;
+→
+–
+“
+”
+(?:"|&quot;)
+\/content\/images\/
+[^a-zA-Z0-9_]
+please upgrade
+<[^>]+>
+_loading$
+\s{2,}
+https?:\/\/(?:www\.)?youtube\.com\/watch\?v=([a-zA-Z0-9_-]*)
+https?:\/\/(?:www\.)?youtu\.be\/([a-zA-Z0-9_-]*)
+https?:\/\/(?:www\.)?vimeo\.com\/([0-9]+)
+<blockquote.*?>(.*?)<\/blockquote>
+<p><br><\/p>
+['"]+
+^\/\/|^https?:\/\/(?:www\.)?
+(?:www\.)?youtube\.com
+wp-json\/oembed
+&w=1080
+[\d\s.,]
+\/amp\/
+^\/
+^public
+\.([^.]*)$
+\/?favicon\.(ico|png)$
+\/$
+(signin|signup|setup|reset)
+'
+\\
+\\
+\/content\/images\/
+\/content\/images\/
+.ico$
+.jpe?g$
+.png$
+^\/tmp
+^\/tmp
+^\/
+([+-])0
+\W
+{{site.title}}
+{{author.name}}
+{{date}}
+.hbs$
+(?:\.)([a-zA-Z]{3,4})(\?|$)
+^(.+?)(-\d+)?$
+^\/assets
+^\/
+([^/])\?
+\/?$
+^http(s?):\/\/
+\/$
+s$
+;\s*$
+;\s*$
+(?:\r\n|\n|\r)
+\/+$
+\/+$
+_o(\.\w+?)$
+\/$
+\d+\/\d+
+\/amp\/$
+@?([^/]*)
+(?:https:\/\
+([+-])0
+(.*?\
+^http(s?):\/\/
+\/$
+^<|>$
+^\+\((.*)\)$
+(\S+)
+(?:https:\/\
+^https?:\/\/
+\/?$
+^(www)\.(?=[^/]*\..{2,5})
+^\/
+^\w+.
+^www\.
+\/$
+\/$
+\+
+\/
+-
+^www\.
+^(http:|https:)
+(?:twitter\.com\
+(?:twitter\.com\
+([^/]+)\/?$
+^(http|www)|(\
+^[a-z\d._]{1,15}$
+(?:twitter\.com\
+\/$
+\/$
+"
+^\/
+(https?:\/\
+^(http|\/\
+\/
+%s
+-\d+$
+-\d+$
+-(\d+)$
+created_at
+created_at
+created_at
+created_at
+^\/
+("|')
+[^a-zA-Z0-9]
+.js$
+s$
+(\w+)\.
+\s+
+(\n|\r)+
+^issues.*?\.csv
+[&<>"']
+^\/\/
+[^a-z]
+^-|-$
+<[^>]*>?
+&nbsp;
+&amp;
+&quot;
+&lt;
+&gt;
+(\d+)(.*)
+\r\n
+^\n+
+:\w+
+ies$
+ies$
+s$
+{.*}
+{(\w+)}
+{.*}
+{(\w+)}
+.*\..*
+\/$
+^\/
+\/$
+^\/
+\/$
+^\/
+\/:\w+
+\/$
+^\/
+\/:\w+
+[^0-9]
+\/$
+\/$|\\$
+_loading$
+_loading$
+_loading$
+s$
+^\/(\w+)\/?
+\d{3}Z$
+\d{3}Z$
+^public
+^image
+\/$
+\/
+\/$
+\B(?=(\d{3})+(?!\d))
+\B(?=(\d{3})+(?!\d))
+^(\d+\.)(\d+\.)(\d+)
+(\d+\.)(\d+\.)(\d+)
+\/
+(<iframe)(.*?\s*?)(<\/iframe>)
+(<iframe)(.*?\s*?)(youtu.be\/|youtube(-nocookie)?.com\/(v\/|.*u\/\w\/|embed\/|.*v=))(.*?\s*?)(<\/iframe>)
+please upgrade
+\B(?=(\d{3})+(?!\d))
+#.*?$
+^#
+\/$
+\/$
+\/content\/images\/size\/([^/]+)\/
+\/content\/images\/
+\/content\/images\/
+\/$
+^\/
+^#
+\d{3}Z$
+\d{3}Z$
+slug:\s?\[(.*)\]
+;\s*$
+;\s*$
+-
+[0-9a-z]+
+[0-9a-z]+
+[0-9a-z]+
+[0-9a-z]+
+[0-9a-z]+
+randomword
+Unexpected destination
+Unable to read
+^\$2[ayb]\$.{56}$
+\/?v1\/(\w+)\/?(\w+)
+\/?v1\/(\w+)(?:\/?(\w+)){0,2}
+\/?v1\/(\w+)(?:\/?(\w+)){0,2}
+http:\/\/
+expired
+expires
+Invitation revoked\s+invite2@example\.com
+Invitation resent! \(invite1@example\.com\)
+Invitation revoked\s+invite1@example\.com
+you cannot use an insecure password
+\/users\/password
+select a valid media file
+The request could not be understood.
+The request could not be understood.
+cannot edit user
+Title cannot be longer than 255 characters
+to be published\s+in (4|5) minutes
+cannot be longer than 300
+cannot be longer than 65535
+cannot be longer than 65535
+cannot be longer than 300
+cannot be longer than 500
+cannot be longer than 300
+cannot be longer than 500
+^\.
+^\.
+URL contains a private resource
+insufficient metadata
+\d+\.\d+\.\d+
+Scheduled
+Scheduled
+members\/\d+
+members\/\d+
+members\/\d+
+\/members\/(\?|$)
+id,email,name,note,subscribed_to_emails,complimentary_plan,stripe_customer_id,created_at,deleted_at,labels,tiers
+id,email,name,note,subscribed_to_emails,complimentary_plan,stripe_customer_id,created_at,deleted_at,labels,tiers
+\/?v1\/(\w+)(?:\/(\w+))
+\/?v1\/(\w+)(?:\/(\w+))
+https?:\/\/[^\s]+
+https?:\/\/[^\s]+
+- Webmentions \(https:\/\/webmention.io\/\)
+Ghost Demo \(https:\/\/demo.ghost.io\/\)
+Sent to jamie@example.com from ghost.org
+test\.json
+user4@ghost.org
+user5
+users\.name
+users\.email
+Test Post
+This is an excerpt
+This is an excerpt
+\/?v1\/(\w+)\/?(\w+)
+\/?v1\/(\w+)(?:\/?(\w+)){0,2}
+^Validation
+[a-z0-9]{24}
+\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{3}Z
+(?:"(?:[^"]|"")*"|[^,\n]*)(?:,(?:"(?:[^"]|"")*"|[^,\n]*))*\n
+[a-z0-9]{24}
+\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{3}Z
+(?:"(?:[^"]|"")*"|[^,\n]*)(?:,(?:"(?:[^"]|"")*"|[^,\n]*))*\n
+srcset="https:\/\/images\.unsplash\.com\/favicon_too_large\?ixlib=rb-1\.2\.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ 600w, https:\/\/images\.unsplash\.com\/favicon_too_large\?ixlib=rb-1\.2\.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=800&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ 800w"
+valid filter
+<h1[^>]*?>Start here for a quick overview of everything you need to know<\/h1>
+<!\[CDATA\[Start here for a quick overview of everything you need to know\]\]>
+<!\[CDATA\[Start here for a quick overview of everything you need to know\]\]>
+<!\[CDATA\[Start here for a quick overview of everything you need to know\]\]>
+sitemapindex
+urlset
+urlset
+urlset
+urlset
+urlset
+<!\[CDATA\[Start here for a quick overview of everything you need to know\]\]>
+<!\[CDATA\[Start here for a quick overview of everything you need to know\]\]>
+refresh
+refresh
+refresh
+html>
+An unexpected error occurred, please try again.
+html>
+An unexpected error occurred, please try again.
+^\/ghost\/
+\* Aliquam
+^testing
+^testing
+newsletters\.name
+newsletters\.slug
+\/?v1\/(\w+)\/?(\w+)
+id,email,name,note,subscribed_to_emails,complimentary_plan,stripe_customer_id,created_at,deleted_at,labels,tiers
+^Import \d{4}-\d{2}-\d{2} \d{2}:\d{2}$
+(redirects)
+\/members-importer\/test\/fixtures\/Members Import
+^email,labels\r\n
+^email,subscribed_to_emails,labels\r\n
+\/content\/images\/my-test-image\.jpg$
+\/content\/images\/my-test-image\.jpg$
+\/content\/images\/my-test-image\.jpg$
+\/content\/images\/my-test-image\.jpg$
+EISDIR
+EISDIR
+\d+.\d+.\d+
+\d+.\d+.\d+
+^testblog\.ghost\.[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}\.json$
+^ghost\.[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}\.json$
+^ghost\.[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}\.json$
+\+primary_tag:test
+\+primary_author:hans
+\+author:author-name
+\+author:
+\+magic
+^Something wasn't found
+\+primary_tag:test
+\+primary_author:hans
+\+author:author-name
+\+author:
+\+magic
+^Something wasn't found
+https?:\/\/[^\s]+
+https?:\/\/[^\s]+
+https?:\/\/[^\s]+
+https?:\/\/[^\s]+
+https?:\/\/[^\s]+
+\/content\/images\/2016\/01\/myimage\.jpg$
+\/content\/images\/2016\/01\/myimage\.jpg$
+^'|'$
+.*\/
+.*\/
+.*\/
+.*\/
+.*\/
+.*\/
+ 
+ 
+Page 1 of 1
+Page 1 of 3
+Page 2 of 3
+Page 3 of 3
+Page 1 of 1
+Page 1 of 1
+<script>var test = 'I am a variable!'<\/script>
+<script>var test = 'I am a variable!'<\/script>
+post-codeinjection
+<script>var test = 'I am a variable!'<\/script>
+post-codeinjection
+<script>var test = 'I am a variable!'<\/script>
+post-codeinjection
+[.*+?^${}()|[\]\\]
+data-members-cancel-subscription="sub_cancel"
+data-members-continue-subscription="sub_continue"
+custom-link-class
+custom-error-class
+custom cancel link text
+custom continue link text
+^<script
+helper is not available
+posts\.id
+isLowercase
+isUUID
+posts\.created_at
+members_feedback\.member_id
+members_feedback\.post_id
+("|')
+\/themes\/
+sqlite3|mysql
+\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}
+\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}
+\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}
+\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}
+not supported
+not supported
+\s+
+^import-
+^import-
+Invalid Email
+Invalid Email
+^import-
+^import-
+^import-
+<script async custom-element="amp-anim" src="https:\/\/cdn.ampproject.org\/v0\/amp-anim-0.1.js"><\/script>
+<script async custom-element="amp-iframe" src="https:\/\/cdn.ampproject.org\/v0\/amp-iframe-0.1.js"><\/script>
+<script async custom-element="amp-youtube" src="https:\/\/cdn.ampproject.org\/v0\/amp-youtube-0.1.js"><\/script>
+<script async custom-element="amp-youtube" src="https:\/\/cdn.ampproject.org\/v0\/amp-youtube-0.1.js"><\/script>
+<script async custom-element="amp-iframe" src="https:\/\/cdn.ampproject.org\/v0\/amp-iframe-0.1.js"><\/script>
+<script async custom-element="amp-audio" src="https:\/\/cdn.ampproject.org\/v0\/amp-audio-0.1.js"><\/script>
+paths values
+\/content\/data\/routes-\d{4}-\d{2}-\d{2}-\d{2}-\d{2}-\d{2}.yaml
+jwt expired
+maxAge exceeded
+members_created_events\.attribution_type
+members_created_events\.member_id
+members_created_events\.source
+members_created_events\.source
+[^a-zA-Z]
+<loc>
+sitemap-tags.xml
+sitemap-posts.xml
+sitemap-pages.xml
+sitemap-authors.xml
+sitemap-tags.xml
+sitemap-posts.xml
+sitemap-pages.xml
+sitemap-authors.xml
+sitemap-posts.xml
+sitemap-posts-2.xml
+https:\/\/external.com\/test\/
+<loc>
+https:\/\/external.com\/test\/
+This is a paragraph test\.
+This is a paragraph test\.
+This is a paragraph test\.
+__GHOST_URL__
+^<\?xml version="1.0" encoding="UTF-8"\?>
+<rss
+xmlns:dc="http:\/\/purl.org\/dc\/elements\/1.1\/"
+xmlns:content="http:\/\/purl.org\/rss\/1.0\/modules\/content\/"
+xmlns:atom="http:\/\/www.w3.org\/2005\/Atom"
+version="2.0"
+xmlns:media="http:\/\/search.yahoo.com\/mrss\/"
+<channel><title><!\[CDATA\[Test Title\]\]><\/title>
+<description><!\[CDATA\[Testing Desc\]\]><\/description>
+<link>http:\/\/my-ghost-blog.com\/<\/link>
+<image><url>http:\/\/my-ghost-blog.com\/favicon.png<\/url><title>Test Title<\/title><link>http:\/\/my-ghost-blog.com\/<\/link><\/image>
+<generator>Ghost 0.6<\/generator>
+<lastBuildDate>.*?<\/lastBuildDate>
+<atom:link href="http:\/\/my-ghost-blog.com\/rss\/" rel="self"
+type="application\/rss\+xml"\/><ttl>60<\/ttl>
+<\/channel><\/rss>$
+<item><title><!\[CDATA\[HTML Ipsum\]\]><\/title>
+<description><!\[CDATA\[<h1>HTML Ipsum Presents<\/h1>
+<link>http:\/\/my-ghost-blog.com\/html-ipsum\/<\/link>
+<image><url>http:\/\/my-ghost-blog.com\/favicon.png<\/url><title>Test Title<\/title><link>http:\/\/my-ghost-blog.com\/<\/link><\/image>
+<guid isPermaLink="false">
+<\/guid><dc:creator><!\[CDATA\[Joe Bloggs\]\]><\/dc:creator>
+<pubDate>Thu, 01 Jan 2015
+<content:encoded><!\[CDATA\[<h1>HTML Ipsum Presents<\/h1>
+<\/code><\/pre>\]\]><\/content:encoded><\/item>
+<author>
+<title><!\[CDATA\[Short and Sweet\]\]>
+<description><!\[CDATA\[test stuff
+<content:encoded><!\[CDATA\[<!--kg-card-begin: markdown--><h2 id="testing">testing<\/h2>\n
+<img src="http:\/\/placekitten.com\/500\/200"
+<media:content url="http:\/\/placekitten.com\/500\/200" medium="image"\/>
+<category><!\[CDATA\[public\]\]
+<category><!\[CDATA\[visibility\]\]
+<category><!\[CDATA\[internal\]\]
+<title><!\[CDATA\[Short and Sweet\]\]>
+<description><!\[CDATA\[test stuff
+<content:encoded><!\[CDATA\[<!--kg-card-begin: markdown--><h2 id="testing">testing<\/h2>\n
+<img src="http:\/\/placekitten.com\/500\/200"
+<media:content url="http:\/\/placekitten.com\/500\/200" medium="image"\/>
+<dc:creator>
+<title><!\[CDATA\[Short and Sweet\]\]>
+<description><!\[CDATA\[test stuff
+<content:encoded\/>
+<media:content url="http:\/\/placekitten.com\/500\/200" medium="image"\/>
+<dc:creator>
+<title><!\[CDATA\[Short and Sweet\]\]>
+<description><!\[CDATA\[test stuff
+<content:encoded><!\[CDATA\[<!--kg-card-begin: markdown--><h2 id="testing">testing<\/h2>\n
+<img src="http:\/\/placekitten.com\/500\/200"
+<media:content url="http:\/\/placekitten.com\/500\/200" medium="image"\/>
+<title><!\[CDATA\[HTML Ipsum\]\]>
+<description><!\[CDATA\[This is my custom excerpt!
+<a href="#nowhere" title="Anchor URL">
+<a href="http:\/\/my-ghost-blog.com\/about#nowhere" title="Relative URL">
+<a href="\/\/somewhere.com\/link#nowhere" title="Protocol Relative URL">
+<a href="http:\/\/somewhere.com\/link#nowhere" title="Absolute URL">
+(\/|\\)content(\/|\\)images$
+(\/|\\)content(\/|\\)images(\/|\\)photos$
+(\/|\\)content(\/|\\)images$
+(\/|\\)content(\/|\\)images$
+(\/|\\)content(\/|\\)images$
+(\/|\\)content(\/|\\)images(\/|\\)photo$
+(\/|\\)content(\/|\\)images(\/|\\)animated$
+(\/|\\)content(\/|\\)images$
+Could not parse YAML: can not read an implicit mapping pair
+members_subscribe_events\.source
+core\/server\/views\/error.hbs$
+core\/server\/views\/error.hbs$
+core\/server\/views\/error.hbs$
+core\/server\/views\/error.hbs$
+core\/server\/views\/error.hbs$
+The image type you uploaded is not supported
+The image you uploaded was larger
+The image you uploaded was larger
+Error: UnknownError
+The image type you uploaded is not supported
+The image type you uploaded is not supported
+(^|[^:])\/\/+
+amp\.hbs
+<h1>HTML Ipsum Presents<\/h1>
+<link>
+<body[^>]*class="([^"]*?)">
+members_subscription_created_events\.attribution_type
+members_subscription_created_events\.member_id
+members_subscription_created_events\.subscription_id
+Import
+The file type you uploaded is not supported
+The file you uploaded was larger
+The file you uploaded was larger
+An unexpected error occurred, please try again
+An unexpected error occurred, please try again
+The file type you uploaded is not supported
+\/v1\/(\w+)\/(.+)\/?
+\/v1\/(\w+)\/(.+)\/?
+\/v1\/(\w+)\/(.+)\/?
+\/v1\/(\w+)\/(.+)\/?
+\/v1\/(\w+)\/(.+)\/?
+\/v1\/(\w+)\/(.+)\/?
+<title>.*<\/title>
+<title>.*<\/title>
+#ghost-comments
+#ghost-comments
+#\/portal\/account
+#\/portal\/account
+#\/portal\/account
+#\/portal\/account
+#\/portal\/account
+This is the main post title
+Not imported
+Not imported
+Not imported
+Not imported
+Not imported
+Not imported
+Not imported
+Not imported
+YAMLException: bad indentation of a mapping entry
+Error trying to load YAML setting for routes from
+routes\.yaml
+(arr|members)-\d*
+^(\d+\.)?(\d+)
+^\d+$
+^\d+$
+^\$2[ayb]\$.{56}$
+(tags|tag):\s?\[.*\]
+(authors|author):\s?\[.*\]
+user with that email
+password is incorrect
+no user|not found
+Duplicate
+#[0-9A-Fa-f]{6}$
+Duplicate
+(Id|By)$
+^,
+[x]
+#[0-9A-Fa-f]{6}$
+^\d\d\d\d-\d\d-\d\d$
+<\/(style|script)>
+^https?:\/\/
+^(\d+\.)?(\d+\.)?(\d+)
+^[A-Z]{3}$
+^\d:\d\d$
+^\d\d\d\d-\d\d-\d\d$
+customer|plan|subscription
+\/404\/
+^\/favicon\.(ico|png|jpe?g)
+account is currently in review
+:year|:month|:day
+name
+^(.*\/ghost\/(signup|reset)\
+Invalid regular expression
+core\/server
+^\d:\d\d$
+^\d\d:\d\d$
+\/rss\/$
+pk_live
+status:
+status:
+\/404\/
+{{
+}}
+{{
+}}
+21 Feb 2022
+22 Feb 2022
+Tried sending email batch that is not pending or failed
+^\s\s*
+^\s\s*
+test-1.1.1
+test-1.1.1.zip
+test-1.1.1.jpeg
+\ufe0f$
+\ufe0f
+\/#
+^discourse\/theme\-(\d+)\/
+[^a-z]+
+^\s+|\s+$
+^https
+^https
+\.js$
+#.*$
+^(https?\:)?\/\/[^\/]+
+^(https?\:)?\/\/[^\/]+
+^http
+^https
+last$
+([^:]+):?
+:t
+[_-].*
+\.
+\$
+\{
+\\"
+\d{4}-\d{1,2}-\d{1,2}
+\[|\]|\|
+[\s\.]+
+%@([0-9]+)?
+_
+Trident
+iPad
+Trident
+[\u0300-\u036f]
+\s|_+
+[^\w\-]+
+\-\-+
+^-+
+-+$
+\s|_+
+[^\p{Letter}\d\-]+
+--+
+^-+
+-+$
+\+
+\r?\n|\r
+\w\S*
+'[\d]{2}$
+'
+\*$
+<([^A-Za-z\/\!]|$)
+\/\.+\/
+^heading\-\-[a-zA-Z0-9\-\_]+$
+\[removed\]
+&(?![#\w]+;)
+&#39;
+ \/>
+<.+?>
+\s+
+[\/\?#\[\]@!\$&'\(\)\*\+,;=\.%\\`^\s|\{\}"<>]+
+\s+
+\r
+\r
+\s
+\s
+^\d+-category
+-
+\/
+^\d+$
+^\s
+\s$
+\n{2,}
+\n{2,}>
+\n
+\\\|
+\|\n{2,}\|
+\|
+[\s\t]+
+<body[^>]*>([\s\S]*?)<\/body>
+\r|\n|&nbsp;
+\u00A0
+<[^\s>]+[^>]*>\s{2,}<[^\s>]+[^>]*>
+>\s{2,}<
+<!\[if !?\S*]>[^!]*<!\[endif]>
+^\n
+^<b>
+<\/b>$
+\n +
+ +\n
+ {2,}
+\n{3,}
+\t
+^data:image\/([a-zA-Z]*);base64,([^\"]*)$
+level.
+\n\t*\*
+\s
+^https?:\/\/
+\/$
+[\u0300-\u036f]
+_
+[-_]
+_
+[\.\/]
+^admin[-]
+^admin[-]
+\/
+-
+[\.-]
+-
+\/
+loading$
+^admin([A-Z])(.+)$
+\/client\.en\.yml$
+\/$
+[-\/\\^$*+?.()|[\]{}]
+\n
+<
+>
+[ ]
+\n
+Firefox\/([0-9]+)\.
+^:?(.*?):t([2-6])?$
+^http[s]?:\/\/
+[\s\._-]
+\s+
+\/
+\/$
+^https?:\/\/
+^www\.
+\/
+\s+
+[!\"#$%&'\(\)\*\+,\.\/:;<=>\?\@\[\\\]\^`\{\|\}~]
+(^:)|(:$)
+^lang(?:uage)?-(.+)$
+^"(.*)"$
+_
+_
+-
+-
+[^\w]
+-|:|\.\d\d\d
+\/theme-javascripts\/[\w-]+\.js
+assets\/plugins\/([\w-]+)\.js
+assets\/plugins\/test\/([\w-]+)_tests\.js
+\s
+(iPad|iPhone|iPod)
+Safari
+\{\{value\}\}
+\_
+\_
+[^0-9a-zA-Z_-]
+^(discourse\
+^raw-templates\/
+\.hbr$
+^discourse\/plugins\/([^\/]+)\/
+[^0-9a-fA-F]
+^([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$
+[^a-z0-9]
+_
+_
+_
+[^a-z0-9]
+:
+\n
+[^\w]+
+#\w+$
+\s|_+
+^#([0-9a-f]{6})$
+\{size\}
+^@
+^@
+(^\s*\S*)\s*(.*)
+\s+
+^@
+(<([^>]+)>)
+\/(\d*)\/
+[^a-zA-Z0-9-_/]
+\,\s*
+_
+https?:\/\/[^\/]+[\/?]
+_([a-z])
+([a-zA-Z])(?=[A-Z])
+([a-zA-Z])(?=[A-Z])
+\s+
+[^\w\-]+
+\-\-+
+^-+
+-+$
+^[^a-z]
+\s+
+[!\"#$%&'\(\)\*\+,\.\/:;<=>\?\@\[\\\]\^`\{\|\}~]
+{{username}}|%{username}
+\u200B-\u200D\uFEFF]
+\s+
+category:(\S*)
+\.git$
+[.*+?^${}()|[\]\\]
+^:?(.*?):t([2-6])?$
+\s
+^fn(ref)?\d+$
+^\s*$
+@
+\-
+[^a-z0-9-]
+\/$
+\r
+[^\n]$
+\r
+^```
+^    
+\[\/?[a-z =]+?\]
+^#+
+\S$
+^\s+
+\B:(\w*)$
+\n*$
+^\n*
+\s$
+^\s
+^•$|^\d+.$
+^\s*$
+^\t
+^ 
+\S$
+[\u200B-\u200D\uFEFF]
+^admin_js\.
+(\d{1,4}x\d{1,4})
+\d{1,4}x\d{1,4}(,\s*\d{1,3}%)?
+^discourse\/templates\/
+\_
+[^A-Za-z0-9_]+
+\.git$
+\[poll(\s+name=[^\s\]]+)*.*\]
+^#*
+&
+<
+>
+"
+'
+br|hr|img|input
+(^:)|(:$)
+@
+[, \n]+
+^@+
+\+-
+(^|\s)-{1,2}>(\s|$)
+(^|\s)<-{1,2}(\s|$)
+(^|\s)<-{1,2}>(\s|$)
+\.{2,}
+([?!])…
+([?!]){4,}
+,{2,}
+(^|[^-])---(?=[^-]|$)
+(^|\s)--(?=\s|$)
+(^|[^-\s])--(?=[^-\s]|$)
+([\S\s]+?)(\n\s+browser\slog:[\S\s]+)
+\/plugins\/
+\/theme-\d+\/
+\/plugins\/([\w-]+)\/
+<\/?[^>]+(>|$)
+<\/?[^>]+(>|$)
+<\/?[^>]+(>|$)
+<\/?[^>]+(>|$)
+<\/?[^>]+(>|$)
+\/>
+muted
+muted
+muted
+muted
+\+
+^.*helpers\/([a-z-]+)\-pretender$
+PLUGIN_ABC ERROR
+PLUGIN_XYZ ERROR
+(^[\s\u200b]*|[\s\u200b]*$)
+\/>
+category_id=([0-9]+)
+no-results
+\s+
+\s+
+\s+
+\s+
+matches existing core transformer
+is unknown and will be ignored
+matches existing core transformer
+is unknown and will be ignored
+is already registered
+is already registered
+\s+
+\[Uppy\]
+Failed to upload avatar\.png
+^\((\d+)\)\s
+--d-lightbox
+\[[\s\S]
+^\[|\]$
+\\
+%d
+%s
+[-\/\\^$*+?.()|[\]{}]
+\([^()]*\)|[\n\t]
+(\s\s+)
+^\s\s*
+\s\s*$
+\.?0+$
+\s+
+[^0-9]
+[A-Z]
+[^A-Za-z0-9]
+،
+,
+،
+,
+،
+,
+[၁၂၃၄၅၆၇၈၉၀]
+\d
+[۰-۹]
+،
+\d
+,
+[១២៣៤៥៦៧៨៩០]
+\d
+[١٢٣٤٥٦٧٨٩٠]
+،
+\d
+,
+(ი|ე)$
+წელი$
+[১২৩৪৫৬৭৮৯০]
+\d
+[१२३४५६७८९०]
+\d
+[૧૨૩૪૫૬૭૮૯૦]
+\d
+[೧೨೩೪೫೬೭೮೯೦]
+\d
+[༡༢༣༤༥༦༧༨༩༠]
+\d
+[௧௨௩௪௫௬௭௮௯௦]
+\d
+%d
+[١٢٣٤٥٦٧٨٩٠]
+،
+\d
+,
+[१२३४५६७८९०]
+\d
+%d
+[१२३४५६७८९०]
+\d
+[١٢٣٤٥٦٧٨٩٠]
+،
+\d
+,
+[٣٤٥٦٧٨٩٠]
+[١٢](?![\u062a\u0643])
+،
+\d
+,
+،
+,
+[੧੨੩੪੫੬੭੮੯੦]
+\d
+[১২৩৪৫৬৭৮৯০]
+\d
+%d
+,
+%d
+،
+\d
+,
+\([a-z ]+\)
+[A-Z]
+[A-Z]{3,5}
+[^A-Z]
+\/
+^(\d+)(\.\d+)?px$
+%curr%
+^https?(\:\/\
+[^a-zA-Z0-9_]
+[xy]
+mobile_view=1
+mobile_view=0
+mobile_view=auto
+top\/(.*)$
+^<a(\s.*)?>
+\.json$
+\s
+^[a-z_][a-z0-9_-]*$
+t[2-6]:
+\|video|\|audio
+Was 5
+Was 0
+-50%
+Was 14
+Was 10
+Was 20
+(?<=duration=)\d+
+^spec
+^-?[\d\.]+$
+%25
+^-?[\d\.]+$
+%5B
+%5D
+%25
+^\/\\b\(|\)\\b\/i$
+\{(\d+)\}
+>
+^[\s\uFEFF\xA0]+
+%25
+^\n?(\s*)
+%25
+^\n?(\s*)
+^\/\\b\(|\)\\b\/i$
+^\/\\b\(|\)\\b\/i$
+(?<!\.d)\.ts$
+(?<!\.d)\.cts$
+-[a-z]
+\\
+\\
+\\
+\.js$
+(?<=from ["'])node:
+\/
+packages[\\/](.+?)[\\/]
+^babel-
+\\\\
+(\.[mc]?)ts$
+(\.[mc]?)ts$
+\\
+\d(?=(?:\d{3})+$)
+\\
+^babel-
+\.js$
+\.js$
+\.js$
+\/index\.ts$
+.js$
+^[./]?lib\/
+.js$
+\.js$
+^(\.\
+\\
+-[a-z]
+[|\\{}()[\]^$+*?.]
+(^|\n) {2}
+\n
+\.ts$
+^\.\/
+^TS
+\.0$
+^([A-Z](?=[a-z0-9])|[A-Z]+(?=[A-Z]))
+\$<([^>]+)>
+(^|\n) {2}
+^@babel\/
+\\
+\\
+^
+\.tsx?$
+\/default$
+\r\n?|\n
+[|\\{}()[\]^$+*?.]
+[|\\{}()[\]^$+*?.]
+\(\d+ms\)
+\\
+\\
+\\
+file:\/\/\/?<CWD>
+(?:\?\d+)?:\d+:\d+(\)?)$
+(?:Object|undefined)(?=\.parseSync)
+\n\s*at <anonymous>$
+#.*$
+#.*$
+\n
+^
+^
+^
+(?<![."])require\(
+\s+
+\s+
+\s+
+\s+
+(?<=error(s?))\.$
+\n
+\((\d+):(\d+)\)$
+[\u{0000A0}-\u{10FFFF}<>&]
+\n(?!$)
+foo(.)bar
+foo((?:[\0-\t\x0B\f\x0E-\u2027\u202A-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF]))bar
+foo(.)bar
+foo(.)bar
+.*eslint\/(babel-eslint-plugin)\/?$
+proposal-[\w-]+
+^[^-]+
+(?<double>.)\k<double>
+(?<double>.)\k<double>
+(.)\1
+(.)\1
+(.)\1
+(.)(?<n>.)\k<n>\1
+(.)\1
+(.)(?<n>.)\k<n>\1
+[?#].+
+-[0-9]+$
+[\. ]
+[\u0300-\u036f]
+&(?![a-z0-9#]{1,6};)
+[\. ]
+&(?![a-z0-9#]{1,6};)
+\{value\}
+\{name\}
+\{identifier\}
+\{ruleValue\}
+[\. ]
+[\-]
+[^\d.]
+[\. ]
+[\u0300-\u036f]
+[\. ]
+&(?![a-z0-9#]{1,6};)
+\/$
+[\. ]
+"
+"
+"
+"
+"
+"
+"
+[^]
+\\
+\/\/
+.*(?=#[^\s]*$)
+.*(?=#[^\s]+$)
+.*(?=#[^\s]+$)
+.*(?=#[^\s]*$)
+.*(?=#[^\s]+$)
+.*(?=#[^\s]*$)
+\D
+\w+
+\s
+\D
+\w+
+\s
+width:\s*(\d+[pxem%]+)
+(\\.|[^\.])+
+"[^"]+"|[^ ]+
+[\r\n]
+_START_
+_TOTAL_
+\B(?=(\d{3})+(?!\d))
+<.*?>
+\B(?=(\d{3})+(?!\d))
+^([^A-Z]+?)([A-Z])
+_INPUT_
+\d$
+<.*?>
+^html\-
+\.
+\.dt\b
+Windows
+\n
+\n
+\n
+&([^\s]*?);
+^\s+
+&
+MSIE
+^on
+Firefox
+[^a-zA-Z0-9_\u00A1-\uFFFF\.,\-_ !\(\)]
+flash
+flash
+.*(?=#[^\s]*$)
+.*(?=#[^\s]*$)
+.*(?=#[^\s]*$)
+.*(?=#[^\s]*$)
+[\r\t\n]
+AutoFill
+\bnever\b
+\ud83c[\udde6-\uddff]
+[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]
+\S
+^\s*
+(msie |rv:)(\d+(.\d+)?)
+[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]
+\S
+^\s*
+(msie |rv:)(\d+(.\d+)?)
+\D
+\D
+xcode
+xcode
+^\W+
+^\W+
+([a-z]+[-]*[a-z])\w+
+https?:\/\/.*?\/
+\\\\([n|r|t])
+^\/
+tab=(\w+)\b
+\s+
+\s+
+""
+\"
+^|\s+
+\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})
+"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?
+(?:^|:|,)(?:\s*\[)+
+^[\s\(]*function[^(]*\(([^)]*)\)
+\/\/.*?[\r\n]|\/\*(?:.|[\r\n])*?\*\/
+\s+
+^\s+|\s+$
+\s+
+, (\w+ \w+ \w+)
+(\d+:\d+):
+^(path|svg|rect)$
+.*(?=#[^\s]*$)
+(.+)e\+(.+)
+\.
+(.+)e-(.+)
+\.
+^\s\s*
+^-
+.*(?=#[^\s]*$)
+.*(?=#[^\s]+$)
+[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]
+\s+
+\W+
+^\s*
+(msie |rv:)(\d+(.\d+)?)
+.*(?=#[^\s]*$)
+.*(?=#[^\s]+$)
+.*(?=#[^\s]+$)
+((^|[^\\])(\\\\)*)\\n
+.*(?=#[^\s]+$)
+\[\]$
+ \(\d+\)$
+\s+
+[^\w-]
+theme=([\w-]+)
+\{id}
+&
+\s+
+\s+
+"
+&amp;
+\.(\w+)$
+[imuy]*$
+([\da-f]{7})[\da-f]*
+\{id}
+\{id}
+(?:languages|plugins)=[-+\w]+|themes=[-\w]+
+(?:languages|plugins)=[-+\w]+|themes=[-\w]+
+^\?
+\{id}
+(\.js)?$
+(\.js)?$
+(\.css)?$
+\{id}
+\.(\w+)$
+\.(\w+)$
+&$
+&
+\s+
+\s+
+"
+[imuy]*$
+^[a-z]+\/
+\[object HTML(.+)Element\]
+\[object SVG(.+)Element\]
+&amp;
+&lt;
+&lt;
+\s+
+&amp;
+\/?$
+[\w-]+\.js$
+\s*,\s*
+\s*-?\d+(?:rad|deg)\s*
+\s+
+^(\b|\B-[a-z]{1,10}-)((?:repeating-)?(?:linear|radial)-gradient)
+^(?:\b|\B-[a-z]{1,10}-)(?:repeating-)?(?:linear|radial)-gradient\(|\)$
+[a-z]+$
+-?\d*\.?\d+
+[a-z]+$
+\s+
+"
+\.(\w+)$
+[\n\t]
+\s+
+\.([\d,-]+)$
+\s
+&lt;\/script(>|&gt;)
+-(\w)
+^\s+
+\s+$
+\t
+\s*?$
+^(?:\r?\n|\r)
+^[^\S\n\r]*(?=\S)
+^[^\S\n\r]*(?=\S)
+(\s+)
+^(?:\r?\n|\r)
+^-{10,}\w*$
+!?\+!?
+[^\/]+$
+\s*-?\d+(?:rad|deg)\s*
+-(\w)
+^\[object\s+(.*?)\]$
+([.+*?\/\\(){}\[\]])
+^language-(.+)
+&
+^[a-z]+\/
+\[object HTML(.+)Element\]
+([.+*?\/\\(){}\[\]])
+&amp;
+&lt;
+\s+
+&amp;
+\/?$
+"
+\.(\w+)$
+[\n\t]
+\s
+&lt;\/script(>|&gt;)
+^language-(.+)
+^(?:\r?\n|\r)
+[^A-Za-z0-9\+\/\=]
+^data:[^;]*;
+^stylesheet\/less$
+LR-verbose
+-
+^file:\/\/(localhost)?
+^([^:]+:)?\/\/([^:\/]+)(:\d*)?\/
+^\/+
+^\/+
+\burl\s*\(([^)]*)\)
+^stylesheet$
+(\?|&)livereload=(\d+)
+\.less$
+\.less$
+^[^:]+:\/\/(.*)\/z?livereload\.js(?:\?(.*))?$
+^([^\/:]+)(?::(\d+))?$
+^!!ver:([\d.]+)$
+\.css$
+\.(jpe?g|png|gif)$
+^LiveReloadPlugin
+[\w\-:]+
+%
+\r
+\n
+%
+\r
+\n
+:
+,
+ 
+[\\]
+[/]
+[/\\]
+\r\n
+\r
+^[A-Z]:[^\\/]|^[A-Z]:$
+^[A-Z]:\\
+^\\$|^\\[^\\]
+^[A-Z]:\\
+\/
+\\\\+
+\/\/+
+\\
+\\
+(\[)(?=[^/]+\])
+\?
+\*
+^[A-Z]:$
+[[\\^$.|?*+()]
+\.\.
+((?:\\{2}){0,64})(\\?)\|
+\)[+*?]?
+\\(.)
+[-[\]{}()*+?.,\\^$|#\s]
+:.*$
+^\\[^\\]
+,.*\}
+%
+\r
+\n
+%
+\r
+\n
+:
+,
+ 
+\.
+\.
+^(token|bearer) +
+\/api\/v3$
+-preview
+^\W+|\W+$
+(%[0-9A-Fa-f]{2})
+%5B
+[!'()*]
+\{([^\{\}]+)\}|([^\{\}]+)
+,
+:([a-z]\w+)
+,
+[\w-]+(?=-preview)
+<([^>]+)>;\s*rel="next"
+ 
+ .*$
+\bclient_secret=\w+
+\baccess_token=\w+
+:.*$
+%
+\r
+\n
+%
+\r
+\n
+:
+,
+ 
+\.
+\.
+^(token|bearer) +
+-preview
+^\W+|\W+$
+(%[0-9A-Fa-f]{2})
+%5B
+[!'()*]
+\{([^\{\}]+)\}|([^\{\}]+)
+,
+:([a-z]\w+)
+,
+[\w-]+(?=-preview)
+<([^>]+)>;\s*rel="next"
+ 
+ .*$
+\bclient_secret=\w+
+\baccess_token=\w+
+<([^>]+)>; rel="deprecation"
+:.*$
+\u0000|\u0009|\u000A|\u000D|\u0020|#|%|\/|:|\?|@|\[|\\|\]
+\u0000|\u0009|\u000A|\u000D|\u0020|#|\/|:|\?|@|\[|\\|\]
+^[\u0000-\u001F\u0020]+|[\u0000-\u001F\u0020]+$
+\u0009|\u000A|\u000D
+%
+\r
+\n
+%
+\r
+\n
+:
+,
+ 
+\.
+\.
+^(token|bearer) +
+-preview
+^\W+|\W+$
+(%[0-9A-Fa-f]{2})
+%5B
+[!'()*]
+\{([^\{\}]+)\}|([^\{\}]+)
+,
+:([a-z]\w+)
+,
+[\w-]+(?=-preview)
+<([^>]+)>;\s*rel="next"
+ 
+ .*$
+\bclient_secret=\w+
+\baccess_token=\w+
+<([^>]+)>; rel="deprecation"
+:.*$
+\u0000|\u0009|\u000A|\u000D|\u0020|#|%|\/|:|\?|@|\[|\\|\]
+\u0000|\u0009|\u000A|\u000D|\u0020|#|\/|:|\?|@|\[|\\|\]
+^[\u0000-\u001F\u0020]+|[\u0000-\u001F\u0020]+$
+\u0009|\u000A|\u000D
+:.*$
+:.*$
+:.*$
+ 
+ 
+ 
+%
+\r
+\n
+%
+\r
+\n
+:
+,
+%
+\r
+\n
+%
+\r
+\n
+:
+,
+%
+\r
+\n
+%
+\r
+\n
+:
+,
+[\\]
+[/]
+[/\\]
+[\\]
+[/]
+[/\\]
+[\\]
+[/]
+[/\\]
+<([^>]+)>; rel="deprecation"
+<([^>]+)>; rel="deprecation"
+<([^>]+)>; rel="deprecation"
+\u0000|\u0009|\u000A|\u000D|\u0020|#|%|\/|:|\?|@|\[|\\|\]
+\u0000|\u0009|\u000A|\u000D|\u0020|#|\/|:|\?|@|\[|\\|\]
+^[\u0000-\u001F\u0020]+|[\u0000-\u001F\u0020]+$
+\u0009|\u000A|\u000D
+\u0000|\u0009|\u000A|\u000D|\u0020|#|%|\/|:|\?|@|\[|\\|\]
+\u0000|\u0009|\u000A|\u000D|\u0020|#|\/|:|\?|@|\[|\\|\]
+^[\u0000-\u001F\u0020]+|[\u0000-\u001F\u0020]+$
+\u0009|\u000A|\u000D
+\u0000|\u0009|\u000A|\u000D|\u0020|#|%|\/|:|\?|@|\[|\\|\]
+\u0000|\u0009|\u000A|\u000D|\u0020|#|\/|:|\?|@|\[|\\|\]
+^[\u0000-\u001F\u0020]+|[\u0000-\u001F\u0020]+$
+\u0009|\u000A|\u000D
+-preview
+^\W+|\W+$
+(%[0-9A-Fa-f]{2})
+%5B
+[!'()*]
+\{([^\{\}]+)\}|([^\{\}]+)
+,
+:([a-z]\w+)
+,
+application\/vnd(\.\w+)(\.v3)?(\.\w+)?(\+json)?$
+[\w-]+(?=-preview)
+-preview
+^\W+|\W+$
+(%[0-9A-Fa-f]{2})
+%5B
+[!'()*]
+\{([^\{\}]+)\}|([^\{\}]+)
+,
+:([a-z]\w+)
+,
+application\/vnd(\.\w+)(\.v3)?(\.\w+)?(\+json)?$
+[\w-]+(?=-preview)
+-preview
+^\W+|\W+$
+(%[0-9A-Fa-f]{2})
+%5B
+[!'()*]
+\{([^\{\}]+)\}|([^\{\}]+)
+,
+:([a-z]\w+)
+,
+application\/vnd(\.\w+)(\.v3)?(\.\w+)?(\+json)?$
+[\w-]+(?=-preview)
+<([^>]+)>; rel="deprecation"
+<([^>]+)>; rel="deprecation"
+<([^>]+)>; rel="deprecation"
+-preview
+-preview
+-preview
+:([a-z]\w+)
+,
+application\/vnd(\.\w+)(\.v3)?(\.\w+)?(\+json)?$
+[\w-]+(?=-preview)
+:([a-z]\w+)
+,
+application\/vnd(\.\w+)(\.v3)?(\.\w+)?(\+json)?$
+[\w-]+(?=-preview)
+:([a-z]\w+)
+,
+application\/vnd(\.\w+)(\.v3)?(\.\w+)?(\+json)?$
+[\w-]+(?=-preview)
+-preview
+^\W+|\W+$
+(%[0-9A-Fa-f]{2})
+%5B
+[!'()*]
+\{([^\{\}]+)\}|([^\{\}]+)
+,
+:([a-z]\w+)
+,
+[\w-]+(?=-preview)
+-preview
+^\W+|\W+$
+(%[0-9A-Fa-f]{2})
+%5B
+[!'()*]
+\{([^\{\}]+)\}|([^\{\}]+)
+,
+:([a-z]\w+)
+,
+[\w-]+(?=-preview)
+-preview
+^\W+|\W+$
+(%[0-9A-Fa-f]{2})
+%5B
+[!'()*]
+\{([^\{\}]+)\}|([^\{\}]+)
+,
+:([a-z]\w+)
+,
+[\w-]+(?=-preview)
+\.
+\.
+\.
+,.*\}
+,.*\}
+,.*\}
+\.
+\.
+^(token|bearer) +
+\.
+\.
+^(token|bearer) +
+\.
+\.
+^(token|bearer) +
+^(token|bearer) +
+^(token|bearer) +
+^(token|bearer) +
+\.
+\.
+^(token|bearer) +
+\.
+\.
+^(token|bearer) +
+\.
+\.
+^(token|bearer) +
+ .*$
+\bclient_secret=\w+
+\baccess_token=\w+
+ .*$
+\bclient_secret=\w+
+\baccess_token=\w+
+ .*$
+\bclient_secret=\w+
+\baccess_token=\w+
+ .*$
+\bclient_secret=\w+
+\baccess_token=\w+
+ .*$
+\bclient_secret=\w+
+\baccess_token=\w+
+ .*$
+\bclient_secret=\w+
+\baccess_token=\w+
+ .*$
+\bclient_secret=\w+
+\baccess_token=\w+
+ .*$
+\bclient_secret=\w+
+\baccess_token=\w+
+ .*$
+\bclient_secret=\w+
+\baccess_token=\w+
+<([^>]+)>; rel="deprecation"
+<([^>]+)>; rel="deprecation"
+<([^>]+)>; rel="deprecation"
+<([^>]+)>;\s*rel="next"
+<([^>]+)>;\s*rel="next"
+<([^>]+)>;\s*rel="next"
+(%[0-9A-Fa-f]{2})
+%5B
+[!'()*]
+\{([^\{\}]+)\}|([^\{\}]+)
+,
+(%[0-9A-Fa-f]{2})
+%5B
+[!'()*]
+\{([^\{\}]+)\}|([^\{\}]+)
+,
+(%[0-9A-Fa-f]{2})
+%5B
+[!'()*]
+\{([^\{\}]+)\}|([^\{\}]+)
+,
+<([^>]+)>;\s*rel="next"
+<([^>]+)>;\s*rel="next"
+<([^>]+)>;\s*rel="next"
+<([^>]+)>;\s*rel="next"
+<([^>]+)>;\s*rel="next"
+<([^>]+)>;\s*rel="next"
+file:\/\/\/(\w:)?
+\\
+^file:\/\/
+\/+
+\/+$
+\/$
+^\)]}'[^\n]*\n
+(?:\r\n|\r|\n)
+^([^\/]+:\
+file:\/\/\/(\w:)?
+\\
+^file:\/\/
+\/+
+\/+$
+\/$
+^\)]}'[^\n]*\n
+(?:\r\n|\r|\n)
+^([^\/]+:\
+file:\/\/\/(\w:)?
+\\
+^file:\/\/
+\/+
+\/+$
+\/$
+^\)]}'[^\n]*\n
+(?:\r\n|\r|\n)
+^([^\/]+:\
+ 
+ 
+ 
+ 
+ 
+ 
+\.
+\.
+\.
+^\W+|\W+$
+^\W+|\W+$
+^\W+|\W+$
+ 
+ 
+ 
+^#![^\n\r]*[\r\n]
+^#![^\n\r]*[\r\n]
+^#![^\n\r]*[\r\n]
+\?
+^\s*function (\w+)
+\s+
+\u2028
+^(\?|#|&)
+\s+
+[^\d^\.]+
+[^\d^\.]+
+\r\n|\r|\n
+[-_]
+\b\w
+^#
+^#
+[=:]
+\n( *(at )?)
+[-_]
+\$<([^>]+)>
+&
+&
+FontAwesome
+FontAwesome
+&
+FontAwesome
+[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]
+%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)
+[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]
+\[for\b
+&
+&
+FontAwesome
+FontAwesome
+&
+FontAwesome
+\.svg$
+\+
+{([ymdhisa])+}
+\+
+^\.\/(.*)\.\w+$
+\.0+$|(\.[0-9]*[1-9])0+$
+^-?\d+
+\%
+\%
+\px
+\px
+-
+[^\w \-]
+\[[\s\S]
+^\[|\]$
+\\
+%d
+%s
+[-\/\\^$*+?.()|[\]{}]
+\([^()]*\)|[\n\t]
+(\s\s+)
+^\s\s*
+\s\s*$
+\.?0+$
+،
+,
+،
+,
+،
+,
+[၁၂၃၄၅၆၇၈၉၀]
+\d
+[۰-۹]
+،
+\d
+,
+[១២៣៤៥៦៧៨៩០]
+\d
+[١٢٣٤٥٦٧٨٩٠]
+،
+\d
+,
+(ი|ე)$
+წელი$
+[১২৩৪৫৬৭৮৯০]
+\d
+[१२३४५६७८९०]
+\d
+[૧૨૩૪૫૬૭૮૯૦]
+\d
+[೧೨೩೪೫೬೭೮೯೦]
+\d
+[༡༢༣༤༥༦༧༨༩༠]
+\d
+[௧௨௩௪௫௬௭௮௯௦]
+\d
+%d
+[١٢٣٤٥٦٧٨٩٠]
+،
+\d
+,
+[१२३४५६७८९०]
+\d
+%d
+[१२३४५६७८९०]
+\d
+\[[\s\S]
+^\[|\]$
+\\
+%d
+%s
+[-\/\\^$*+?.()|[\]{}]
+\([^()]*\)|[\n\t]
+(\s\s+)
+^\s\s*
+\s\s*$
+\.?0+$
+[١٢٣٤٥٦٧٨٩٠]
+،
+\d
+,
+[٣٤٥٦٧٨٩٠]
+[١٢](?![\u062a\u0643])
+،
+\d
+,
+،
+,
+[੧੨੩੪੫੬੭੮੯੦]
+\d
+[১২৩৪৫৬৭৮৯০]
+\d
+%d
+,
+%d
+،
+\d
+,
+%d
+[١٢٣٤٥٦٧٨٩٠]
+،
+\d
+,
+[१२३४५६७८९०]
+\d
+[١٢٣٤٥٦٧٨٩٠]
+،
+\d
+,
+%d
+[१२३४५६७८९०]
+\d
+،
+,
+،
+,
+،
+,
+[၁၂၃၄၅၆၇၈၉၀]
+\d
+[۰-۹]
+،
+\d
+,
+[១២៣៤៥៦៧៨៩០]
+\d
+[১২৩৪৫৬৭৮৯০]
+\d
+[१२३४५६७८९०]
+\d
+[૧૨૩૪૫૬૭૮૯૦]
+\d
+[೧೨೩೪೫೬೭೮೯೦]
+\d
+[༡༢༣༤༥༦༧༨༩༠]
+\d
+[௧௨௩௪௫௬௭௮௯௦]
+\d
+(ი|ე)$
+წელი$
+%d
+[١٢٣٤٥٦٧٨٩٠]
+،
+\d
+,
+[१२३४५६७८९०]
+\d
+[١٢٣٤٥٦٧٨٩٠]
+،
+\d
+,
+%d
+[१२३४५६७८९०]
+\d
+،
+,
+،
+,
+،
+,
+[၁၂၃၄၅၆၇၈၉၀]
+\d
+[۰-۹]
+،
+\d
+,
+[១២៣៤៥៦៧៨៩០]
+\d
+[১২৩৪৫৬৭৮৯০]
+\d
+[१२३४५६७८९०]
+\d
+[૧૨૩૪૫૬૭૮૯૦]
+\d
+[೧೨೩೪೫೬೭೮೯೦]
+\d
+[༡༢༣༤༥༦༧༨༩༠]
+\d
+[௧௨௩௪௫௬௭௮௯௦]
+\d
+(ი|ე)$
+წელი$
+^\/\/! author.*github[.]com\/(.*)$
+^\/\/! author(.*)$
+%d
+،
+\d
+,
+%d
+,
+[١٢٣٤٥٦٧٨٩٠]
+،
+\d
+,
+[٣٤٥٦٧٨٩٠]
+[١٢](?![\u062a\u0643])
+،
+\d
+,
+[੧੨੩੪੫੬੭੮੯੦]
+\d
+[১২৩৪৫৬৭৮৯০]
+\d
+،
+,
+%d
+،
+\d
+,
+%d
+,
+[١٢٣٤٥٦٧٨٩٠]
+،
+\d
+,
+[٣٤٥٦٧٨٩٠]
+[١٢](?![\u062a\u0643])
+،
+\d
+,
+[੧੨੩੪੫੬੭੮੯੦]
+\d
+[১২৩৪৫৬৭৮৯০]
+\d
+،
+,
+[-\/\\^$*+?.()|[\]{}]
+\[[\s\S]
+^\[|\]$
+\\
+%d
+%s
+\([^()]*\)|[\n\t]
+(\s\s+)
+^\s\s*
+\s\s*$
+\.?0+$
+^[\+\-]\d\d:\d\d$
+^[\+\-]\d{4}$
+^0+
+.
+(\[[^\]]*\])
+-MMM-
+(\[[^\]]*\])
+[!@#$%\^&*()]
+\d
+\[[\s\S]
+%d
+\.yml$
+^(--)?([^.]+\.)*
+^--(?:([^.]+)\.)?(.*)$
+[^@a-z0-9]+
+^-+|-+$
+\/?$
+\/?$
+\r\n
+\n
+^(?:git|http):
+\s+
+\s+
+\s+
+\s+
+-
+-
+[A-Z]
+\\
+\\
+\r?\n
+-\d+\.\d+\.\d+
+\.git$|\.zip$|\.tar\.gz$|\.tar\.bz2$
+\.git$
+([\\/]|^)node_modules[\\/]
+^#+
+[\\/]
+\/
+\-(.+)$
+:
+(-----BEGIN .*\r?\n[^-]+\r?\n--.*)
+,\s*
+^https:\/\/
+%s
+^yarn-[0-9]+\.[0-9]+\.[0-9]+\.js$
+\\
+\/
+^\.{0,2}\/
+\/?$
+\$\$SHEBANG
+\$\$BLACKLIST
+\$\$SETUP_STATIC_TABLES\(\);
+^\.\.\/
+-
+^http:\/\/
+((?:^|[^\\])(?:\\{2})*)\\u001[bB]
+[\\]r[\\]n|([\\])?[\\]n
+\$(\d+)
+\t
+\\
+^[a-z]:$
+^(?:\.{1,2})?[\\\/]
+__
+([^_])_
+[^A-Za-z\s]
+[\s]+
+ wildcard 
+_(\d)+$
+\/
+^semver:
+^semver:
+\s+
+\r?\n
+^\s*#.*$
+ +
+^@[^\/]+\/
+(-like|\*)$
+^([^\(<]+)
+<([^>]+)>
+\(([^\)]+)\)
+^(#|$)
+\/?$
+^((?:(@[^\/]+)\
+:_
+^_+
+^_+
+[\/@\s\+%:]
+\*$
+^(\S+):(@?.*?)(@(.*?)|)$
+(.*?)#.*
+.*:(.*)
+.git$
+[^A-Za-z\s]
+\\
+^(?!\.{0,2}\
+\\
+\$\d
+.*resolved mime-db\.git\-.*
+resolved "https:\/\/registry\.yarnpkg\.com\/which\/-\/which-1\.2\..*\.tgz#[^"]+"
+which-1\.2\..*\.tgz
+resolved "https:\/\/github.com\/jshttp\/mime-db\.git#[^"]+"
+ \((.*?)\)
+ \((.*?)\)
+@
+-+
+^-+
+-+$
+\\
+\\
+\\
+\\
+\\
+\\
+(-----BEGIN .*\r?\n[^-]+\r?\n--.*)
+(-----BEGIN .*\r?\n[^-]+\r?\n--.*)
+%%CWD%%
+\\
+\r\n?
+\r\n?
+[ ,|]+
+ +
+^
+^
+ +
+[ ,|]+
+ +
+^
+^
+ +
+[ ,|]+
+ +
+^
+^
+ +
+[ ,|]+
+ +
+^
+^
+ +
+[ ,|]+
+ +
+^
+^
+ +
+(@[^\/]+\
+^(\.\.)?\/
+^\/(?:(@[^\/]+)\
+^\/(?:(@[^\/]+)\
+([A-Z])
+^git\+
+bull
+bull
+tag
+\r\n|\r
+\t
+\u00a0
+\u2424
+^ +$
+^ {4}
+\n+$
+^ *| *\| *$
+^ *|\| *$
+\n$
+^ *> ?
+^ *([*+-]|\d+\.) +
+^ {1,4}
+^\[[ xX]\] +
+\s+
+^ *| *\| *$
+^ *|\| *$
+(?: *\| *)?\n$
+^ *\| *| *\| *$
+^<([\s\S]*)>$
+\s+
+---
+--
+(^|[-\u2014/(\[{"\s])'
+'
+(^|[-\u2014/(\[{\u2018\s])"
+"
+\.{3}
+[^\w]+
+[^\w:]
+%25
+<
+>
+"
+'
+&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?
+(^|[^\[])\^
+[^/]*$
+:[\s\S]*
+(:\/*[^/]*)[\s\S]*
+([^\\])\|
+\\\|
+&
+\s+
+\s+
+"
+&amp;
+\.(\w+)$
+[A-Z]+
+<[^>\d]+>
+\s
+-+
+^(\d)
+<(pre|template|code)[^>]*?>[\s\S]+?<\/(pre|template|code)>
+:(\w+?):
+__colon__
+^(\?|#|&)
+\+
+^\/+
+^\/
+^'
+'$
+(?:^|\s):([\w-]+)=?([\w-]+)?
+&quot;
+\.(\w+)$
+@DOCSIFY_QM@
+`
+{docsify-updated}
+^\.
+\.md(\?)|\.md$
+\/$
+\[object (\w+)\]
+[imuy]*$
+(\S*\
+-
+#\s*$
+by @([-\w]+)
+language-(?<lang>.*)
+\{\{site\.(\w+)\}\}
+\{\{site\.(\w+)\}\}
+\\
+\r?\n
+-(?=.)
+cmdctrl
+shift
+cmd
+ctrl
+alt
+cmdctrl
+shift
+ctrl
+alt
+(?:\\\r\\\n|\\\r|\\\n)
+(?:\r\n|\r|\n)
+(?:\r\n|\r|\n)
+^.*[\\\/]
+^\s*[\r\n]
+(?:\r\n|\r|\n)
+\r?\n
+\r?\n
+(\.\/|\.js)
+\\
+\\
+\s
+^#
+^.*?(\d+)\s*\n
+([a-z])([A-Z])
+([a-z])([A-Z])
+([a-z])([A-Z])
+\s+
+([a-z])([A-Z])
+^#?([a-f\d])([a-f\d])([a-f\d])$
+([a-z])([A-Z])
+^#?([a-f\d])([a-f\d])([a-f\d])$
+^#?([a-f\d])([a-f\d])([a-f\d])$
+([a-z])([A-Z])
+([a-z])([A-Z])
+([a-z])([A-Z])
+([a-z])([A-Z])
+([a-z])([A-Z])
+^\s+|\s+$
+^\s+
+\s+$
+\\r
+^\S*(="([^"]|\\")*")?\s*\/?\s*>
+\b(text|application|dojo)\/(x-)?(javascript|ecmascript|jscript|livescript|(ld\+)?json|method|aspect)
+^\s*<\s*\/?([a-z]*)\s*[^>]*>\s*$
+\r\n|[\r\u2028\u2029]
+\w+
+(?:<|{{#)\s*(\w+)
+^\s*<([a-z-]+)
+^\s*
+^\s*
+[^\n\r]*$
+^\s*
+\r\n|\r|\n
+\s+$
+[\r\n\t ]+$
+[\n]
+^\/?\s*>
+<body(?:.*)>
+<head(?:.*)>
+{{#if
+&
+([a-z])([A-Z])
+^#?([a-f\d])([a-f\d])([a-f\d])$
+:\s?
+DISABLE_NODE_FETCH_NATIVE_WARN
+\d{4}
+exit code: 3
+\.\.
+((?:\\{2}){0,64})(\\?)\|
+\)[+*?]?
+\\(.)
+[-[\]{}()*+?.,\\^$|#\s]
+(\/\*\*)+$
+\\
+\\
+\\
+\\
+\\
+,.*\}
+\{.*\}
+^(-+|\

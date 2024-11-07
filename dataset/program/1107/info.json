@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/nodejs/node",
+    "commitid": "559985cb7aec4e3cd387eb0f8442eea989cfedf3",
+    "path": "deps/npm/node_modules/npm-registry-fetch/lib/check-response.js",
+    "lineNumber": 68,
+    "repoStars": 105952
+}

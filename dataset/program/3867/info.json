@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/nektos/act",
+    "commitid": "bda491e406db6c85865498ced18764bc00491a5e",
+    "path": "pkg/runner/testdata/actions/node20/node_modules/@vercel/ncc/dist/ncc/cli.js.cache.js",
+    "lineNumber": 0,
+    "repoStars": 53134
+}

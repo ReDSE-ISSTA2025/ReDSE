@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/elastic/elasticsearch",
+    "commitid": "59cf661e2ea5a3d344f1adce4c37b5afacdeafa4",
+    "path": "x-pack/plugin/sql/connectors/tableau/connector/connectionProperties.js",
+    "lineNumber": 9,
+    "repoStars": 68876
+}

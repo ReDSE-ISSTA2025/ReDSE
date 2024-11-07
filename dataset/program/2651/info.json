@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/prettier/prettier",
+    "commitid": "5c60b9ef4ab2ab5f02ab53461201fec72089cb09",
+    "path": "scripts/release/steps/update-version.js",
+    "lineNumber": 14,
+    "repoStars": 48894
+}

@@ -1,0 +1,505 @@
+app:
+  description: ''
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  mode: workflow
+  name: Path Selector
+  use_icon_as_answer_icon: false
+kind: app
+version: 0.1.2
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: true
+        iteration_id: '1729578134753'
+        sourceType: iteration-start
+        targetType: llm
+      id: 1729578134753start-source-1729578245859-target
+      source: 1729578134753start
+      sourceHandle: source
+      target: '1729578245859'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        iteration_id: '1729578134753'
+        sourceType: llm
+        targetType: parameter-extractor
+      id: 1729578245859-source-1729592330950-target
+      source: '1729578245859'
+      sourceHandle: source
+      target: '1729592330950'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        sourceType: start
+        targetType: code
+      id: 1729157053469-source-1729594180837-target
+      source: '1729157053469'
+      sourceHandle: source
+      target: '1729594180837'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: iteration
+        targetType: code
+      id: 1729578134753-source-1729595063450-target
+      source: '1729578134753'
+      sourceHandle: source
+      target: '1729595063450'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: code
+        targetType: llm
+      id: 1729595063450-source-1729592251620-target
+      source: '1729595063450'
+      sourceHandle: source
+      target: '1729592251620'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: llm
+        targetType: parameter-extractor
+      id: 1729592251620-source-1729595744051-target
+      source: '1729592251620'
+      sourceHandle: source
+      target: '1729595744051'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: parameter-extractor
+        targetType: end
+      id: 1729595744051-source-1729595725806-target
+      source: '1729595744051'
+      sourceHandle: source
+      target: '1729595725806'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: code
+        targetType: iteration
+      id: 1729594180837-source-1729578134753-target
+      source: '1729594180837'
+      sourceHandle: source
+      target: '1729578134753'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        desc: ''
+        selected: false
+        title: 开始
+        type: start
+        variables:
+        - label: constraints
+          max_length: 1.0e+23
+          options: []
+          required: true
+          type: paragraph
+          variable: constraints
+        - label: code
+          max_length: 40000
+          options: []
+          required: true
+          type: paragraph
+          variable: code
+        - label: line
+          max_length: 40000
+          options: []
+          required: true
+          type: paragraph
+          variable: line
+        - label: entry
+          max_length: 40000
+          options: []
+          required: true
+          type: paragraph
+          variable: entry
+      height: 168
+      id: '1729157053469'
+      position:
+        x: 141
+        y: 119.21929800981619
+      positionAbsolute:
+        x: 141
+        y: 119.21929800981619
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        height: 229
+        iterator_selector:
+        - '1729594180837'
+        - result
+        output_selector:
+        - '1729592330950'
+        - pseudocode
+        output_type: array[string]
+        selected: true
+        start_node_id: 1729578134753start
+        title: 迭代
+        type: iteration
+        width: 717
+      height: 229
+      id: '1729578134753'
+      position:
+        x: 441
+        y: 349
+      positionAbsolute:
+        x: 441
+        y: 349
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 717
+      zIndex: 1
+    - data:
+        desc: ''
+        isInIteration: true
+        selected: false
+        title: ''
+        type: iteration-start
+      draggable: false
+      height: 48
+      id: 1729578134753start
+      parentId: '1729578134753'
+      position:
+        x: 24
+        y: 68
+      positionAbsolute:
+        x: 465
+        y: 417
+      selectable: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-iteration-start
+      width: 44
+      zIndex: 1002
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        desc: ''
+        isInIteration: true
+        iteration_id: '1729578134753'
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gpt-4o
+          provider: openai
+        prompt_template:
+        - id: 7af1255b-944d-4dc5-a9f0-1f33a0bf5495
+          role: system
+          text: You are an expert in Javascript and constraint solving using SMT solvers,
+            adept at discerning the correspondence between constraints written in
+            smtlib and the original JavaScript programs. You can determine the program
+            execution paths that correspond to the inputs desired by the author of
+            smtlib constraints for a given entry point in a program, and extract these
+            paths as pseudocode in Javascript.
+        - id: 0e1b4ce9-d228-4588-b819-95874ac7557e
+          role: user
+          text: 'Here is the Javascript source code:
+
+            {{#1729157053469.code#}}
+
+            The entry function is:
+
+            {{#1729157053469.entry#}}
+
+            Here is the smtlib constraints:
+
+            {{#1729578134753.item#}}
+
+            The `var0` in smtlib constraints corresponding to `J$.readString()` in
+            the entry function.'
+        selected: false
+        title: constraint2code
+        type: llm
+        variables: []
+        vision:
+          configs:
+            detail: high
+          enabled: false
+      height: 98
+      id: '1729578245859'
+      parentId: '1729578134753'
+      position:
+        x: 127
+        y: 68
+      positionAbsolute:
+        x: 568
+        y: 417
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        desc: ''
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gpt-4o
+          provider: openai
+        prompt_template:
+        - id: e77aa16c-3820-4f1a-8410-3d77dd3dba29
+          role: system
+          text: You are a Javascript expert, you excel at determining which execution
+            path described by pseudocode is closest to the given target code line
+            based on the provided program source code and entry point, state the sequence
+            number of that execution path.
+        - id: 4e2848cc-398f-4e69-ac3b-471678059754
+          role: user
+          text: 'Here is the source code:
+
+            {{#1729157053469.code#}}
+
+
+            The specified target line is:
+
+            {{#1729157053469.line#}}
+
+
+            The entry function is:
+
+            {{#1729157053469.entry#}}
+
+
+            The group of pseudocode codes is as follow:
+
+            {{#1729595063450.result#}}'
+        selected: false
+        title: selector
+        type: llm
+        variables: []
+        vision:
+          configs:
+            detail: high
+          enabled: false
+      height: 98
+      id: '1729592251620'
+      position:
+        x: 925.8808703090453
+        y: 687.8660147241254
+      positionAbsolute:
+        x: 925.8808703090453
+        y: 687.8660147241254
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        instruction: ''
+        isInIteration: true
+        iteration_id: '1729578134753'
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gpt-4o
+          provider: openai
+        parameters:
+        - description: Pseudocode representing execution paths
+          name: pseudocode
+          required: true
+          type: string
+        query:
+        - '1729578245859'
+        - text
+        reasoning_mode: prompt
+        selected: false
+        title: 提取伪代码
+        type: parameter-extractor
+        variables: []
+      height: 98
+      id: '1729592330950'
+      parentId: '1729578134753'
+      position:
+        x: 432
+        y: 68
+      positionAbsolute:
+        x: 873
+        y: 417
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "\ndef main(arg1: str) -> dict:\n    return {\n        \"result\": arg1.strip().split('----------------')[:-1]\n\
+          \    }\n"
+        code_language: python3
+        desc: ''
+        outputs:
+          result:
+            children: null
+            type: array[string]
+        selected: false
+        title: 代码执行
+        type: code
+        variables:
+        - value_selector:
+          - '1729157053469'
+          - constraints
+          variable: arg1
+      height: 54
+      id: '1729594180837'
+      position:
+        x: 625.8808703090453
+        y: 119.21929800981619
+      positionAbsolute:
+        x: 625.8808703090453
+        y: 119.21929800981619
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        code: "\ndef main(arg1) -> dict:\n    res = \"\"\n    for i, v in enumerate(arg1):\n\
+          \        res += \"### Number \" + str(i + 1) + \"\\n\"\n        res += v\n\
+          \        if i != len(arg1) - 1:\n            res += \"\\n\\n\"\n    return\
+          \ {\n        \"result\": res,\n    }\n"
+        code_language: python3
+        desc: ''
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 2
+        type: code
+        variables:
+        - value_selector:
+          - '1729578134753'
+          - output
+          variable: arg1
+      height: 54
+      id: '1729595063450'
+      position:
+        x: 441
+        y: 687.8660147241254
+      positionAbsolute:
+        x: 441
+        y: 687.8660147241254
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        outputs:
+        - value_selector:
+          - '1729595744051'
+          - Num
+          variable: text
+        selected: false
+        title: 结束
+        type: end
+      height: 90
+      id: '1729595725806'
+      position:
+        x: 925.8808703090453
+        y: 1113.5652401759303
+      positionAbsolute:
+        x: 925.8808703090453
+        y: 1113.5652401759303
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        instruction: ''
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gpt-4o
+          provider: openai
+        parameters:
+        - description: The sequence number of the execution path that matches the
+            conditions for the target line or closet to the target line
+          name: Num
+          required: true
+          type: number
+        query:
+        - '1729592251620'
+        - text
+        reasoning_mode: prompt
+        selected: false
+        title: 参数提取器 2
+        type: parameter-extractor
+        variables: []
+      height: 98
+      id: '1729595744051'
+      position:
+        x: 925.8808703090453
+        y: 878.5165880859768
+      positionAbsolute:
+        x: 925.8808703090453
+        y: 878.5165880859768
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    viewport:
+      x: -0.5881247924269246
+      y: -72.39069823687657
+      zoom: 1

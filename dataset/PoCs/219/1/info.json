@@ -1,0 +1,12 @@
+{
+    "regex": "([^;]*);",
+    "line": "      const fixedAttrib = attrib.replace(/([^;]*);/, '$1').trim();",
+    "repository": "github.com/mermaid-js/mermaid",
+    "commitid": "47601ac311f7ad7aedfaf280d319d75434680622",
+    "path": "packages/mermaid/src/diagrams/state/stateDb.js",
+    "lineNumber": 464,
+    "repoStars": 69857,
+    "output": "Vulnerable\nAttack String :\"\"+\"\\u0000\"*100000+\"\\u0000\"\nAttack String :\"\"+\"A\"*100000+\"@\"\n",
+    "GitHub URL": "https://github.com/mermaid-js/mermaid/blob/47601ac311f7ad7aedfaf280d319d75434680622/packages/mermaid/src/diagrams/state/stateDb.js#L465",
+    "file_addr": "https://raw.githubusercontent.com/mermaid-js/mermaid/47601ac311f7ad7aedfaf280d319d75434680622/packages/mermaid/src/diagrams/state/stateDb.js"
+}

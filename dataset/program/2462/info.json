@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/serverless/serverless",
+    "commitid": "8c5af4a7fa47d2f59974b639804b6f7bc1691a4c",
+    "path": "lib/plugins/aws/utils/get-s3-endpoint-for-region.js",
+    "lineNumber": 3,
+    "repoStars": 46322
+}

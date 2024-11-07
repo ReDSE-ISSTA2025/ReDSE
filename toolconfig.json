@@ -1,0 +1,20 @@
+{
+  "z3" : {
+    "path" : "D:/Documents/ISSTA/aratha/solverbin/z3/z3"
+  },
+  "cvc5" : {
+    "path" : "D:/Documents/ISSTA/aratha/solverbin/cvc5win64/bin/cvc5.exe"
+  },
+  "z3str" : {
+      "path" : "D:/Documents/ISSTA/aratha/solverbin/z3str3/z3"
+  },
+  "ostrich" : {
+      "path" : "D:/Documents/ISSTA/aratha/solverbin/ostrich/ostrich"
+  },
+  "ostrichcea" : {
+      "path" : "D:/Documents/ISSTA/aratha/../ostrich/ostrichCEA"
+  },
+  "ReDoSHunter4Symbolic" : {
+    "path" : "D:/Documents/ISSTA/aratha/solverbin/ReDoSHunter4Symbolic/Main.jar"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "regex": "\\[[^\\]]+\\]:",
+    "line": "    const bothLinks = node.text.match(/\\[[^\\]]+\\]:/) && lastNode && lastNode.type === 'text' && lastNode.text.match(/\\[[^\\]]+\\]:/);",
+    "repository": "github.com/microsoft/playwright",
+    "commitid": "e8d845be64e3d989cd5a9988b66b70c4d7d3270a",
+    "path": "utils/markdown.js",
+    "lineNumber": 321,
+    "repoStars": 64639,
+    "output": "Vulnerable\nAttack String :\"\"+\"[\"*100000+\"]\"\n",
+    "GitHub URL": "https://github.com/microsoft/playwright/blob/e8d845be64e3d989cd5a9988b66b70c4d7d3270a/utils/markdown.js#L322",
+    "file_addr": "https://raw.githubusercontent.com/microsoft/playwright/e8d845be64e3d989cd5a9988b66b70c4d7d3270a/utils/markdown.js"
+}

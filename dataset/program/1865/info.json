@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/facebook/react-native",
+    "commitid": "175943f15b200319aecd4e1d8a4c00463553c293",
+    "path": "packages/react-native-codegen/src/generators/modules/GenerateModuleJavaSpec.js",
+    "lineNumber": 494,
+    "repoStars": 117540
+}

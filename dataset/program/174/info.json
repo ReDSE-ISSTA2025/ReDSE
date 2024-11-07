@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/tauri-apps/tauri",
+    "commitid": "3998570fd3d03c1bb282bd060a4aafb4ab5437f9",
+    "path": ".scripts/ci/check-change-tags.js",
+    "lineNumber": 31,
+    "repoStars": 80729
+}

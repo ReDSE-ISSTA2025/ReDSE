@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/nodejs/node",
+    "commitid": "559985cb7aec4e3cd387eb0f8442eea989cfedf3",
+    "path": "deps/v8/test/webkit/resources/json2-es5-compat.js",
+    "lineNumber": 457,
+    "repoStars": 105952
+}

@@ -1,0 +1,100 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "File Management and Shell Execution API",
+    "description": "API to manage files and execute shell commands in a predefined directory.",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:5000"
+    }
+  ],
+  "paths": {
+    "/files": {
+      "post": {
+        "description": "Manage files (list, read, write) in the base directory.",
+        "operationId": "handleFiles",
+        "requestBody": {
+          "description": "Action to perform on the file system along with necessary data.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "action": {
+                    "type": "string",
+                    "description": "Action to perform ('ls', 'read', 'write')",
+                    "enum": ["ls", "read", "write"]
+                  },
+                  "filename": {
+                    "type": "string",
+                    "description": "Name of the file to read or write"
+                  },
+                  "content": {
+                    "type": "string",
+                    "description": "Content to write to the file, required for write action"
+                  }
+                },
+                "required": ["action"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Operation performed successfully"
+          },
+          "400": {
+            "description": "Invalid request or action"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        }
+      }
+    },
+    "/shell": {
+      "post": {
+        "description": "Execute shell commands in the base directory.",
+        "operationId": "handleShell",
+        "requestBody": {
+          "description": "Shell commands to execute.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "commands": {
+                    "type": "array",
+                    "description": "Array of shell commands to execute",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": ["commands"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Commands executed successfully, with command details returned"
+          },
+          "400": {
+            "description": "No commands provided or invalid request"
+          },
+          "500": {
+            "description": "Server error during command execution"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}

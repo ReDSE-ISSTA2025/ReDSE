@@ -1,0 +1,12 @@
+{
+    "regex": "(\\\\*)$",
+    "line": "    arg = arg.replace(/(\\\\*)$/, '$1$1');",
+    "repository": "github.com/nodejs/node",
+    "commitid": "559985cb7aec4e3cd387eb0f8442eea989cfedf3",
+    "path": "tools/eslint/node_modules/cross-spawn/lib/util/escape.js",
+    "lineNumber": 25,
+    "repoStars": 105952,
+    "output": "Vulnerable\nAttack String :\"\"+\"\\\\\"*100000+\"\u25ce\"\n",
+    "GitHub URL": "https://github.com/nodejs/node/blob/559985cb7aec4e3cd387eb0f8442eea989cfedf3/tools/eslint/node_modules/cross-spawn/lib/util/escape.js#L26",
+    "file_addr": "https://raw.githubusercontent.com/nodejs/node/559985cb7aec4e3cd387eb0f8442eea989cfedf3/tools/eslint/node_modules/cross-spawn/lib/util/escape.js"
+}

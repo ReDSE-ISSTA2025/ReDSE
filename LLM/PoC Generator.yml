@@ -1,0 +1,771 @@
+app:
+  description: ''
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  mode: workflow
+  name: PoCGen2
+  use_icon_as_answer_icon: false
+kind: app
+version: 0.1.2
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+    opening_statement: ''
+    retriever_resource:
+      enabled: false
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: true
+        iteration_id: '1729671998409'
+        sourceType: llm
+        targetType: parameter-extractor
+      id: 1729672019519-source-1729672025104-target
+      source: '1729672019519'
+      sourceHandle: source
+      target: '1729672025104'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        sourceType: iteration
+        targetType: if-else
+      id: 1729671998409-source-1729672096975-target
+      source: '1729671998409'
+      sourceHandle: source
+      target: '1729672096975'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: if-else
+        targetType: end
+      id: 1729672096975-false-1729672124934-target
+      source: '1729672096975'
+      sourceHandle: 'false'
+      target: '1729672124934'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: start
+        targetType: llm
+      id: 1729671970717-source-1729761859232-target
+      source: '1729671970717'
+      sourceHandle: source
+      target: '1729761859232'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: tool
+        targetType: tool
+      id: 1729761867450-source-1729761896483-target
+      source: '1729761867450'
+      sourceHandle: source
+      target: '1729761896483'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: true
+        iteration_id: '1729671998409'
+        sourceType: iteration-start
+        targetType: llm
+      id: 1729671998409start-source-1729672019519-target
+      source: 1729671998409start
+      sourceHandle: source
+      target: '1729672019519'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        iteration_id: '1729671998409'
+        sourceType: parameter-extractor
+        targetType: tool
+      id: 1729672025104-source-1729761919558-target
+      source: '1729672025104'
+      sourceHandle: source
+      target: '1729761919558'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        sourceType: llm
+        targetType: parameter-extractor
+      id: 1729761859232-source-1729762182845-target
+      source: '1729761859232'
+      sourceHandle: source
+      target: '1729762182845'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: parameter-extractor
+        targetType: tool
+      id: 1729762182845-source-1729761867450-target
+      source: '1729762182845'
+      sourceHandle: source
+      target: '1729761867450'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: tool
+        targetType: llm
+      id: 1729761896483-source-1729762355371-target
+      source: '1729761896483'
+      sourceHandle: source
+      target: '1729762355371'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: tool
+        targetType: iteration
+      id: 1729762493137-source-1729671998409-target
+      source: '1729762493137'
+      sourceHandle: source
+      target: '1729671998409'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: llm
+        targetType: parameter-extractor
+      id: 1729762355371-source-1729762497543-target
+      source: '1729762355371'
+      sourceHandle: source
+      target: '1729762497543'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: parameter-extractor
+        targetType: tool
+      id: 1729762497543-source-1729762493137-target
+      source: '1729762497543'
+      sourceHandle: source
+      target: '1729762493137'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: if-else
+        targetType: end
+      id: 1729672096975-1278b5cf-057d-4dc1-a323-9c18ce1d0474-1729672101246-target
+      source: '1729672096975'
+      sourceHandle: 1278b5cf-057d-4dc1-a323-9c18ce1d0474
+      target: '1729672101246'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        desc: ''
+        selected: false
+        title: 开始
+        type: start
+        variables:
+        - label: code
+          max_length: 40000
+          options: []
+          required: true
+          type: paragraph
+          variable: code
+        - label: input
+          max_length: 40000
+          options: []
+          required: true
+          type: paragraph
+          variable: input
+        - label: sourceFileName
+          max_length: 40000
+          options: []
+          required: true
+          type: paragraph
+          variable: sourceFileName
+      height: 142
+      id: '1729671970717'
+      position:
+        x: 80
+        y: 282
+      positionAbsolute:
+        x: 80
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        height: 320
+        iterator_selector:
+        - '1729761896483'
+        - json
+        output_selector:
+        - '1729761919558'
+        - text
+        output_type: array[string]
+        selected: false
+        start_node_id: 1729671998409start
+        title: 迭代
+        type: iteration
+        width: 868
+      height: 320
+      id: '1729671998409'
+      position:
+        x: 80
+        y: 639.3803758741892
+      positionAbsolute:
+        x: 80
+        y: 639.3803758741892
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 868
+      zIndex: 1
+    - data:
+        desc: ''
+        isInIteration: true
+        selected: false
+        title: ''
+        type: iteration-start
+      draggable: false
+      height: 48
+      id: 1729671998409start
+      parentId: '1729671998409'
+      position:
+        x: 24
+        y: 68
+      positionAbsolute:
+        x: 104
+        y: 707.3803758741892
+      selectable: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-iteration-start
+      width: 44
+      zIndex: 1002
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1729762182845'
+          - pocCode
+        desc: ''
+        isInIteration: true
+        iteration_id: '1729671998409'
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gpt-4o
+          provider: openai
+        prompt_template:
+        - id: a054f2df-4b94-45f2-9e55-556f0c529823
+          role: system
+          text: You are the Execution Agent. Your task is to generate bash commands
+            to successfully execute the PoC script. You should handle and fix any
+            errors that occur during execution by generating additional bash commands.
+            Retain memory of previous interactions and use bash commands to address
+            any issues.
+        - id: 4c5823a2-7567-42d7-9f98-80fed3badf59
+          role: user
+          text: 'Command execution record and results:
+
+            {{#1729762493137.text#}}
+
+            Please generate bash commands to successfully execute the PoC script.
+            Handle and fix any errors from previous execution records using bash commands.
+
+            '
+        selected: false
+        title: Execution Agent
+        type: llm
+        variables: []
+        vision:
+          configs:
+            detail: high
+          enabled: true
+      height: 98
+      id: '1729672019519'
+      parentId: '1729671998409'
+      position:
+        x: 397.7484006485231
+        y: 65
+      positionAbsolute:
+        x: 477.7484006485231
+        y: 704.3803758741892
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        instruction: ''
+        isInIteration: true
+        iteration_id: '1729671998409'
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gpt-4o
+          provider: openai
+        parameters:
+        - description: the generated shell commands
+          name: shellCommands
+          required: false
+          type: string
+        query:
+        - '1729672019519'
+        - text
+        reasoning_mode: prompt
+        selected: false
+        title: shell命令提取
+        type: parameter-extractor
+        variables: []
+      height: 98
+      id: '1729672025104'
+      parentId: '1729671998409'
+      position:
+        x: 36.095521815864686
+        y: 168.0999086084871
+      positionAbsolute:
+        x: 116.09552181586469
+        y: 807.4802844826763
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        cases:
+        - case_id: 1278b5cf-057d-4dc1-a323-9c18ce1d0474
+          conditions:
+          - comparison_operator: contains
+            id: 4a3e6219-c2b3-4033-b9f8-83b7ec1d93f4
+            value: 'true'
+            varType: array[string]
+            variable_selector:
+            - '1729671998409'
+            - output
+          id: 1278b5cf-057d-4dc1-a323-9c18ce1d0474
+          logical_operator: and
+        desc: ''
+        selected: false
+        title: 条件分支
+        type: if-else
+      height: 126
+      id: '1729672096975'
+      position:
+        x: 80
+        y: 1025.392135991022
+      positionAbsolute:
+        x: 80
+        y: 1025.392135991022
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        outputs: []
+        selected: false
+        title: 结束
+        type: end
+      height: 54
+      id: '1729672101246'
+      position:
+        x: 660.1510403259956
+        y: 1016.3389232157169
+      positionAbsolute:
+        x: 660.1510403259956
+        y: 1016.3389232157169
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        outputs: []
+        selected: false
+        title: 结束 2
+        type: end
+      height: 54
+      id: '1729672124934'
+      position:
+        x: 660.1510403259956
+        y: 1105.6940749556456
+      positionAbsolute:
+        x: 660.1510403259956
+        y: 1105.6940749556456
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        desc: ''
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gpt-4o
+          provider: openai
+        prompt_template:
+        - id: 7dd62917-517a-47db-aac5-5c21aed67d79
+          role: system
+          text: You are the Script Writing Agent. Your task is to generate an initial
+            Proof of Concept (PoC) script based on the Raw Program's source code and
+            the provided malicious input. The script should trigger potential vulnerabilities
+            without requiring any modifications to the original program. Ensure that
+            the script invokes the program through its external interfaces to demonstrate
+            the effectiveness of the malicious input by triggering a Denial of Service
+            (DoS) effect.
+        - id: f41854aa-1d3b-42a1-b000-ce902276bf6b
+          role: user
+          text: 'Here is the Raw Program {{#1729671970717.sourceFileName#}}''s source
+            code:
+
+
+            ```javascript
+
+            {{#1729671970717.code#}}
+
+            ```
+
+
+            Here is the malicious input generated from the Dynamic Analysis:
+
+
+            ```
+
+            {{#1729671970717.input#}}
+
+            ```
+
+
+            Please generate an initial PoC script that, without modifying the raw
+            program, uses the malicious input to trigger potential vulnerabilities
+            through external invocation via the program''s export interface. The script
+            should aim to produce a Denial of Service effect when executed.
+
+            '
+        selected: false
+        title: Script Writing Agent
+        type: llm
+        variables: []
+        vision:
+          configs:
+            detail: high
+          enabled: false
+      height: 98
+      id: '1729761859232'
+      position:
+        x: 384
+        y: 282
+      positionAbsolute:
+        x: 384
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        provider_id: 7e7729ef-50f3-4032-b937-4e27d117e512
+        provider_name: Interface
+        provider_type: api
+        selected: false
+        title: handleFiles
+        tool_configurations: {}
+        tool_label: handleFiles
+        tool_name: handleFiles
+        tool_parameters:
+          action:
+            type: mixed
+            value: write
+          content:
+            type: mixed
+            value: '{{#1729762182845.pocCode#}}'
+          filename:
+            type: mixed
+            value: PoC.js
+        type: tool
+      height: 54
+      id: '1729761867450'
+      position:
+        x: 1145.3321254715731
+        y: 260.5339137648333
+      positionAbsolute:
+        x: 1145.3321254715731
+        y: 260.5339137648333
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        provider_id: 7e7729ef-50f3-4032-b937-4e27d117e512
+        provider_name: Interface
+        provider_type: api
+        selected: false
+        title: handleShell
+        tool_configurations: {}
+        tool_label: handleShell
+        tool_name: handleShell
+        tool_parameters:
+          commands:
+            type: mixed
+            value: node poc.js
+        type: tool
+      height: 54
+      id: '1729761896483'
+      position:
+        x: 1145.3321254715731
+        y: 342.55922999331347
+      positionAbsolute:
+        x: 1145.3321254715731
+        y: 342.55922999331347
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        isInIteration: true
+        iteration_id: '1729671998409'
+        provider_id: 7e7729ef-50f3-4032-b937-4e27d117e512
+        provider_name: Interface
+        provider_type: api
+        selected: false
+        title: handleShell
+        tool_configurations: {}
+        tool_label: handleShell
+        tool_name: handleShell
+        tool_parameters:
+          commands:
+            type: mixed
+            value: '{{#1729672025104.shellCommands#}}'
+        type: tool
+      height: 54
+      id: '1729761919558'
+      parentId: '1729671998409'
+      position:
+        x: 423.2898458305534
+        y: 199.18089839440154
+      positionAbsolute:
+        x: 503.2898458305534
+        y: 838.5612742685908
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        instruction: ''
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gpt-4o
+          provider: openai
+        parameters:
+        - description: the poc code generate by llm
+          name: pocCode
+          required: true
+          type: string
+        query:
+        - '1729761859232'
+        - text
+        reasoning_mode: prompt
+        selected: false
+        title: 提取poc代码
+        type: parameter-extractor
+        variables: []
+      height: 98
+      id: '1729762182845'
+      position:
+        x: 787.4923812935363
+        y: 276.90365268314565
+      positionAbsolute:
+        x: 787.4923812935363
+        y: 276.90365268314565
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1729762182845'
+          - pocCode
+        desc: ''
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gpt-4o
+          provider: openai
+        prompt_template:
+        - id: 60a9d02a-95e2-4591-933b-21a28d356a36
+          role: system
+          text: You are the Execution Agent. Your task is to generate bash commands
+            to successfully execute the PoC script. You should handle and fix any
+            errors that occur during execution by generating additional bash commands.
+            Retain memory of previous interactions and use bash commands to address
+            any issues.
+        - id: 23c6f8ca-5b9b-4149-bb57-8301ade0c193
+          role: user
+          text: 'For the first time: Here is the PoC script generated by the Script
+            Writing Agent:
+
+            {{#1729762182845.pocCode#}}
+
+            Command execution record and results:
+
+
+            {{#1729761896483.text#}}
+
+
+            Please generate bash commands to successfully execute the PoC script.
+            Handle and fix any errors from previous execution records using bash commands.
+
+            '
+        selected: false
+        title: Execution Agent 1
+        type: llm
+        variables: []
+        vision:
+          configs:
+            detail: high
+          enabled: true
+      height: 98
+      id: '1729762355371'
+      position:
+        x: 80
+        y: 462.05868933183706
+      positionAbsolute:
+        x: 80
+        y: 462.05868933183706
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        provider_id: 7e7729ef-50f3-4032-b937-4e27d117e512
+        provider_name: Interface
+        provider_type: api
+        selected: false
+        title: handleShell
+        tool_configurations: {}
+        tool_label: handleShell
+        tool_name: handleShell
+        tool_parameters:
+          commands:
+            type: mixed
+            value: '{{#1729762497543.commands1#}}'
+        type: tool
+      height: 54
+      id: '1729762493137'
+      position:
+        x: 759.5268390793616
+        y: 501.3460627357867
+      positionAbsolute:
+        x: 759.5268390793616
+        y: 501.3460627357867
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        instruction: ''
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gpt-4o
+          provider: openai
+        parameters:
+        - description: the shell commands
+          name: commands1
+          required: true
+          type: string
+        query:
+        - '1729762355371'
+        - text
+        reasoning_mode: prompt
+        selected: true
+        title: shell命令提取
+        type: parameter-extractor
+        variables: []
+      height: 98
+      id: '1729762497543'
+      position:
+        x: 405.10231291711796
+        y: 489.48285776115546
+      positionAbsolute:
+        x: 405.10231291711796
+        y: 489.48285776115546
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    viewport:
+      x: 67.69203479215957
+      y: -135.6177164525444
+      zoom: 1.0525809489655549

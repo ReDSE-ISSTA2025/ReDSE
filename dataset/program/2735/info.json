@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/gogs/gogs",
+    "commitid": "0965db473f35f6ef5397726b880cc5c7fe6e6c10",
+    "path": "public/plugins/codemirror-5.17.0/mode/velocity/velocity.js",
+    "lineNumber": 110,
+    "repoStars": 44666
+}

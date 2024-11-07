@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/facebook/react",
+    "commitid": "68dbd84b61cc2504c30e19f748f59a52d331f851",
+    "path": "scripts/release/publish-commands/update-stable-version-numbers.js",
+    "lineNumber": 46,
+    "repoStars": 226124
+}

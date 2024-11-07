@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/facebook/react",
+    "commitid": "68dbd84b61cc2504c30e19f748f59a52d331f851",
+    "path": "packages/react-reconciler/src/ReactFiberHydrationDiffs.js",
+    "lineNumber": 170,
+    "repoStars": 226124
+}

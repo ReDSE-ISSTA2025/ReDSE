@@ -1,0 +1,12 @@
+{
+    "regex": "\\/\\/# sourceMappingURL=(.*)\\n",
+    "line": "        this.source.match(/\\/\\/# sourceMappingURL=(.*)\\n/);",
+    "repository": "github.com/nodejs/node",
+    "commitid": "559985cb7aec4e3cd387eb0f8442eea989cfedf3",
+    "path": "deps/v8/tools/profile.mjs",
+    "lineNumber": 177,
+    "repoStars": 105952,
+    "output": "Vulnerable\nAttack String :\"\"+\"//# sourceMappingURL=\"*100000+\"\\u0000\"\nAttack String :\"\"+\"//# sourceMappingURL=\"*100000+\"\\n@@\"\n",
+    "GitHub URL": "https://github.com/nodejs/node/blob/559985cb7aec4e3cd387eb0f8442eea989cfedf3/deps/v8/tools/profile.mjs#L178",
+    "file_addr": "https://raw.githubusercontent.com/nodejs/node/559985cb7aec4e3cd387eb0f8442eea989cfedf3/deps/v8/tools/profile.mjs"
+}

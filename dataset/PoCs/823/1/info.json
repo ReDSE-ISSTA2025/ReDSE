@@ -1,0 +1,12 @@
+{
+    "regex": "(\\/.*)?$",
+    "line": "  const packageJson = require(entry.replace(/(\\/.*)?$/, '/package.json'));",
+    "repository": "github.com/facebook/react",
+    "commitid": "68dbd84b61cc2504c30e19f748f59a52d331f851",
+    "path": "scripts/rollup/modules.js",
+    "lineNumber": 49,
+    "repoStars": 226124,
+    "output": "Vulnerable\nAttack String :\"\"+\"/\"*100000+\"\\n@\"\n",
+    "GitHub URL": "https://github.com/facebook/react/blob/68dbd84b61cc2504c30e19f748f59a52d331f851/scripts/rollup/modules.js#L50",
+    "file_addr": "https://raw.githubusercontent.com/facebook/react/68dbd84b61cc2504c30e19f748f59a52d331f851/scripts/rollup/modules.js"
+}

@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/puppeteer/puppeteer",
+    "commitid": "14717a7f3ec3d2012abbc4ce0e7ac00bf4375655",
+    "path": "tools/update_browser_revision.mjs",
+    "lineNumber": 139,
+    "repoStars": 87926
+}

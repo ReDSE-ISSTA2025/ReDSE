@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/nektos/act",
+    "commitid": "bda491e406db6c85865498ced18764bc00491a5e",
+    "path": "pkg/runner/testdata/actions/node16/node_modules/@actions/core/lib/command.js",
+    "lineNumber": 79,
+    "repoStars": 53134
+}

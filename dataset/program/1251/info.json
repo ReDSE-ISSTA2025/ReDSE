@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/apache/superset",
+    "commitid": "57a4199f527c6bf197245f313ee28e0734c60368",
+    "path": "superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.js",
+    "lineNumber": 353,
+    "repoStars": 61080
+}

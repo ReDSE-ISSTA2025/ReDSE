@@ -1,0 +1,12 @@
+{
+    "regex": ",(?=(?:(?:[^\"]*\"){2})*[^\"]*$)",
+    "line": "    argList = functionArgs.split(/,(?=(?:(?:[^\"]*\"){2})*[^\"]*$)/);",
+    "repository": "github.com/mermaid-js/mermaid",
+    "commitid": "47601ac311f7ad7aedfaf280d319d75434680622",
+    "path": "packages/mermaid/src/diagrams/gantt/ganttDb.js",
+    "lineNumber": 673,
+    "repoStars": 69857,
+    "output": "Vulnerable\nAttack String :\",=\"\"\"\"+\"\"\"\"*100000+\" \"\nAttack String :\"\"+\"=,A\"*100000+\"@\"\"\nAttack String :\"\"+\"=,A\"A\"\"*100000+\"@\"\"\n",
+    "GitHub URL": "https://github.com/mermaid-js/mermaid/blob/47601ac311f7ad7aedfaf280d319d75434680622/packages/mermaid/src/diagrams/gantt/ganttDb.js#L674",
+    "file_addr": "https://raw.githubusercontent.com/mermaid-js/mermaid/47601ac311f7ad7aedfaf280d319d75434680622/packages/mermaid/src/diagrams/gantt/ganttDb.js"
+}

@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/facebook/react-native",
+    "commitid": "175943f15b200319aecd4e1d8a4c00463553c293",
+    "path": "packages/community-cli-plugin/src/commands/bundle/assetPathUtils.js",
+    "lineNumber": 74,
+    "repoStars": 117540
+}

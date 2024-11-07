@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/sveltejs/svelte",
+    "commitid": "09db33979d17d176c6b48370e8006e293d577074",
+    "path": "packages/svelte/src/compiler/phases/2-analyze/css/css-prune.js",
+    "lineNumber": 422,
+    "repoStars": 77876
+}

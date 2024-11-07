@@ -1,0 +1,12 @@
+{
+    "regex": " (\\(.+\\)$)",
+    "line": "    const locationInParenthesesMatch = sanitizedFrame.match(/ (\\(.+\\)$)/);",
+    "repository": "github.com/facebook/react",
+    "commitid": "68dbd84b61cc2504c30e19f748f59a52d331f851",
+    "path": "packages/react-devtools-shared/src/backend/utils.js",
+    "lineNumber": 387,
+    "repoStars": 226124,
+    "output": "Vulnerable\nAttack String :\"\"+\" (\"*100000+\"\\u0000\"\nAttack String :\"\"+\" (\"*100000+\"\\n@\"\n",
+    "GitHub URL": "https://github.com/facebook/react/blob/68dbd84b61cc2504c30e19f748f59a52d331f851/packages/react-devtools-shared/src/backend/utils.js#L388",
+    "file_addr": "https://raw.githubusercontent.com/facebook/react/68dbd84b61cc2504c30e19f748f59a52d331f851/packages/react-devtools-shared/src/backend/utils.js"
+}

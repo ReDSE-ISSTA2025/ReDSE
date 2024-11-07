@@ -1,0 +1,12 @@
+{
+    "regex": "[/\\\\][^/\\\\]*$",
+    "line": "\t\t\t\tcommonPath = commonPath.replace(/[/\\\\][^/\\\\]*$/, \"\");",
+    "repository": "github.com/webpack/webpack",
+    "commitid": "001cab14692eb9a833c6b56709edbab547e291a1",
+    "path": "lib/MultiCompiler.js",
+    "lineNumber": 164,
+    "repoStars": 64405,
+    "output": "Vulnerable\nAttack String :\"\"+\"/\"*100000+\"/\"\n",
+    "GitHub URL": "https://github.com/webpack/webpack/blob/001cab14692eb9a833c6b56709edbab547e291a1/lib/MultiCompiler.js#L165",
+    "file_addr": "https://raw.githubusercontent.com/webpack/webpack/001cab14692eb9a833c6b56709edbab547e291a1/lib/MultiCompiler.js"
+}

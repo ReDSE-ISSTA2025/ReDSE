@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/angular/angular",
+    "commitid": "37bf7dee9917498f47bfd93d5d0bf9ce37f1877c",
+    "path": "tools/legacy-saucelabs/build-saucelabs-test-bundle.mjs",
+    "lineNumber": 120,
+    "repoStars": 95444
+}

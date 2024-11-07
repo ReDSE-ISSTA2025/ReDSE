@@ -1,0 +1,12 @@
+{
+    "regex": "(?<!`)\\[(.*?)\\]",
+    "line": "  text = text.replace(/(?<!`)\\[(.*?)\\]/g, (match, link) => `<see cref=\"${link}\"/>`);",
+    "repository": "github.com/microsoft/playwright",
+    "commitid": "e8d845be64e3d989cd5a9988b66b70c4d7d3270a",
+    "path": "utils/doclint/dotnetXmlDocumentation.js",
+    "lineNumber": 126,
+    "repoStars": 64639,
+    "output": "Vulnerable\nAttack String :\"\"+\"[\"*100000+\"\\u0000\"\nAttack String :\"\"+\"[\"*100000+\"\\n@\u25ce\"\n",
+    "GitHub URL": "https://github.com/microsoft/playwright/blob/e8d845be64e3d989cd5a9988b66b70c4d7d3270a/utils/doclint/dotnetXmlDocumentation.js#L127",
+    "file_addr": "https://raw.githubusercontent.com/microsoft/playwright/e8d845be64e3d989cd5a9988b66b70c4d7d3270a/utils/doclint/dotnetXmlDocumentation.js"
+}

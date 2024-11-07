@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/apache/superset",
+    "commitid": "57a4199f527c6bf197245f313ee28e0734c60368",
+    "path": "superset-frontend/plugins/legacy-plugin-chart-calendar/src/vendor/cal-heatmap.js",
+    "lineNumber": 3129,
+    "repoStars": 61080
+}

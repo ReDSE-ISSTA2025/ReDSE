@@ -1,0 +1,12 @@
+{
+    "regex": "\\s*,\\s*",
+    "line": "  return string.split(/\\s*,\\s*/);",
+    "repository": "github.com/facebook/react",
+    "commitid": "68dbd84b61cc2504c30e19f748f59a52d331f851",
+    "path": "fixtures/dom/src/components/IssueList.js",
+    "lineNumber": 3,
+    "repoStars": 226124,
+    "output": "Vulnerable\nAttack String :\"\"+\" \"*100000+\"\\u0000\"\nAttack String :\"\"+\" \"*100000+\"@\"\nAttack String :\"\"+\" \"*100000+\"!\"\n",
+    "GitHub URL": "https://github.com/facebook/react/blob/68dbd84b61cc2504c30e19f748f59a52d331f851/fixtures/dom/src/components/IssueList.js#L4",
+    "file_addr": "https://raw.githubusercontent.com/facebook/react/68dbd84b61cc2504c30e19f748f59a52d331f851/fixtures/dom/src/components/IssueList.js"
+}

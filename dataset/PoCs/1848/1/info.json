@@ -1,0 +1,12 @@
+{
+    "regex": "\\s+(?![^(]*\\))",
+    "line": "    const args = rawBoxShadow.split(/\\s+(?![^(]*\\))/);",
+    "repository": "github.com/facebook/react-native",
+    "commitid": "175943f15b200319aecd4e1d8a4c00463553c293",
+    "path": "packages/react-native/Libraries/StyleSheet/processBoxShadow.js",
+    "lineNumber": 128,
+    "repoStars": 117540,
+    "output": "Vulnerable\nAttack String :\"! \"+\"A\"*100000+\"\u25ce(\"\nAttack String :\"\"+\"! A\"*100000+\"\u25ce(\"\n",
+    "GitHub URL": "https://github.com/facebook/react-native/blob/175943f15b200319aecd4e1d8a4c00463553c293/packages/react-native/Libraries/StyleSheet/processBoxShadow.js#L129",
+    "file_addr": "https://raw.githubusercontent.com/facebook/react-native/175943f15b200319aecd4e1d8a4c00463553c293/packages/react-native/Libraries/StyleSheet/processBoxShadow.js"
+}

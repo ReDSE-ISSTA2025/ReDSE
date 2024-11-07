@@ -1,0 +1,12 @@
+{
+    "regex": "Cannot find module.+sass",
+    "line": "  if (lines[1] && lines[1].match(/Cannot find module.+sass/)) {",
+    "repository": "github.com/facebook/create-react-app",
+    "commitid": "0a827f69ab0d2ee3871ba9b71350031d8a81b7ae",
+    "path": "packages/react-dev-utils/formatWebpackMessages.js",
+    "lineNumber": 87,
+    "repoStars": 102351,
+    "output": "Vulnerable\nAttack String :\"\"+\"Cannot find module\"*100000+\"\\u0000\"\nAttack String :\"\"+\"Cannot find module\"*100000+\"\\n@@\"\n",
+    "GitHub URL": "https://github.com/facebook/create-react-app/blob/0a827f69ab0d2ee3871ba9b71350031d8a81b7ae/packages/react-dev-utils/formatWebpackMessages.js#L88",
+    "file_addr": "https://raw.githubusercontent.com/facebook/create-react-app/0a827f69ab0d2ee3871ba9b71350031d8a81b7ae/packages/react-dev-utils/formatWebpackMessages.js"
+}

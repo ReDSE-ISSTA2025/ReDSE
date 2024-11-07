@@ -1,0 +1,12 @@
+{
+    "regex": "<\\s*style[^>]*>[\\s\\S]*?<\\/style>",
+    "line": "        .replace(/<\\s*style[^>]*>[\\s\\S]*?<\\/style>/mig, \"\")",
+    "repository": "github.com/adam-p/markdown-here",
+    "commitid": "1df5aee09cae90e2991db4e9cfb8c1b65a3c1898",
+    "path": "src/common/jsHtmlToText.js",
+    "lineNumber": 37,
+    "repoStars": 59596,
+    "output": "Vulnerable\nAttack String :\"\"+\"<style\"*100000+\">\"\nAttack String :\"\"+\"<style>\"*100000+\"\\u0000\"\nAttack String :\"\"+\"<\"*100000+\"!\"\nAttack String :\"\"+\"< style\"*100000+\">@\"\nAttack String :\"\"+\"< styleA>\"*100000+\"@@\"\n",
+    "GitHub URL": "https://github.com/adam-p/markdown-here/blob/1df5aee09cae90e2991db4e9cfb8c1b65a3c1898/src/common/jsHtmlToText.js#L38",
+    "file_addr": "https://raw.githubusercontent.com/adam-p/markdown-here/1df5aee09cae90e2991db4e9cfb8c1b65a3c1898/src/common/jsHtmlToText.js"
+}

@@ -1,0 +1,12 @@
+{
+    "regex": "\\d+\\/\\d+ ",
+    "line": "\t\t\tconst state = fullState.map(s => s.replace(/\\d+\\/\\d+ /g, \"\"));",
+    "repository": "github.com/webpack/webpack",
+    "commitid": "001cab14692eb9a833c6b56709edbab547e291a1",
+    "path": "lib/ProgressPlugin.js",
+    "lineNumber": 65,
+    "repoStars": 64405,
+    "output": "Vulnerable\nAttack String :\"\"+\"0\"*100000+\"\\u0000\"\nAttack String :\"\"+\"1\"*100000+\"\u25ce\"\nAttack String :\"\"+\"1\"*100000+\"a\"\nAttack String :\"\"+\"1/\"*100000+\"a\u25ce\"\n",
+    "GitHub URL": "https://github.com/webpack/webpack/blob/001cab14692eb9a833c6b56709edbab547e291a1/lib/ProgressPlugin.js#L66",
+    "file_addr": "https://raw.githubusercontent.com/webpack/webpack/001cab14692eb9a833c6b56709edbab547e291a1/lib/ProgressPlugin.js"
+}

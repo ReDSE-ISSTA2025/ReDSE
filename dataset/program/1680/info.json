@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/storybookjs/storybook",
+    "commitid": "1caffa86dc533a55fd3781639f9c4dda09dcd2ed",
+    "path": "code/lib/codemod/src/transforms/add-component-parameters.js",
+    "lineNumber": 38,
+    "repoStars": 83691
+}

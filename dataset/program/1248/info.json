@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/apache/superset",
+    "commitid": "57a4199f527c6bf197245f313ee28e0734c60368",
+    "path": "superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/utilities.js",
+    "lineNumber": 572,
+    "repoStars": 61080
+}

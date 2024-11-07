@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/mastodon/mastodon",
+    "commitid": "fbdda9f6c18fbd282fe7f3a2dba90ed8ec65e0b6",
+    "path": "app/javascript/mastodon/service_worker/web_push_locales.js",
+    "lineNumber": 12,
+    "repoStars": 46529
+}

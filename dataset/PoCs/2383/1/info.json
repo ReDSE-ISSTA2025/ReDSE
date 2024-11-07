@@ -1,0 +1,12 @@
+{
+    "regex": " *; *",
+    "line": "  var parts = str.split(/ *; */);",
+    "repository": "github.com/expressjs/express",
+    "commitid": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "path": "lib/utils.js",
+    "lineNumber": 126,
+    "repoStars": 64562,
+    "output": "Vulnerable\nAttack String :\"\"+\" \"*100000+\"\\u0000\"\nAttack String :\"\"+\" \"*100000+\"@\"\nAttack String :\"\"+\" ;\"*100000+\"@@\"\n",
+    "GitHub URL": "https://github.com/expressjs/express/blob/2177f67f5439494f7a29a8d04f744cc20fb9f201/lib/utils.js#L127",
+    "file_addr": "https://raw.githubusercontent.com/expressjs/express/2177f67f5439494f7a29a8d04f744cc20fb9f201/lib/utils.js"
+}

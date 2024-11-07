@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/oven-sh/bun",
+    "commitid": "444766833c8f163c57eb913037ae6ced84cbf334",
+    "path": "bench/hot-module-reloading/css-stress-test/read-frames.js",
+    "lineNumber": 20,
+    "repoStars": 72554
+}

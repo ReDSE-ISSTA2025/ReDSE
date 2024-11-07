@@ -1,0 +1,12 @@
+{
+    "regex": "Check your code at .+?:\\d+",
+    "line": "  str = str.replace(/Check your code at .+?:\\d+/g, 'Check your code at **');",
+    "repository": "github.com/facebook/react",
+    "commitid": "68dbd84b61cc2504c30e19f748f59a52d331f851",
+    "path": "packages/internal-test-utils/consoleMock.js",
+    "lineNumber": 264,
+    "repoStars": 226124,
+    "output": "Vulnerable\nAttack String :\"Check your code at \"+\"\\u0000:0\"*100000+\"@\"\nAttack String :\"\"+\"Check your code at \"*100000+\"\\u0000\"\nAttack String :\"\"+\"Check your code at \"*100000+\"\\n@@\"\nAttack String :\"\"+\"Check your code at 1:\"*100000+\"a@\"\n",
+    "GitHub URL": "https://github.com/facebook/react/blob/68dbd84b61cc2504c30e19f748f59a52d331f851/packages/internal-test-utils/consoleMock.js#L265",
+    "file_addr": "https://raw.githubusercontent.com/facebook/react/68dbd84b61cc2504c30e19f748f59a52d331f851/packages/internal-test-utils/consoleMock.js"
+}

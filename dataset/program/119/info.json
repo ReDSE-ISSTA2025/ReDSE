@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/sveltejs/svelte",
+    "commitid": "09db33979d17d176c6b48370e8006e293d577074",
+    "path": "packages/svelte/src/compiler/phases/1-parse/state/tag.js",
+    "lineNumber": 295,
+    "repoStars": 77876
+}

@@ -1,0 +1,12 @@
+{
+    "regex": "<RootRef.*>",
+    "line": "    .replace(/<RootRef.*>/gm, '<>')",
+    "repository": "github.com/mui/material-ui",
+    "commitid": "f9774023af4d974b6b73bf16431846743644d546",
+    "path": "packages/mui-codemod/src/v5.0.0/root-ref.js",
+    "lineNumber": 8,
+    "repoStars": 92904,
+    "output": "Vulnerable\nAttack String :\"\"+\"<RootRef\"*100000+\"\\u0000\"\nAttack String :\"\"+\"<RootRef\"*100000+\"\\n@@\"\n",
+    "GitHub URL": "https://github.com/mui/material-ui/blob/f9774023af4d974b6b73bf16431846743644d546/packages/mui-codemod/src/v5.0.0/root-ref.js#L9",
+    "file_addr": "https://raw.githubusercontent.com/mui/material-ui/f9774023af4d974b6b73bf16431846743644d546/packages/mui-codemod/src/v5.0.0/root-ref.js"
+}

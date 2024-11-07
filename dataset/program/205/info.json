@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/sveltejs/svelte",
+    "commitid": "09db33979d17d176c6b48370e8006e293d577074",
+    "path": "packages/svelte/tests/preprocess/samples/multiple-preprocessors/_config.js",
+    "lineNumber": 5,
+    "repoStars": 77876
+}

@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/tensorflow/tensorflow",
+    "commitid": "5396a906783ba8a1bf18db863974d68fd0e0caa0",
+    "path": ".github/workflows/create_issue.js",
+    "lineNumber": 27,
+    "repoStars": 184646
+}

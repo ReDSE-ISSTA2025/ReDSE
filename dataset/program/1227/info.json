@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/microsoft/playwright",
+    "commitid": "e8d845be64e3d989cd5a9988b66b70c4d7d3270a",
+    "path": "packages/playwright-core/src/third_party/diff_match_patch.js",
+    "lineNumber": 1365,
+    "repoStars": 64639
+}

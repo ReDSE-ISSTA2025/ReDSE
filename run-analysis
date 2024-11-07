@@ -1,0 +1,37 @@
+#!/bin/bash
+
+#FIXME: For some reason, nyc may require the analysed file to be in the same
+#       location of this script.
+
+DIR=`dirname $(readlink -f "$0")`
+if
+  [[ `which nyc` ]]
+then
+  NYC=nyc
+else
+  NYC=$DIR/node_modules/nyc/bin/nyc.js
+fi
+if
+  [ -z $2 ]
+then
+  s=ostrich
+else
+  s=$2
+fi
+SOLVER=$s npm run analyze -- $1
+
+ilog=`basename $1 | awk -F"." '{print $1}'`.inputlog.json
+mv inputlog.json $ilog
+
+$NYC node $DIR/bin/replay-inputs.js $1
+
+#echo "===== SOURCE ====="; cat $1 | awk '{print NR,"\t",$0}'
+
+echo "===== INPUT =====";  cat $ilog
+
+$NYC report --reporter=html
+
+#xdg-open $DIR/coverage/index.html
+
+rm $ilog
+

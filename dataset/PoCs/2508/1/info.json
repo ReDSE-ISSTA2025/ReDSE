@@ -1,0 +1,12 @@
+{
+    "regex": "^([A-Z])|[\\s-_]+(\\w)",
+    "line": "  string.replace(/^([A-Z])|[\\s-_]+(\\w)/g, (match, p1, p2) =>",
+    "repository": "github.com/supabase/supabase",
+    "commitid": "111a9d51a71b428e2b1fe908671ece8c381d1f20",
+    "path": "packages/build-icons/src/utils/helpers.mjs",
+    "lineNumber": 10,
+    "repoStars": 70289,
+    "output": "Vulnerable\nAttack String :\"\"+\" \"*100000+\"\\u0000\"\nAttack String :\"\"+\"-\"*100000+\"!\"\nAttack String :\"A\"+\"-\"*100000+\"\"\nAttack String :\"A\"+\"-\"*100000+\"A\"\nAttack String :\"\"+\"A-\"*100000+\"\"\nAttack String :\"\"+\"A-\"*100000+\"A\"\n",
+    "GitHub URL": "https://github.com/supabase/supabase/blob/111a9d51a71b428e2b1fe908671ece8c381d1f20/packages/build-icons/src/utils/helpers.mjs#L11",
+    "file_addr": "https://raw.githubusercontent.com/supabase/supabase/111a9d51a71b428e2b1fe908671ece8c381d1f20/packages/build-icons/src/utils/helpers.mjs"
+}

@@ -1,0 +1,7 @@
+{
+    "repository": "github.com/babel/babel",
+    "commitid": "52718ab396e746c175bace9e5fcadd18ec7ca943",
+    "path": "packages/babel-parser/test/helpers/to-fuzzed-options.js",
+    "lineNumber": 32,
+    "repoStars": 43099
+}
