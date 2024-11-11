@@ -16,6 +16,9 @@
 - `dataset/PoCs`：validated PoCs
 - `dataset/results.md`：complete experimental results
 
+## Confirmed CVEs
+
+- CVE-2024-21538
 
 
 
